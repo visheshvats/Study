@@ -1,0 +1,108 @@
+{
+    "moduleId": "02-openings",
+    "lessons": [
+        {
+            "id": "02-openings-01",
+            "moduleId": "02-openings",
+            "title": "Opening Principles",
+            "content": "# Opening Principles\n\nThe goal of the opening is NOT to win immediately (unless opponent blunders). The goal is to reach a playable middlegame with:\n\n1. **Control of the Center**\n2. **Active Pieces**\n3. **A Safe King**\n\n## The Three Golden Rules\n\n### 1. Control the Center\n\nThe center is **e4, d4, e5, d5**.\n\n- Imagine the board as a hill. The top is the center. Pieces there can see everything.\n- **Best First Moves**: `1. e4` or `1. d4`. Why? They occupy the center and open lines for Bishops/Queen.\n\n### 2. Develop Your Pieces\n\n\"Development\" means getting pieces off the back rank.\n\n- **Knights before Bishops**: Usually better because Knights are short-range and know where they belong (f3, c3, f6, c6).\n- **Don't move the same piece twice**: Unless attacked. Developing a new piece is usually better than moving an old one again.\n- **Don't bring the Queen out too early**: She will get chased by enemy Knights/Bishops, and you will lose time.\n\n### 3. King Safety\n\n- **Castle Early**: Usually within the first 10 moves.\n- Don't move the pawns in front of your Castled King unnecessarily.\n\n## Common Mistakes\n\n- `1. h4?`: Does nothing for the center, develops nothing.\n- **Pawn Hunting**: Taking a dangerous \"poisoned\" pawn with your Queen while your King is in the center.\n\n## Key Takeaways\n\n- Center control is paramount\n- Develop pieces efficiently (Knights before Bishops)\n- Castle early for King safety\n- Avoid moving the same piece multiple times",
+            "positions": [
+                {
+                    "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+                    "description": "1. e4 - Controls the center and opens lines for the Bishop and Queen",
+                    "orientation": "white"
+                },
+                {
+                    "fen": "rnbqkb1r/pppppppp/5n2/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 1 2",
+                    "description": "Bad development: Black moved the Knight twice while White developed normally",
+                    "orientation": "white"
+                }
+            ],
+            "drills": [
+                "Play 5 games where you make a pact: 'I will not move a piece a second time until I have castled.'",
+                "Practice identifying center squares (e4, d4, e5, d5) instantly"
+            ],
+            "nextLesson": "02-openings-02",
+            "estimatedMinutes": 15
+        },
+        {
+            "id": "02-openings-02",
+            "moduleId": "02-openings",
+            "title": "Developing a Repertoire",
+            "content": "# Developing a Repertoire\n\nA repertoire is a set of openings you specialize in. You don't need to know everything, just **something** for every common response.\n\n## For Beginners: \"System\" vs \"Theory\"\n\n- **Theory Heavy**: Sicilian Najdorf, King's Indian Defense. (Avoid these for now. Too much memorization).\n- **System Based**: London System, Colle System, King's Indian Attack. (Good! Same setup almost every game).\n- **Principled**: Italian Game, Scotch Game. (Best! Teaches you how to play chess).\n\n## Recommended Approach\n\nDon't memorize 20 moves deep. Memorize the **plans**.\n\n### As White\n\n- Play `1. e4`.\n- If Black plays `1... e5`: Go for the **Italian Game** (2. Nf3 Nc6 3. Bc4).\n- If Black plays `1... c5` (Sicilian) or others: Play sensible developing moves (Nf3, d4, Nc3).\n\n### As Black\n\n- Against `1. e4`: Play `1... e5`. (Open Games).\n- Against `1. d4`: Play `1... d5`. (Queen's Gambit Declined options).\n\n## The \"Checklist\" Approach\n\nWhen learning a new opening, ask:\n\n1. Where do my Knights go?\n2. Where do my Bishops go?\n3. What is the \"pawn break\" (e.g., c5? f5? d5?)?\n\n## Building Your Repertoire\n\n**Start Simple**:\n- 1 opening as White (e.g., Italian Game)\n- 1 defense against 1.e4 (e.g., 1...e5)\n- 1 defense against 1.d4 (e.g., 1...d5)\n\n**Expand Gradually**:\n- Add variations as you encounter them\n- Learn from your losses\n- Study master games in your openings",
+            "positions": [
+                {
+                    "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+                    "description": "Italian Game: 1. e4 e5 2. Nf3 Nc6 3. Bc4 - A principled opening that teaches good chess",
+                    "orientation": "white"
+                }
+            ],
+            "drills": [
+                "Pick ONE opening for White. Watch a 10-minute YouTube video on it.",
+                "Play it in 5 blitz games and note what positions you reach."
+            ],
+            "prevLesson": "02-openings-01",
+            "nextLesson": "02-openings-03",
+            "estimatedMinutes": 20
+        },
+        {
+            "id": "02-openings-03",
+            "moduleId": "02-openings",
+            "title": "Opening Traps vs Sound Play",
+            "content": "# Opening Traps vs Sound Play\n\n## The Trap Paradox\n\n**Traps can win games quickly... but they teach bad habits.**\n\n### Scholar's Mate (The Classic Trap)\n\n`1. e4 e5 2. Qh5 Nc6 3. Bc4 Nf6??` (Black defends correctly)\n`4. Qxf7#` would be mate, but Black played Nf6, attacking the Queen.\n\n**Why it's bad for White**:\n- Queen came out too early\n- Against a decent player, White is worse after the Queen retreats\n\n### Legal's Mate Trap\n\nA famous trap in the Italian Game where a Knight sacrifice leads to checkmate.\n\n**The Pattern**: If your opponent plays carelessly (e.g., Bg4 pinning your Knight), you might have Nxe5! sacrificing the Knight because Bxd1 allows Bxf7+ and devastating attacks.\n\n## Sound Play vs Traps\n\n**Sound Play**:\n- Follows opening principles\n- Works against strong players\n- Teaches you real chess\n\n**Traps**:\n- Rely on opponent's mistakes\n- Fail against prepared opponents\n- Can backfire spectacularly\n\n## The Right Approach\n\n1. **Learn sound openings first** (Italian, Scotch, Queen's Gambit)\n2. **Know common traps** (to avoid falling into them)\n3. **Don't rely on traps** to win games\n\n## When Traps Are Useful\n\n- In blitz/bullet chess (less time to think)\n- Against beginners (educational)\n- As a surprise weapon (occasionally)\n\n**Remember**: The best \"trap\" is simply playing good chess and waiting for your opponent to make a mistake!",
+            "positions": [
+                {
+                    "fen": "r1bqkb1r/pppp1Qpp/2n2n2/4p3/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 0 4",
+                    "description": "Scholar's Mate: 1. e4 e5 2. Bc4 Nc6 3. Qh5 Nf6?? 4. Qxf7# - Black should have played ...g6 or ...Qe7",
+                    "orientation": "black"
+                }
+            ],
+            "drills": [
+                "Practice defending against Scholar's Mate (hint: ...g6 or ...Qe7)",
+                "Learn one opening trap in your repertoire, but don't rely on it"
+            ],
+            "prevLesson": "02-openings-02",
+            "nextLesson": "02-openings-04",
+            "estimatedMinutes": 18
+        },
+        {
+            "id": "02-openings-04",
+            "moduleId": "02-openings",
+            "title": "Model Openings as White",
+            "content": "# Model Openings as White\n\n## The Italian Game (Recommended)\n\n**Moves**: `1. e4 e5 2. Nf3 Nc6 3. Bc4`\n\n**Plans**:\n- Control the center with pawns and pieces\n- Develop quickly and castle\n- Attack f7 (the weakest square in Black's position)\n- Play d4 to open the center\n\n**Key Ideas**:\n- Bishop on c4 eyes the f7 pawn\n- Knight on f3 controls the center\n- Castle kingside for safety\n- Push d4 when ready to open the game\n\n## The Scotch Game\n\n**Moves**: `1. e4 e5 2. Nf3 Nc6 3. d4`\n\n**Plans**:\n- Immediate central confrontation\n- Open lines for pieces\n- Active piece play\n\n**Key Ideas**:\n- More aggressive than the Italian\n- Leads to open positions\n- Good for tactical players\n\n## The London System (System Opening)\n\n**Moves**: `1. d4 d5 2. Bf4 Nf6 3. e3 e6 4. Nf3 Bd6`\n\n**Plans**:\n- Same setup every game\n- Solid and safe\n- Less theoretical\n\n**Key Ideas**:\n- Bf4 before e3 (important move order)\n- Develop pieces to natural squares\n- Play for a small advantage\n\n## Which to Choose?\n\n**For Learning**: Italian Game (teaches principles)\n**For Simplicity**: London System (less memorization)\n**For Tactics**: Scotch Game (sharp positions)",
+            "positions": [
+                {
+                    "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2BPP3/5N2/PPP2PPP/RNBQK2R b KQkq d3 0 4",
+                    "description": "Italian Game after 4. d4 - White has strong central control",
+                    "orientation": "white"
+                }
+            ],
+            "drills": [
+                "Play 10 games with the Italian Game as White",
+                "Watch a master game in your chosen opening"
+            ],
+            "prevLesson": "02-openings-03",
+            "nextLesson": "02-openings-05",
+            "estimatedMinutes": 20
+        },
+        {
+            "id": "02-openings-05",
+            "moduleId": "02-openings",
+            "title": "Model Openings as Black",
+            "content": "# Model Openings as Black\n\n## Against 1. e4: Play 1...e5 (Open Games)\n\n**Why?**\n- Symmetrical and principled\n- Fights for the center\n- Leads to well-known positions\n\n**Main Lines**:\n- **Italian Game**: 1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 (or Nf6)\n- **Spanish/Ruy Lopez**: 1. e4 e5 2. Nf3 Nc6 3. Bb5 a6\n\n**Key Ideas**:\n- Develop pieces quickly\n- Castle early\n- Look for ...d5 pawn break\n\n## Against 1. d4: Play 1...d5 (Closed Games)\n\n**Why?**\n- Solid and reliable\n- Fights for the center\n- Less tactical than other defenses\n\n**Main Lines**:\n- **Queen's Gambit Declined**: 1. d4 d5 2. c4 e6\n- **Slav Defense**: 1. d4 d5 2. c4 c6\n\n**Key Ideas**:\n- Maintain central pawn on d5\n- Develop pieces harmoniously\n- Castle and complete development\n\n## The \"Mirror\" Approach\n\nAs a beginner, playing symmetrically (1. e4 e5, 1. d4 d5) is excellent because:\n- You learn the same positions from both sides\n- Principles are clear\n- Less memorization required\n\n## Common Black Mistakes\n\n- Playing ...f6 or ...g5 too early (weakens King)\n- Neglecting development for pawn grabs\n- Moving the Queen out too early",
+            "positions": [
+                {
+                    "fen": "rnbqkb1r/pppp1ppp/5n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 3",
+                    "description": "Two Knights Defense: 1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 - Solid and active for Black",
+                    "orientation": "black"
+                }
+            ],
+            "drills": [
+                "Play 10 games as Black against 1. e4 with 1...e5",
+                "Study one complete game in your chosen defense"
+            ],
+            "prevLesson": "02-openings-04",
+            "estimatedMinutes": 18
+        }
+    ]
+}

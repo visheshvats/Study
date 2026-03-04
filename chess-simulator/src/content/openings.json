@@ -1,0 +1,64 @@
+[
+    {
+        "id": "ital-01",
+        "name": "Italian Game: Main Line",
+        "moves": [
+            "e2e4",
+            "e7e5",
+            "g1f3",
+            "b8c6",
+            "f1c4"
+        ],
+        "playerColor": "white"
+    },
+    {
+        "id": "sic-01",
+        "name": "Sicilian Defense: Open",
+        "moves": [
+            "e2e4",
+            "c7c5",
+            "g1f3",
+            "d7d6",
+            "d2d4",
+            "c5d4",
+            "f3d4"
+        ],
+        "playerColor": "white"
+    },
+    {
+        "id": "qgd-01",
+        "name": "Queen's Gambit Declined",
+        "moves": [
+            "d2d4",
+            "d7d5",
+            "c2c4",
+            "e7e6",
+            "b1c3",
+            "g8f6"
+        ],
+        "playerColor": "white"
+    },
+    {
+        "id": "london-01",
+        "name": "London System",
+        "moves": [
+            "d2d4",
+            "d7d5",
+            "c1f4",
+            "g8f6",
+            "e2e3"
+        ],
+        "playerColor": "white"
+    },
+    {
+        "id": "caro-01",
+        "name": "Caro-Kann Defense",
+        "moves": [
+            "e2e4",
+            "c7c6",
+            "d2d4",
+            "d7d5"
+        ],
+        "playerColor": "black"
+    }
+]

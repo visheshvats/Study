@@ -1,0 +1,174 @@
+{
+    "moduleId": "01-basics",
+    "lessons": [
+        {
+            "id": "01-basics-i01",
+            "lessonId": "01-basics-03",
+            "moduleId": "01-basics",
+            "title": "Deliver Checkmate in 1",
+            "description": "Learn to recognize and deliver checkmate with the Queen.",
+            "mode": "puzzle",
+            "initialFen": "4k3/8/4K3/8/8/8/8/7Q w - - 0 1",
+            "playerColor": "white",
+            "steps": [
+                {
+                    "instruction": "The Black King is trapped on the edge. Move your Queen to deliver checkmate!",
+                    "expectedMoves": [
+                        "Qh8#",
+                        "Qa8#"
+                    ],
+                    "feedback": {
+                        "correct": "Excellent! Checkmate! The King has no escape squares.",
+                        "incorrect": "Not quite. Look for a Queen move that attacks the King with no escape."
+                    },
+                    "highlight": [
+                        "e8"
+                    ]
+                }
+            ],
+            "successMessage": "You've mastered the back-rank checkmate!",
+            "hints": [
+                "The King is on the edge of the board",
+                "Move your Queen to the 8th rank"
+            ],
+            "estimatedMinutes": 2,
+            "difficulty": 1
+        },
+        {
+            "id": "01-basics-i02",
+            "lessonId": "01-basics-03",
+            "moduleId": "01-basics",
+            "title": "Queen + King Checkmate",
+            "description": "Practice the basic Queen and King checkmate pattern.",
+            "mode": "guided",
+            "initialFen": "8/k7/8/1K6/8/8/8/7Q w - - 0 1",
+            "playerColor": "white",
+            "steps": [
+                {
+                    "instruction": "The Black King is near the edge. Give check with the Queen! Play Qh7+",
+                    "expectedMove": "Qh7+",
+                    "feedback": {
+                        "correct": "Check! The Queen controls the 7th rank, forcing the King to the corner.",
+                        "incorrect": "Try Qh7+ - the Queen gives check along the 7th rank."
+                    },
+                    "computerMove": "Ka8"
+                },
+                {
+                    "instruction": "The King retreated to a8. Now bring your King closer with Kb6!",
+                    "expectedMove": "Kb6",
+                    "feedback": {
+                        "correct": "Your King controls all the escape squares. Black has only one move!",
+                        "incorrect": "Play Kb6 to cut off all the King's escape routes."
+                    },
+                    "computerMove": "Kb8"
+                },
+                {
+                    "instruction": "The King is cornered! Deliver checkmate with Qh8#!",
+                    "expectedMove": "Qh8#",
+                    "feedback": {
+                        "correct": "CHECKMATE! The Queen covers the entire 8th rank while your King blocks all escape squares!",
+                        "incorrect": "Try Qh8# - the Queen delivers mate on the back rank!"
+                    }
+                }
+            ],
+            "successMessage": "Brilliant! The key to K+Q mate: use your Queen to push the King to the edge, then bring your King to support the final checkmate!",
+            "hints": [
+                "Give check to push the King to the corner",
+                "Your King must help by controlling escape squares",
+                "Deliver the final blow on the back rank"
+            ],
+            "estimatedMinutes": 3,
+            "difficulty": 2
+        },
+        {
+            "id": "01-basics-i03",
+            "lessonId": "01-basics-02",
+            "moduleId": "01-basics",
+            "title": "Castle Kingside",
+            "description": "Practice castling to protect your King.",
+            "mode": "practice",
+            "initialFen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+            "playerColor": "white",
+            "steps": [
+                {
+                    "instruction": "Castle kingside to get your King to safety! (Type O-O or move King to g1)",
+                    "expectedMoves": [
+                        "O-O"
+                    ],
+                    "feedback": {
+                        "correct": "Perfect! Your King is now safe behind pawns, and the Rook is activated!",
+                        "incorrect": "Castle kingside by moving your King to g1 (it will automatically move the Rook)."
+                    },
+                    "highlight": [
+                        "e1",
+                        "h1",
+                        "g1"
+                    ]
+                }
+            ],
+            "successMessage": "Great job! Castling is one of the most important moves for King safety!",
+            "hints": [
+                "Click on your King and move it 2 squares toward the Rook",
+                "Castling kingside means the King goes to g1"
+            ],
+            "estimatedMinutes": 1,
+            "difficulty": 1
+        },
+        {
+            "id": "01-basics-i04",
+            "lessonId": "01-basics-01",
+            "moduleId": "01-basics",
+            "title": "Control the Center",
+            "description": "Learn why center control matters in the opening.",
+            "mode": "guided",
+            "initialFen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+            "playerColor": "white",
+            "steps": [
+                {
+                    "instruction": "Start by controlling the center. Play e4!",
+                    "expectedMove": "e4",
+                    "feedback": {
+                        "correct": "e4 occupies the center and opens lines for your Bishop and Queen!",
+                        "incorrect": "Try e4 - it's one of the best opening moves, controlling d5 and f5."
+                    },
+                    "computerMove": "e5",
+                    "highlight": [
+                        "e4",
+                        "d4"
+                    ]
+                },
+                {
+                    "instruction": "Good! Black responded with e5. Now develop your Knight to f3.",
+                    "expectedMove": "Nf3",
+                    "feedback": {
+                        "correct": "Excellent! The Knight develops naturally and attacks the e5 pawn.",
+                        "incorrect": "Try Nf3 - Knights go to f3/c3, developing toward the center."
+                    },
+                    "computerMove": "Nc6"
+                },
+                {
+                    "instruction": "Black developed too. Now play Bb5 - the Ruy Lopez!",
+                    "expectedMove": "Bb5",
+                    "feedback": {
+                        "correct": "The Ruy Lopez! A classic opening that prepares castling.",
+                        "incorrect": "Try Bb5 - this pins the Knight and prepares castling."
+                    },
+                    "arrows": [
+                        {
+                            "from": "f1",
+                            "to": "b5"
+                        }
+                    ]
+                }
+            ],
+            "successMessage": "You've played the start of the famous Ruy Lopez opening!",
+            "hints": [
+                "Control the center with pawns first",
+                "Develop Knights before Bishops",
+                "The Ruy Lopez is 1.e4 e5 2.Nf3 Nc6 3.Bb5"
+            ],
+            "estimatedMinutes": 3,
+            "difficulty": 1
+        }
+    ]
+}

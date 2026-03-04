@@ -1,0 +1,113 @@
+{
+    "moduleId": "06-endgames",
+    "lessons": [
+        {
+            "id": "06-endgames-01",
+            "moduleId": "06-endgames",
+            "title": "King and Pawn Endgames: The Opposition",
+            "content": "# King and Pawn Endgames: The Opposition\n\n**The King is now a fighting piece. Use it!**\n\n## The Opposition\n\n**Definition**: When two Kings face each other with one square in between.\n\n**The Rule**: Whoever has to move **loses** the opposition.\n\n**Why It Matters**: The side with the opposition can invade with their King while the opponent must retreat.\n\n### Direct Opposition\n\n**Example**: White King on e4, Black King on e6\n- **White to move**: Black has the opposition (White must move away)\n- **Black to move**: White has the opposition (Black must move away)\n\n### Distant Opposition\n\n**Definition**: Kings face each other with 3 or 5 squares between them.\n\n**Same principle**: Whoever moves loses the opposition.\n\n## The Square of the Pawn\n\n**Question**: Can the King catch the pawn?\n\n**The Rule**:\n1. Draw a diagonal line from the pawn to the promotion rank\n2. This creates a \"square\"\n3. If the defending King is inside the square, they catch the pawn\n4. If outside, the pawn promotes\n\n**Example**: Pawn on e4, King on a8\n- Square: e4-e8-h8-h4\n- King on a8 is outside → Pawn promotes\n\n## Winning with King and Pawn\n\n**Winning Conditions**:\n1. King is **in front** of the pawn\n2. King has the opposition\n3. Pawn is not on the rook file (a or h)\n\n**Drawing Conditions**:\n1. King is **behind** the pawn\n2. Defending King controls the promotion square\n3. Pawn is on the rook file (special drawing cases)\n\n## Practical Tips\n\n**Attacking**:\n- Get your King in front of the pawn\n- Gain the opposition\n- Advance the pawn when the defending King is far away\n\n**Defending**:\n- Get your King in front of the enemy pawn\n- Maintain the opposition\n- Head for the promotion square",
+            "positions": [
+                {
+                    "fen": "8/4k3/8/8/4K3/4P3/8/8 w - - 0 1",
+                    "description": "Opposition: White Ke4 vs Black Ke7. With White to move, Black has the opposition. With Black to move, White wins!",
+                    "orientation": "white"
+                },
+                {
+                    "fen": "8/8/8/8/P7/8/6k1/K7 w - - 0 1",
+                    "description": "Square of the Pawn: Draw diagonal a4-e8. Black's King on g2 is outside the square — pawn promotes!",
+                    "orientation": "white"
+                }
+            ],
+            "drills": [
+                "Set up K+P vs K: White K on e5, P on e4, Black K on e8. Practice both White to move (draw) and Black to move (White wins)",
+                "Practice the 'square of the pawn' rule with various positions"
+            ],
+            "nextLesson": "06-endgames-02",
+            "estimatedMinutes": 20
+        },
+        {
+            "id": "06-endgames-02",
+            "moduleId": "06-endgames",
+            "title": "Rook Endgames: Lucena and Philidor",
+            "content": "# Rook Endgames: Lucena and Philidor\n\n**\"All rook endgames are drawn.\"** - Siegbert Tarrasch (joking, but they're tricky!)\n\n## The Lucena Position (Winning)\n\n**Setup**: \n- Your King and pawn on the 7th rank\n- Your Rook behind the pawn\n- Enemy King cut off from the pawn\n- Enemy Rook giving checks\n\n**The Winning Method** (\"Building a Bridge\"):\n1. King moves to the side (escaping checks)\n2. Rook comes to the 4th rank\n3. Rook blocks the checks (\"building a bridge\")\n4. Pawn promotes\n\n**Key Idea**: Use your Rook as a shield against checks.\n\n## The Philidor Position (Drawing)\n\n**Setup**:\n- Enemy King and pawn advancing\n- Your King cut off\n- Your Rook on the 6th rank (passive)\n\n**The Drawing Method**:\n1. Keep Rook on the 6th rank (passive defense)\n2. When pawn reaches 6th rank, move Rook to 1st rank\n3. Give checks from behind (perpetual check)\n4. Enemy King can't escape checks\n\n**Key Idea**: Passive defense until pawn advances, then check from behind.\n\n## General Rook Endgame Principles\n\n### 1. Activity is Everything\n\n**Active Rook**: On the 7th rank, attacking pawns, cutting off the King\n**Passive Rook**: Defending pawns, stuck on the back rank\n\n### 2. Rook Behind Passed Pawns\n\n**Your pawn**: Rook behind it (supports advance)\n**Enemy pawn**: Rook behind it (attacks as it advances)\n\n### 3. Cut Off the King\n\n**Use your Rook** to prevent the enemy King from supporting their pawns or stopping yours.\n\n## Practical Tips\n\n**When ahead**:\n- Activate your Rook (7th rank)\n- Cut off the enemy King\n- Create passed pawns\n\n**When defending**:\n- Keep Rook active\n- Give checks from behind passed pawns\n- Trade pawns when possible",
+            "positions": [
+                {
+                    "fen": "1K1k4/1P6/8/8/8/8/8/R7 w - - 0 1",
+                    "description": "Lucena Position: Rook+Pawn on 7th. Win by 'Building a Bridge': Rg1, Kc7, Rg4 to shield from checks.",
+                    "orientation": "white"
+                },
+                {
+                    "fen": "3k4/8/3KP3/8/8/8/r7/8 b - - 0 1",
+                    "description": "Philidor Position: Black draws with Rook on 6th rank. When pawn reaches e6, switch to checking from behind.",
+                    "orientation": "white"
+                }
+            ],
+            "drills": [
+                "Study the Lucena position and practice 'building a bridge'",
+                "Practice the Philidor defense against a passed pawn"
+            ],
+            "prevLesson": "06-endgames-01",
+            "nextLesson": "06-endgames-03",
+            "estimatedMinutes": 22
+        },
+        {
+            "id": "06-endgames-03",
+            "moduleId": "06-endgames",
+            "title": "Minor Piece Endgames",
+            "content": "# Minor Piece Endgames\n\n## Bishop Endgames\n\n### Opposite-Colored Bishops\n\n**Characteristic**: Each side has a Bishop on different colored squares.\n\n**Drawing Tendency**: Even with a pawn advantage, these are often drawn.\n\n**Why?** The defending Bishop controls squares the attacking Bishop can't reach.\n\n**When to Win**: \n- Multiple pawn advantage (2+)\n- Passed pawns on both colors\n- Active King\n\n### Same-Colored Bishops\n\n**More decisive** than opposite-colored.\n\n**Winning Factors**:\n- Better Bishop (not blocked by pawns)\n- More active King\n- Pawn majority\n\n## Knight Endgames\n\n**Characteristics**:\n- Knights are short-range\n- Slow to stop passed pawns\n- Good at blockading\n\n**Winning Factors**:\n- Passed pawns (Knights are slow)\n- Active King\n- Outpost for Knight\n\n**Drawing Factors**:\n- Knight can blockade pawns\n- Kings are close together\n\n## Bishop vs Knight\n\n### Bishop is Better When:\n- Open position\n- Pawns on both sides of the board\n- Passed pawns to support\n\n### Knight is Better When:\n- Closed position\n- Pawns on one side only\n- Has an outpost\n- Fighting against bad Bishop\n\n## Practical Tips\n\n**Bishop Endgames**:\n- Opposite colors → Try to draw even if down material\n- Same colors → Activate your Bishop, restrict theirs\n\n**Knight Endgames**:\n- Create passed pawns (Knights are slow)\n- Find outposts for your Knight\n- Use King actively\n\n**Bishop vs Knight**:\n- With Bishop: Open the position, create passed pawns\n- With Knight: Close the position, find outposts",
+            "positions": [
+                {
+                    "fen": "8/5pk1/6p1/8/2B5/6P1/5P1K/3b4 w - - 0 1",
+                    "description": "Opposite-Colored Bishops: Despite equal material, this is very drawish because each Bishop controls different squares.",
+                    "orientation": "white"
+                }
+            ],
+            "drills": [
+                "Practice opposite-colored Bishop endgames (defending down a pawn)",
+                "Study Bishop vs Knight endgames in master games"
+            ],
+            "prevLesson": "06-endgames-02",
+            "nextLesson": "06-endgames-04",
+            "estimatedMinutes": 18
+        },
+        {
+            "id": "06-endgames-04",
+            "moduleId": "06-endgames",
+            "title": "Queen Endgames: Checks and Safety",
+            "content": "# Queen Endgames: Checks and Safety\n\n## The Power of Checks\n\n**Queen endgames** are all about checks and King safety.\n\n**Why?** The Queen gives checks from far away, making it hard to advance pawns or coordinate pieces.\n\n## Perpetual Check\n\n**Most common drawing resource** in Queen endgames.\n\n**Requirements**:\n- Exposed enemy King\n- Your Queen can give continuous checks\n- Enemy King can't find shelter\n\n**Practical Tip**: Even down material, look for perpetual check!\n\n## Queen vs Pawn on 7th\n\n**Usually winning** for the Queen, but there are exceptions:\n\n**Drawing Cases**:\n- Pawn on a-file or h-file (rook pawn)\n- King very close to promotion square\n- Stalemate tricks\n\n**Winning Method**:\n1. Cut off the King with checks\n2. Bring your King closer\n3. Capture the pawn or checkmate\n\n## Queen and Pawn Endgames\n\n**Principles**:\n1. **King safety first** (exposed King = perpetual check)\n2. **Create passed pawns** (Queen supports them well)\n3. **Avoid stalemate** (very common in Q endgames)\n4. **Use checks** to improve position\n\n## Practical Tips\n\n**When ahead**:\n- Keep your King safe\n- Push passed pawns\n- Avoid stalemate\n- Trade Queens if winning easily\n\n**When behind**:\n- Look for perpetual check\n- Expose enemy King\n- Create threats\n- Avoid Queen trades",
+            "positions": [
+                {
+                    "fen": "8/8/4k3/8/2K1Q3/8/4p3/8 w - - 0 1",
+                    "description": "Queen vs Pawn: White's Queen can stop the pawn by giving checks and bringing the King closer.",
+                    "orientation": "white"
+                }
+            ],
+            "drills": [
+                "Practice Queen vs pawn on 7th rank positions",
+                "Study perpetual check patterns in Queen endgames"
+            ],
+            "prevLesson": "06-endgames-03",
+            "nextLesson": "06-endgames-05",
+            "estimatedMinutes": 15
+        },
+        {
+            "id": "06-endgames-05",
+            "moduleId": "06-endgames",
+            "title": "Practical Endgame Technique",
+            "content": "# Practical Endgame Technique\n\n## The Endgame Mindset\n\n**Different from middlegame**:\n- King is a fighting piece (activate it!)\n- Every tempo matters\n- Small advantages are enough to win\n- Precision is critical\n\n## Key Principles\n\n### 1. Activate Your King\n\n**The King** is your strongest piece in the endgame.\n\n**Centralize it** and use it to:\n- Support your pawns\n- Attack enemy pawns\n- Control key squares\n\n### 2. Create Passed Pawns\n\n**Passed pawns** are the key to winning endgames.\n\n**Methods**:\n- Pawn breaks\n- Pawn trades\n- Sacrifices\n\n### 3. The Principle of Two Weaknesses\n\n**One weakness** can be defended.\n**Two weaknesses** (on opposite sides) cannot.\n\n**Strategy**: Create threats on both sides of the board.\n\n### 4. Don't Rush\n\n**Endgames reward patience**:\n- Improve your position step by step\n- Fix your weaknesses first\n- Only then push for the win\n\n## Common Endgame Mistakes\n\n1. **Passive King** (not activating it)\n2. **Rushing pawn advances** (creating weaknesses)\n3. **Allowing counterplay** (opponent's passed pawn)\n4. **Stalemate** (not leaving opponent legal moves)\n5. **Wrong Rook** (Rook in front of pawn instead of behind)\n\n## Practical Technique\n\n### When Ahead:\n1. Activate your King\n2. Create passed pawns\n3. Advance carefully\n4. Avoid stalemate\n5. Convert to simpler winning position\n\n### When Behind:\n1. Activate pieces\n2. Create counterplay\n3. Look for fortresses (unbreakable positions)\n4. Seek perpetual check or stalemate\n5. Make it as difficult as possible\n\n## Study Plan\n\n**Essential Endgames to Know**:\n1. K+P vs K (opposition)\n2. Rook endgames (Lucena, Philidor)\n3. Queen vs pawn\n4. Basic checkmates (Q+K vs K, R+K vs K)\n\n**Practice**: Solve endgame studies and play endgame positions against computer.",
+            "positions": [
+                {
+                    "fen": "8/pp3k2/2p5/4Pp2/1PP5/P7/8/4K3 w - - 0 1",
+                    "description": "Practical Technique: White should activate King (Kd2-c3-d4), create a passed pawn, and use the King to escort it.",
+                    "orientation": "white"
+                }
+            ],
+            "drills": [
+                "Practice activating your King in endgames",
+                "Solve 10 endgame puzzles focusing on technique"
+            ],
+            "prevLesson": "06-endgames-04",
+            "estimatedMinutes": 18
+        }
+    ]
+}

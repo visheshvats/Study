@@ -1,0 +1,129 @@
+{
+    "moduleId": "02-openings",
+    "exercises": [
+        {
+            "id": "02-openings-ex-01",
+            "moduleId": "02-openings",
+            "type": "multiple-choice",
+            "question": "What are the three main goals of the opening?",
+            "options": [
+                "Checkmate the opponent, win material, control the board",
+                "Control the center, develop pieces, ensure king safety",
+                "Attack the opponent, defend your pieces, castle queenside",
+                "Move all pawns, develop the queen, attack f7"
+            ],
+            "correctAnswer": "Control the center, develop pieces, ensure king safety",
+            "explanation": "The three golden rules of opening play are: (1) Control the center, (2) Develop your pieces, and (3) Ensure king safety by castling early.",
+            "difficulty": 1
+        },
+        {
+            "id": "02-openings-ex-02",
+            "moduleId": "02-openings",
+            "type": "multiple-choice",
+            "question": "Why is 1. h4 usually considered a bad opening move?",
+            "options": [
+                "It hangs the h-pawn",
+                "It does nothing for the center and develops no pieces",
+                "It allows Black to play ...e5 immediately",
+                "It weakens the king too much"
+            ],
+            "correctAnswer": "It does nothing for the center and develops no pieces",
+            "explanation": "1. h4 violates opening principles: it doesn't control the center, doesn't develop any pieces, and doesn't contribute to king safety. It's a wasted move.",
+            "difficulty": 1
+        },
+        {
+            "id": "02-openings-ex-03",
+            "moduleId": "02-openings",
+            "type": "multiple-choice",
+            "question": "When should you usually castle?",
+            "options": [
+                "Within the first 3 moves",
+                "Within the first 10 moves",
+                "After move 15",
+                "Only when under attack"
+            ],
+            "correctAnswer": "Within the first 10 moves",
+            "explanation": "Castling within the first 10 moves is a good guideline. This gets your king to safety and connects your rooks before the middlegame complications begin.",
+            "difficulty": 1
+        },
+        {
+            "id": "02-openings-ex-04",
+            "moduleId": "02-openings",
+            "type": "multiple-choice",
+            "question": "In the Italian Game (1. e4 e5 2. Nf3 Nc6 3. Bc4), which square does the Bishop attack?",
+            "options": [
+                "e5",
+                "f7",
+                "d5",
+                "g8"
+            ],
+            "correctAnswer": "f7",
+            "explanation": "The Bishop on c4 attacks f7, which is the weakest square in Black's position (only defended by the King). This is a key idea of the Italian Game.",
+            "difficulty": 2
+        },
+        {
+            "id": "02-openings-ex-05",
+            "moduleId": "02-openings",
+            "type": "multiple-choice",
+            "question": "If you are Black and White plays 1. d4, what is the solid reply recommended in this course?",
+            "options": [
+                "1...e5",
+                "1...Nf6",
+                "1...d5",
+                "1...c5"
+            ],
+            "correctAnswer": "1...d5",
+            "explanation": "1...d5 is the most solid and principled response to 1. d4, fighting for the center symmetrically and leading to well-known positions like the Queen's Gambit.",
+            "difficulty": 1
+        },
+        {
+            "id": "02-openings-ex-06",
+            "moduleId": "02-openings",
+            "type": "position",
+            "question": "White has played 1. e4 e5 2. Qh5 Nc6 3. Bc4 (Scholar's Mate attempt). What is Black's best move to stop mate and attack the Queen?",
+            "fen": "r1bqkbnr/pppp1ppp/2n5/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 3 3",
+            "options": [
+                "Ke7",
+                "g6",
+                "Nf6",
+                "Qe7"
+            ],
+            "correctAnswer": "Nf6",
+            "explanation": "Nf6 is the best move because it defends the e4 pawn, attacks the Queen (forcing it to move), and develops a piece. Both g6 and Qe7 also defend, but Nf6 is most active.",
+            "difficulty": 2,
+            "hints": [
+                "Look for a move that develops a piece while defending"
+            ]
+        },
+        {
+            "id": "02-openings-ex-07",
+            "moduleId": "02-openings",
+            "type": "multiple-choice",
+            "question": "It's move 7. You have moved your Knight 3 times to capture a pawn. Your opponent has developed 3 pieces and castled. Who is better?",
+            "options": [
+                "You are better (you won a pawn)",
+                "Your opponent is better (better development)",
+                "Equal position",
+                "Depends on the pawn structure"
+            ],
+            "correctAnswer": "Your opponent is better (better development)",
+            "explanation": "Your opponent is significantly better. In the opening, development and king safety are more important than material. Moving the same piece multiple times while your opponent develops and castles is a recipe for disaster.",
+            "difficulty": 2
+        },
+        {
+            "id": "02-openings-ex-08",
+            "moduleId": "02-openings",
+            "type": "multiple-choice",
+            "question": "Which opening is best for learning chess principles as a beginner?",
+            "options": [
+                "Sicilian Najdorf (theory-heavy)",
+                "Italian Game (principled)",
+                "King's Indian Defense (complex)",
+                "Alekhine's Defense (hypermodern)"
+            ],
+            "correctAnswer": "Italian Game (principled)",
+            "explanation": "The Italian Game is excellent for beginners because it follows all the opening principles clearly: controls the center, develops pieces naturally, and prepares castling. It teaches good chess habits.",
+            "difficulty": 1
+        }
+    ]
+}

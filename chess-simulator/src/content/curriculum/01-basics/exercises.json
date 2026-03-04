@@ -1,0 +1,151 @@
+{
+    "moduleId": "01-basics",
+    "exercises": [
+        {
+            "id": "01-basics-ex-01",
+            "moduleId": "01-basics",
+            "type": "multiple-choice",
+            "question": "What color is the square h1?",
+            "options": [
+                "Light",
+                "Dark"
+            ],
+            "correctAnswer": "Light",
+            "explanation": "Remember 'White on Right' - h1 is the bottom-right square for White, which must be a light square.",
+            "difficulty": 1
+        },
+        {
+            "id": "01-basics-ex-02",
+            "moduleId": "01-basics",
+            "type": "notation",
+            "question": "Write the move: Bishop captures Knight on f6 with check.",
+            "correctAnswer": "Bxf6+",
+            "explanation": "B (Bishop) x (captures) f6 (square) + (check)",
+            "difficulty": 2
+        },
+        {
+            "id": "01-basics-ex-03",
+            "moduleId": "01-basics",
+            "type": "notation",
+            "question": "Write the move: Queenside Castle.",
+            "correctAnswer": "O-O-O",
+            "explanation": "Queenside castle is written as O-O-O (three O's with hyphens)",
+            "difficulty": 1
+        },
+        {
+            "id": "01-basics-ex-04",
+            "moduleId": "01-basics",
+            "type": "multiple-choice",
+            "question": "If a White Pawn is on e2, can it move to e4?",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "correctAnswer": "Yes",
+            "explanation": "Pawns can move 2 squares on their first move from their starting position.",
+            "difficulty": 1
+        },
+        {
+            "id": "01-basics-ex-05",
+            "moduleId": "01-basics",
+            "type": "multiple-choice",
+            "question": "Can a King move to a square adjacent to the enemy King?",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "correctAnswer": "No",
+            "explanation": "Kings can never touch; that would be moving into check, which is illegal.",
+            "difficulty": 2
+        },
+        {
+            "id": "01-basics-ex-06",
+            "moduleId": "01-basics",
+            "type": "multiple-choice",
+            "question": "Can a Knight jump over an enemy Queen?",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "correctAnswer": "Yes",
+            "explanation": "Knights are the ONLY piece that can jump over other pieces.",
+            "difficulty": 1
+        },
+        {
+            "id": "01-basics-ex-07",
+            "moduleId": "01-basics",
+            "type": "multiple-choice",
+            "question": "If a pawn reaches the end, can it become a King?",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "correctAnswer": "No",
+            "explanation": "A pawn can only promote to Queen, Rook, Bishop, or Knight - never a King.",
+            "difficulty": 1
+        },
+        {
+            "id": "01-basics-ex-08",
+            "moduleId": "01-basics",
+            "type": "multiple-choice",
+            "question": "Is En Passant mandatory when available?",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "correctAnswer": "No",
+            "explanation": "En Passant is optional. Captures are never mandatory in chess (unlike checkers).",
+            "difficulty": 2
+        },
+        {
+            "id": "01-basics-ex-09",
+            "moduleId": "01-basics",
+            "type": "position",
+            "question": "White to Move. Is this checkmate?",
+            "fen": "7k/5ppp/8/8/8/8/8/R6K w - - 0 1",
+            "options": [
+                "Yes - Checkmate",
+                "No - Not Checkmate"
+            ],
+            "correctAnswer": "Yes - Checkmate",
+            "explanation": "White plays Ra8# - this is a Back Rank Mate. The Black King on h8 is trapped by its own pawns and has no escape.",
+            "difficulty": 2
+        },
+        {
+            "id": "01-basics-ex-10",
+            "moduleId": "01-basics",
+            "type": "calculation",
+            "question": "Black Knight on d5. White attacks it with: N, B, P. Black defends it with: P, Q. Can White win material on d5?",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "correctAnswer": "Yes",
+            "explanation": "Attackers (3) > Defenders (2). Sequence: Nxd5, exd5, Bxd5, Qxd5, cxd5. White wins a Knight.",
+            "difficulty": 3,
+            "hints": [
+                "Count attackers vs defenders",
+                "Attackers = 3, Defenders = 2"
+            ]
+        },
+        {
+            "id": "01-basics-ex-11",
+            "moduleId": "01-basics",
+            "type": "position",
+            "question": "White: King on f7, Pawn on g7. Black: King on h8. White to move. If White plays g8=Q, is it checkmate or stalemate?",
+            "fen": "7k/5KP1/8/8/8/8/8/8 w - - 0 1",
+            "options": [
+                "Checkmate",
+                "Stalemate",
+                "Neither"
+            ],
+            "correctAnswer": "Stalemate",
+            "explanation": "After g8=Q, the Black King is NOT in check, but has no legal moves (g8, h7 are blocked/attacked). This is stalemate = draw. Better move: Kg6 to give the King breathing room, then mate.",
+            "difficulty": 4,
+            "hints": [
+                "Is the Black King in check after g8=Q?",
+                "Does the Black King have any legal moves?"
+            ]
+        }
+    ]
+}

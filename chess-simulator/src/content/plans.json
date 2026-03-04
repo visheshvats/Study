@@ -1,0 +1,55 @@
+[
+    {
+        "id": "10min",
+        "title": "10 Minute Blitz",
+        "tasks": [
+            {
+                "module": "basics",
+                "duration": 2,
+                "label": "Warmup Vision"
+            },
+            {
+                "module": "tactics",
+                "duration": 8,
+                "label": "Rapid Puzzle Storm"
+            }
+        ]
+    },
+    {
+        "id": "20min",
+        "title": "20 Minute Routine",
+        "tasks": [
+            {
+                "module": "tactics",
+                "duration": 10,
+                "label": "Calculation Training"
+            },
+            {
+                "module": "endgames",
+                "duration": 10,
+                "label": "Endgame Drill"
+            }
+        ]
+    },
+    {
+        "id": "45min",
+        "title": "Serious Session",
+        "tasks": [
+            {
+                "module": "openings",
+                "duration": 10,
+                "label": "Review Repertoire"
+            },
+            {
+                "module": "tactics",
+                "duration": 20,
+                "label": "Hard Puzzles"
+            },
+            {
+                "module": "play",
+                "duration": 15,
+                "label": "Play a Rapid Game"
+            }
+        ]
+    }
+]

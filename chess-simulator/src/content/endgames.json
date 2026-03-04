@@ -1,0 +1,23 @@
+[
+    {
+        "id": "kp-01",
+        "title": "Opposition (Easy)",
+        "fen": "8/8/8/8/8/4k3/4P3/4K3 w - - 0 1",
+        "objective": "Promote the pawn. Take the opposition.",
+        "sideToMove": "w"
+    },
+    {
+        "id": "rook-01",
+        "title": "Lucena Position",
+        "fen": "8/8/8/1P6/2K5/8/r7/7k w - - 0 1",
+        "objective": "Win with the Bridge.",
+        "sideToMove": "w"
+    },
+    {
+        "id": "rook-02",
+        "title": "Philidor Position",
+        "fen": "2r5/8/8/3k4/2p5/8/4R3/4K3 w - - 0 1",
+        "objective": "Draw the game. Keep the King active.",
+        "sideToMove": "w"
+    }
+]

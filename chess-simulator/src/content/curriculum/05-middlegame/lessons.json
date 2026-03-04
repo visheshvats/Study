@@ -1,0 +1,103 @@
+{
+    "moduleId": "05-middlegame",
+    "lessons": [
+        {
+            "id": "05-middlegame-01",
+            "moduleId": "05-middlegame",
+            "title": "Attacking the King",
+            "content": "# Attacking the King\n\n## When to Attack?\n\n**Rule 1**: Attack when you have an advantage in the center, or the center is closed.\n\n**Rule 2**: Attack when the opponent's King lacks defenders.\n\n**Don't Attack When**:\n- Your own King is unsafe\n- You're behind in development\n- The center is open and unstable\n\n## Common Attacking Patterns\n\n### 1. Greek Gift Sacrifice (Bxh7+)\n\n**The Pattern**:\n1. White Bishop takes on h7 (checking)\n2. King takes Bishop (forced)\n3. Knight jumps to g5+ (discovered attack)\n4. Queen comes to h5\n5. **Result**: Usually mate or winning material\n\n**Requirements**:\n- Black King on g8 (castled kingside)\n- White Bishop can reach h7\n- White has Queen and Knight ready\n- Black lacks defenders (no Knight on f6 or Bishop on e7)\n\n### 2. The Pawn Storm (Opposite Castling)\n\n**Scenario**: You castled Queenside, they castled Kingside.\n\n**Plan**: Push your g and h pawns to open lines!\n\n**Why It Works**:\n- Your King is safe on the other side\n- Pawn advances don't weaken your King\n- Opens files for Rooks\n- Creates weaknesses around enemy King\n\n### 3. The Classic Bishop Pair Attack\n\n**Setup**:\n- Bishops on long diagonals\n- Aimed at the enemy King\n- Supported by Queen\n\n**Execution**:\n- Control key squares\n- Restrict King movement\n- Deliver checkmate or win material\n\n## Attacking Principles\n\n1. **Bring all pieces into the attack** (not just 2-3)\n2. **Open lines** toward the enemy King\n3. **Remove defenders** before attacking\n4. **Calculate forcing sequences** (checks, captures)\n5. **Don't rush** - build up the attack properly\n\n## When to Stop Attacking\n\n- If you're running out of pieces\n- If opponent's defense is solid\n- If you're sacrificing too much material\n- If a better plan exists (positional advantage)",
+            "positions": [
+                {
+                    "fen": "r1bq1rk1/pppn1ppp/4pn2/3p2B1/1bBP4/2N1PN2/PPP2PPP/R2QK2R w KQ - 0 7",
+                    "description": "Greek Gift Setup: If Bxh7+ Kxh7, Ng5+ Kg8, Qh5 with devastating attack! Requirements are met.",
+                    "orientation": "white"
+                }
+            ],
+            "drills": [
+                "Study the 'Greek Gift' pattern until you can spot it in 1 second",
+                "Play 5 games with opposite-side castling and practice pawn storms"
+            ],
+            "nextLesson": "05-middlegame-02",
+            "estimatedMinutes": 20
+        },
+        {
+            "id": "05-middlegame-02",
+            "moduleId": "05-middlegame",
+            "title": "Playing With and Against the Isolated Queen Pawn (IQP)",
+            "content": "# Isolated Queen Pawn (IQP)\n\n**Definition**: A d-pawn with no c-pawn or e-pawn to support it.\n\n## Playing WITH the IQP\n\n### Goal: Attack!\n\n**Advantages**:\n- More space in the center\n- Active piece placement\n- e5 and c5 squares as outposts for Knights\n- Open files for Rooks (d-file, e-file)\n\n### Strategic Plan:\n\n1. **Battery Rooks** on d-file or e-file\n2. **Attack the King** with active pieces\n3. **Push d4-d5** at the right moment (pawn break)\n4. **Avoid Queen trades** (you need the attack)\n\n### Key Squares:\n- **e5**: Perfect outpost for Knight\n- **c5**: Alternative outpost\n- **d5**: The pawn break square\n\n## Playing AGAINST the IQP\n\n### Goal: Blockade and Trade\n\n**Weaknesses of IQP**:\n- Cannot be defended by other pawns\n- Becomes a target in the endgame\n- The d5 square in front is weak\n\n### Strategic Plan:\n\n1. **Blockade d5** with a Knight\n2. **Trade Queens** (kills the attack)\n3. **Trade pieces** (simplify to endgame)\n4. **Win the endgame** (attack the weak d-pawn)\n\n### Key Principles:\n- **Blockade** the pawn (put Knight on d5)\n- **Trade pieces** (especially Queens)\n- **Be patient** (the weakness is long-term)\n\n## Practical Tips\n\n**With IQP**: Play actively, attack before endgame\n**Against IQP**: Blockade, trade, win endgame\n\n**Time Pressure**: IQP positions favor the side WITH the pawn in time pressure (more active)\n\n## Common Mistakes\n\n**With IQP**:\n- Trading Queens too early\n- Playing passively\n- Pushing d5 prematurely\n\n**Against IQP**:\n- Allowing d4-d5 break\n- Not blockading d5\n- Keeping too many pieces on board",
+            "positions": [
+                {
+                    "fen": "r1bq1rk1/pp3ppp/2nb1n2/3p4/3P4/2NBPN2/PP3PPP/R1BQ1RK1 w - - 0 9",
+                    "description": "IQP on d4: White has active pieces (Bd3 eyes h7, Nf3→e5). The d4 pawn gives space but is weak in endgames.",
+                    "orientation": "white"
+                }
+            ],
+            "drills": [
+                "Play a game starting 1. e4 e6 2. d4 d5 3. exd5 exd5 4. c4 (Exchange French with c4)",
+                "Practice both sides of IQP positions"
+            ],
+            "prevLesson": "05-middlegame-01",
+            "nextLesson": "05-middlegame-03",
+            "estimatedMinutes": 18
+        },
+        {
+            "id": "05-middlegame-03",
+            "moduleId": "05-middlegame",
+            "title": "Playing With and Against Hanging Pawns",
+            "content": "# Hanging Pawns\n\n**Definition**: Two pawns side-by-side on the c and d files (or sometimes b and c) with no pawn support.\n\n**Example**: White pawns on c4 and d4, no pawns on b, c, or e files.\n\n## Characteristics\n\n**Strengths**:\n- Control central squares\n- Provide space advantage\n- Support piece activity\n- Can advance to create threats\n\n**Weaknesses**:\n- Cannot support each other if attacked\n- Vulnerable to piece pressure\n- Can become targets\n\n## Playing WITH Hanging Pawns\n\n### Strategy: Use Them Actively\n\n**Plans**:\n1. **Advance one pawn** (c4-c5 or d4-d5) to gain space\n2. **Support with pieces** (Rooks behind, Knights in front)\n3. **Create threats** before they become weak\n4. **Avoid passive play** (they become targets)\n\n### When to Advance:\n- When you have piece support\n- When it creates concrete threats\n- When opponent is uncoordinated\n\n## Playing AGAINST Hanging Pawns\n\n### Strategy: Apply Pressure\n\n**Plans**:\n1. **Attack both pawns** with pieces\n2. **Prevent advances** (control c5 and d5)\n3. **Force one to advance** (making it weak)\n4. **Trade pieces** (reduces their activity)\n\n### Key Idea:\nForce the opponent to either:\n- Advance a pawn (creating weakness)\n- Defend passively (losing activity)\n\n## Transformation\n\nHanging pawns can transform into:\n- **Isolated pawn** (if one advances)\n- **Passed pawn** (if breakthrough succeeds)\n- **Backward pawn** (if forced to retreat)\n\n## Practical Application\n\n**With hanging pawns**: Be active, create threats\n**Against hanging pawns**: Apply pressure, prevent activity",
+            "positions": [
+                {
+                    "fen": "r1bq1rk1/pp3ppp/2nb1n2/4p3/2PP4/2N2N2/PP2BPPP/R1BQ1RK1 w - - 0 8",
+                    "description": "Hanging Pawns: White's c4 and d4 pawns control space but have no pawn support. Black should pressure them.",
+                    "orientation": "white"
+                }
+            ],
+            "drills": [
+                "Study Queen's Gambit Accepted positions with hanging pawns",
+                "Practice recognizing when to advance hanging pawns"
+            ],
+            "prevLesson": "05-middlegame-02",
+            "nextLesson": "05-middlegame-04",
+            "estimatedMinutes": 15
+        },
+        {
+            "id": "05-middlegame-04",
+            "moduleId": "05-middlegame",
+            "title": "The Minority Attack",
+            "content": "# The Minority Attack\n\n**Definition**: Attacking with fewer pawns against more pawns to create weaknesses.\n\n**Classic Example**: White has pawns on a2, b2, c2. Black has pawns on a7, b7, c7, d6. White plays b4-b5 attacking Black's pawn chain.\n\n## The Mechanism\n\n### Setup (Typical Queen's Gambit Exchange)\n\n**White**: Pawns on a2, b2, c4\n**Black**: Pawns on a7, b7, c6, d5\n\n### Execution:\n\n1. **b2-b4** (preparing the attack)\n2. **b4-b5** (attacking c6)\n3. **bxc6 bxc6** (forcing the trade)\n\n### Result:\n\nBlack now has:\n- **Backward pawn** on c6 (weak)\n- **Weak square** on c5\n- **Long-term weakness** to defend\n\n## Why It Works\n\n**The Paradox**: You're attacking with 2 pawns vs 3 pawns, but:\n- You create a permanent weakness (backward c-pawn)\n- The c5 square becomes an outpost\n- Black must defend passively\n\n## Playing the Minority Attack\n\n### Requirements:\n1. Queenside pawn majority (or minority)\n2. Opponent has pawns to attack\n3. Center is stable\n4. You have time (it's slow)\n\n### Plan:\n1. **Prepare** b4-b5\n2. **Execute** the pawn advance\n3. **Exploit** the weakness created\n4. **Improve pieces** to target weak pawns\n\n## Defending Against It\n\n**Options**:\n1. **Counter in the center** (before it arrives)\n2. **Create counterplay** on the kingside\n3. **Block with ...a6** (preventing b5)\n4. **Accept the weakness** and defend\n\n## Practical Tips\n\n- **Patience**: Minority attack is slow\n- **Timing**: Don't rush the b5 push\n- **Follow-up**: Create the weakness, then exploit it\n- **Endgame**: The weakness matters most in the endgame",
+            "positions": [
+                {
+                    "fen": "r1bq1rk1/pp1n1ppp/2p1pn2/3p4/1bPP4/2NBPN2/PP3PPP/R1BQ1RK1 w - - 0 7",
+                    "description": "Minority Attack: White plays a4, b4, b5 to attack Black's queenside pawns and create a backward c6 pawn.",
+                    "orientation": "white"
+                }
+            ],
+            "drills": [
+                "Study Queen's Gambit Exchange variations with minority attack",
+                "Practice executing b4-b5 in your games"
+            ],
+            "prevLesson": "05-middlegame-03",
+            "nextLesson": "05-middlegame-05",
+            "estimatedMinutes": 18
+        },
+        {
+            "id": "05-middlegame-05",
+            "moduleId": "05-middlegame",
+            "title": "Transitioning and Advantage Conversion",
+            "content": "# Transitioning and Advantage Conversion\n\n## What is Transitioning?\n\n**Definition**: Moving from one phase of the game to another while maintaining or increasing your advantage.\n\n**Phases**:\n- Opening → Middlegame\n- Middlegame → Endgame\n- Tactical → Positional\n- Attack → Defense\n\n## Converting Advantages\n\n### Material Advantage\n\n**When ahead in material**:\n1. **Trade pieces** (not pawns)\n2. **Simplify** to endgame\n3. **Avoid complications**\n4. **Activate your King** (in endgame)\n\n**Why?** With fewer pieces, your material advantage is more significant.\n\n### Positional Advantage\n\n**When you have better position**:\n1. **Improve your worst piece**\n2. **Create weaknesses** in opponent's camp\n3. **Restrict opponent's pieces**\n4. **Convert to material** or mating attack\n\n**Patience**: Positional advantages take time to convert.\n\n## Common Transitions\n\n### Attack to Endgame\n\n**Scenario**: Your attack isn't quite working.\n\n**Solution**: \n- Trade Queens\n- Simplify to endgame\n- Use your better structure\n\n### Middlegame to Endgame\n\n**When to transition**:\n- You're ahead in material\n- You have better pawn structure\n- Opponent has active pieces (trade them)\n\n**How**:\n1. Trade pieces (especially Queens)\n2. Activate your King\n3. Create passed pawns\n4. Push for promotion\n\n## The Conversion Process\n\n### Step 1: Identify Your Advantage\n- Material?\n- Position?\n- King safety?\n- Pawn structure?\n\n### Step 2: Choose the Right Plan\n- **Material**: Simplify\n- **Position**: Improve pieces\n- **Attack**: Bring more pieces\n- **Structure**: Create passed pawns\n\n### Step 3: Execute Patiently\n- Don't rush\n- Avoid unnecessary risks\n- Maintain your advantage\n- Improve incrementally\n\n## Common Mistakes\n\n**When ahead**:\n- Getting impatient\n- Allowing counterplay\n- Not trading pieces\n- Relaxing too much\n\n**When behind**:\n- Trading pieces (helps opponent)\n- Playing passively\n- Not creating complications\n\n## Practical Tips\n\n**Up material**: Trade pieces, go to endgame\n**Better position**: Improve pieces, create threats\n**Under attack**: Trade Queens, simplify\n**Worse position**: Avoid trades, create complications",
+            "positions": [
+                {
+                    "fen": "4r1k1/pp3ppp/2p5/8/3Rn3/4P3/PP3PPP/4K2R w K - 0 20",
+                    "description": "Converting Advantage: White is up material (Rook for Knight). Trade pieces with Rxe4 and head for winning endgame.",
+                    "orientation": "white"
+                }
+            ],
+            "drills": [
+                "In your next game when ahead, practice trading pieces systematically",
+                "Study endgame conversions in master games"
+            ],
+            "prevLesson": "05-middlegame-04",
+            "estimatedMinutes": 20
+        }
+    ]
+}

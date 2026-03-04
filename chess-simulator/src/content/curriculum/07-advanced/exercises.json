@@ -1,0 +1,155 @@
+{
+    "moduleId": "07-advanced",
+    "exercises": [
+        {
+            "id": "07-advanced-ex-01",
+            "moduleId": "07-advanced",
+            "type": "multiple-choice",
+            "question": "What is an 'exchange sacrifice'?",
+            "options": [
+                "Trading Queens",
+                "Sacrificing a Rook for a Knight or Bishop",
+                "Trading pieces of equal value",
+                "Sacrificing a pawn"
+            ],
+            "correctAnswer": "Sacrificing a Rook for a Knight or Bishop",
+            "explanation": "An exchange sacrifice means giving up a Rook (5 points) for a minor piece - Knight or Bishop (3 points). This is done for positional compensation like destroying a blockade or ruining pawn structure.",
+            "difficulty": 1
+        },
+        {
+            "id": "07-advanced-ex-02",
+            "moduleId": "07-advanced",
+            "type": "multiple-choice",
+            "question": "What is 'the initiative' in chess?",
+            "options": [
+                "Making the first move",
+                "The ability to make threats and force opponent to respond",
+                "Having more pieces",
+                "Controlling the center"
+            ],
+            "correctAnswer": "The ability to make threats and force opponent to respond",
+            "explanation": "The initiative is the ability to dictate the course of the game by making threats. The side with the initiative controls the game's direction and forces the opponent into a reactive, defensive mode.",
+            "difficulty": 1
+        },
+        {
+            "id": "07-advanced-ex-03",
+            "moduleId": "07-advanced",
+            "type": "multiple-choice",
+            "question": "What is 'tree pruning' in chess calculation?",
+            "options": [
+                "Cutting down trees to make chess boards",
+                "Eliminating obviously bad moves to focus on promising ones",
+                "A type of opening",
+                "An endgame technique"
+            ],
+            "correctAnswer": "Eliminating obviously bad moves to focus on promising ones",
+            "explanation": "Tree pruning is the technique of eliminating obviously bad moves from your calculation, allowing you to focus your mental energy on the most promising candidate moves. This makes deep calculation more efficient.",
+            "difficulty": 2
+        },
+        {
+            "id": "07-advanced-ex-04",
+            "moduleId": "07-advanced",
+            "type": "multiple-choice",
+            "question": "When under attack on your King, what is often the best defensive resource?",
+            "options": [
+                "Resign immediately",
+                "Trade Queens to stop the attack",
+                "Attack the opponent's King back",
+                "Move all pieces to defend"
+            ],
+            "correctAnswer": "Trade Queens to stop the attack",
+            "explanation": "Trading Queens is often the best defensive resource when under attack. The Queen is the most powerful attacking piece, so removing it significantly reduces the opponent's attacking potential.",
+            "difficulty": 2
+        },
+        {
+            "id": "07-advanced-ex-05",
+            "moduleId": "07-advanced",
+            "type": "multiple-choice",
+            "question": "What is a 'fortress' in chess?",
+            "options": [
+                "A strong pawn chain",
+                "An unbreakable defensive position",
+                "Castling kingside",
+                "Having more material"
+            ],
+            "correctAnswer": "An unbreakable defensive position",
+            "explanation": "A fortress is a defensive setup that cannot be broken even when down material. Classic example: opposite-colored Bishops with blockaded pawns. The defender can hold a draw despite being behind.",
+            "difficulty": 2
+        },
+        {
+            "id": "07-advanced-ex-06",
+            "moduleId": "07-advanced",
+            "type": "multiple-choice",
+            "question": "What is more important: dynamic factors or static factors?",
+            "options": [
+                "Static factors are always more important",
+                "Dynamic factors are always more important",
+                "It depends on the position - they must be balanced",
+                "Neither matters"
+            ],
+            "correctAnswer": "It depends on the position - they must be balanced",
+            "explanation": "Both dynamic (initiative, activity) and static (structure, material) factors matter. Dynamic compensation can outweigh static disadvantages in the short term, but static advantages tend to persist. The key is understanding the balance in each position.",
+            "difficulty": 2
+        },
+        {
+            "id": "07-advanced-ex-07",
+            "moduleId": "07-advanced",
+            "type": "multiple-choice",
+            "question": "When calculating, what should you assume about your opponent's moves?",
+            "options": [
+                "They will blunder",
+                "They will make the best move",
+                "They will play randomly",
+                "They will copy your moves"
+            ],
+            "correctAnswer": "They will make the best move",
+            "explanation": "Always calculate assuming your opponent will find the best defense. This ensures your plans are sound. If you assume they'll blunder, you'll be disappointed when they don't!",
+            "difficulty": 1
+        },
+        {
+            "id": "07-advanced-ex-08",
+            "moduleId": "07-advanced",
+            "type": "multiple-choice",
+            "question": "What is the best approach to opening preparation?",
+            "options": [
+                "Memorize 25 moves deep in every line",
+                "Understand the plans and ideas behind your openings",
+                "Play random moves",
+                "Copy what grandmasters play without understanding"
+            ],
+            "correctAnswer": "Understand the plans and ideas behind your openings",
+            "explanation": "Understanding plans and ideas is far more valuable than memorizing long variations. Memorization fails when opponents deviate, but understanding allows you to find good moves in any position.",
+            "difficulty": 1
+        },
+        {
+            "id": "07-advanced-ex-09",
+            "moduleId": "07-advanced",
+            "type": "multiple-choice",
+            "question": "After making a blunder, what should you do?",
+            "options": [
+                "Resign immediately",
+                "Get angry and play aggressively",
+                "Reset mentally and focus on the current position",
+                "Give up and play randomly"
+            ],
+            "correctAnswer": "Reset mentally and focus on the current position",
+            "explanation": "After a blunder, reset mentally and focus on the current position. Don't panic or tilt. Your opponent might blunder back, or you might find defensive resources. Fighting back is always better than giving up!",
+            "difficulty": 1
+        },
+        {
+            "id": "07-advanced-ex-10",
+            "moduleId": "07-advanced",
+            "type": "multiple-choice",
+            "question": "What is the 'growth mindset' in chess?",
+            "options": [
+                "Believing you can't improve",
+                "Believing improvement comes through practice and learning",
+                "Only playing when you're winning",
+                "Avoiding difficult positions"
+            ],
+            "correctAnswer": "Believing improvement comes through practice and learning",
+            "explanation": "The growth mindset is believing that you can improve through effort, practice, and learning from mistakes. It's saying 'I'm not good at this YET' instead of 'I'm not good at this.' This mindset is essential for long-term improvement.",
+            "difficulty": 1
+        }
+    ]
+}

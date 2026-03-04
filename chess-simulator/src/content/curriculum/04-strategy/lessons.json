@@ -1,0 +1,113 @@
+{
+    "moduleId": "04-strategy",
+    "lessons": [
+        {
+            "id": "04-strategy-01",
+            "moduleId": "04-strategy",
+            "title": "Evaluation: Material, King Safety, Activity, Structure",
+            "content": "# Evaluation: Material, King Safety, Activity, Structure\n\nTo form a plan, you must know **who is winning and why**.\n\n**Imbalances** are the differences between your position and the opponent's.\n\n## The 4 Main Factors of Evaluation\n\n### 1. Material (The \"Count\")\n\n**Point Values**:\n- Pawn = 1\n- Knight = 3\n- Bishop = 3\n- Rook = 5\n- Queen = 9\n\n**Basic math**: If you are down a Rook, you are losing unless you have immediate mate.\n\n### 2. King Safety\n\n- A King in the center is a target\n- Damaged pawn shield (e.g., pushed f-pawn) is weak\n- **Golden Rule**: Material doesn't matter if you get checkmated\n\n**Signs of King Danger**:\n- King hasn't castled (move 10+)\n- Pawns in front of King have moved\n- Opponent has pieces aimed at your King\n\n### 3. Piece Activity\n\n- **Good pieces** control many squares and attack targets\n- **Bad pieces** are stuck behind pawns or doing nothing\n- **Rule**: An active Knight can be better than a passive Rook\n\n**Activity Checklist**:\n- Are my pieces on good squares?\n- Can they reach important targets?\n- Are they coordinating with each other?\n\n### 4. Pawn Structure\n\n**Weaknesses**:\n- Doubled pawns\n- Isolated pawns\n- Backward pawns\n\nThese are **long-term problems** that persist throughout the game.\n\n## Evaluation Hierarchy\n\n1. **King Safety** (most urgent)\n2. **Material** (concrete advantage)\n3. **Activity** (dynamic factors)\n4. **Structure** (long-term factors)\n\n## Practical Application\n\nWhen evaluating a position, ask:\n1. Is anyone's King in danger?\n2. Who has more material?\n3. Whose pieces are more active?\n4. Who has better pawn structure?",
+            "positions": [
+                {
+                    "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+                    "description": "Evaluate: White has better development (2 pieces vs 2), center control (e4), and plans to castle. Material is equal.",
+                    "orientation": "white"
+                }
+            ],
+            "drills": [
+                "Open any game in a book/database. Cover the moves. Guess the evaluation (+/-) based on these 4 factors.",
+                "In your next game, pause every 5 moves and evaluate using all 4 factors"
+            ],
+            "nextLesson": "04-strategy-02",
+            "estimatedMinutes": 20
+        },
+        {
+            "id": "04-strategy-02",
+            "moduleId": "04-strategy",
+            "title": "Pawn Structures and Plans",
+            "content": "# Pawn Structures and Plans\n\n**Pawns are the soul of chess.** They determine where the pieces go.\n\n## Common Structures\n\n### 1. The Pawn Chain\n\n**Definition**: Connected pawns forming a diagonal chain.\n\n**Key Rule**: **Attack the base of the chain**\n\n**Example**: White pawns on d4, e5 (pointing to Kingside)\n- White should attack Kingside\n- Black should attack d4 (the base) with ...c5 or ...f6\n\n### 2. Doubled Pawns\n\n**Definition**: Two pawns of the same color on the same file.\n\n**Bad**:\n- They can't defend each other\n- Hard to advance\n- Create weaknesses\n\n**Good**:\n- Open a file for your Rooks\n- Control more central squares (sometimes)\n- Can provide piece activity\n\n### 3. Isolated Pawn (Isolani)\n\n**Definition**: A pawn with no friendly pawns on adjacent files.\n\n**Weakness**: Must be defended by pieces\n**Strength**: Supports piece activity in the center\n\n**Classic Example**: Isolated Queen Pawn (IQP) on d4\n- Gives active piece play\n- Becomes weak in the endgame\n\n## Pawn Breaks\n\n**Definition**: A pawn move that attacks an enemy pawn to open lines.\n\n**Examples**:\n- ...c5 in the French Defense\n- ...f5 in the King's Indian\n- d4-d5 in many positions\n\n**Why They Matter**: You **need** pawn breaks to create winning chances!\n\n## Strategic Principles\n\n1. **Identify the pawn structure** early\n2. **Find the appropriate pawn break**\n3. **Prepare the break** with piece placement\n4. **Execute when ready**\n\n## Common Plans by Structure\n\n**Pawn Chain**: Attack the base\n**Isolated Pawn**: Attack it in the endgame, use it for activity in the middlegame\n**Doubled Pawns**: Exploit the weak squares around them",
+            "positions": [
+                {
+                    "fen": "rnbqkbnr/pp3ppp/4p3/2ppP3/3P4/2N5/PPP2PPP/R1BQKBNR w KQkq d6 0 4",
+                    "description": "French Defense Pawn Chain: White e5-d4, Black e6-d5. Black should attack the base with ...c5!",
+                    "orientation": "white"
+                },
+                {
+                    "fen": "r1bqkbnr/pp3ppp/2n1p3/2ppP3/3P4/2N2N2/PPP2PPP/R1BQKB1R b KQkq - 1 4",
+                    "description": "Isolated Queen Pawn will appear after exd5 exd5 cxd4. The d5 pawn has no c or e pawn support.",
+                    "orientation": "white"
+                }
+            ],
+            "drills": [
+                "Find a 'French Defense' game. Identify the pawn chains and the breaks.",
+                "In your next 5 games, identify the pawn structure by move 15"
+            ],
+            "prevLesson": "04-strategy-01",
+            "nextLesson": "04-strategy-03",
+            "estimatedMinutes": 18
+        },
+        {
+            "id": "04-strategy-03",
+            "moduleId": "04-strategy",
+            "title": "Good vs Bad Bishops, Knights, and Outposts",
+            "content": "# Good vs Bad Bishops, Knights, and Outposts\n\n## Good Bishop vs Bad Bishop\n\n### Bad Bishop\n\n**Definition**: A Bishop blocked by its own pawns.\n\n**Example**: White has pawns on d4, e5, f4 (all on light squares). White's light-squared Bishop is \"bad\" - it can't move freely.\n\n**How to Fix**:\n- Trade it for an enemy piece\n- Reposition your pawns\n- Put it outside the pawn chain\n\n### Good Bishop\n\n**Definition**: A Bishop with open diagonals and freedom to move.\n\n**Characteristics**:\n- Not blocked by own pawns\n- Controls important squares\n- Can switch between attack and defense\n\n## Knights and Outposts\n\n### Outpost\n\n**Definition**: A square that:\n1. Cannot be attacked by enemy pawns\n2. Is protected by your pawn\n3. Is deep in enemy territory\n\n**Perfect Outpost**: e5 or d5 (for White), e4 or d4 (for Black)\n\n**Why Knights Love Outposts**:\n- Knights are short-range pieces\n- An outpost Knight is incredibly strong\n- Hard to remove without trades\n\n### Knight vs Bishop\n\n**Knights are better when**:\n- Closed position (pawns locked)\n- They have an outpost\n- Fighting against a bad Bishop\n\n**Bishops are better when**:\n- Open position\n- Pawns on both sides of the board\n- Long-range attacks needed\n\n## Practical Tips\n\n1. **Identify bad pieces** (yours and opponent's)\n2. **Trade your bad pieces** for their good ones\n3. **Create outposts** for your Knights\n4. **Prevent opponent's outposts**",
+            "positions": [
+                {
+                    "fen": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/4P3/2NP1N2/PPP1BPPP/R1BQ1RK1 w - - 0 7",
+                    "description": "White's light-squared Bishop on e2 is passive (blocked by e4,d3 pawns). Black's dark Bishop on c5 is active.",
+                    "orientation": "white"
+                },
+                {
+                    "fen": "r2qkb1r/ppp2ppp/2np1n2/4p1B1/2B1P1b1/2NP1N2/PPP2PPP/R2QK2R w KQkq - 0 6",
+                    "description": "Knight Outpost: After ...d6, the e5 square becomes a perfect outpost for White's Knight (no Black pawns can attack it).",
+                    "orientation": "white"
+                }
+            ],
+            "drills": [
+                "In your next game, identify which Bishop is 'bad' by move 15",
+                "Look for outpost squares for your Knights"
+            ],
+            "prevLesson": "04-strategy-02",
+            "nextLesson": "04-strategy-04",
+            "estimatedMinutes": 18
+        },
+        {
+            "id": "04-strategy-04",
+            "moduleId": "04-strategy",
+            "title": "Space and Piece Improvement",
+            "content": "# Space and Piece Improvement\n\n## Space Advantage\n\n**Definition**: Controlling more squares on the board.\n\n**How to Measure**: Count the squares you control vs opponent.\n\n### When You Have More Space\n\n**Strategy**: **Keep pieces on the board**\n- Your pieces have room to maneuver\n- Opponent's pieces are cramped\n- Avoid trades (they relieve opponent's cramping)\n\n### When You Have Less Space\n\n**Strategy**: **Trade pieces**\n- Reduces cramping\n- Easier to defend with fewer pieces\n- Aim for a drawable endgame\n\n## Piece Improvement\n\n**Concept**: Making your worst piece better.\n\n**The Process**:\n1. **Identify your worst piece** (passive, doing nothing)\n2. **Find a better square** for it\n3. **Maneuver it there** (may take several moves)\n4. **Repeat** with next worst piece\n\n### Example\n\nYour Bishop on c1 is blocked by pawns:\n- Plan: Bc1-d2-e3-f4 (improving)\n- Or: Bc1-e3-g5 (active diagonal)\n\n## Improving Your Position\n\n**When you don't have tactics**:\n1. Improve your worst piece\n2. Increase your space\n3. Fix pawn weaknesses\n4. Improve King safety\n\n**Patience**: Sometimes you need 5-10 \"quiet\" moves to improve before attacking!\n\n## Key Principles\n\n- **More space** = Keep pieces, avoid trades\n- **Less space** = Trade pieces, seek simplification\n- **Always** look to improve your worst piece\n- **Strategic chess** is about small improvements over time",
+            "positions": [
+                {
+                    "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2BPP3/2N2N2/PPP2PPP/R1BQK2R b KQkq d3 0 4",
+                    "description": "Space: White controls more center squares with e4+d4. White's pieces have more room to maneuver.",
+                    "orientation": "white"
+                }
+            ],
+            "drills": [
+                "In your next game, identify your worst piece every 5 moves",
+                "Practice improving a bad piece over 3-4 moves"
+            ],
+            "prevLesson": "04-strategy-03",
+            "nextLesson": "04-strategy-05",
+            "estimatedMinutes": 15
+        },
+        {
+            "id": "04-strategy-05",
+            "moduleId": "04-strategy",
+            "title": "Prophylaxis and Planning",
+            "content": "# Prophylaxis and Planning\n\n## What is Prophylaxis?\n\n**Definition**: Preventing your opponent's plans before they happen.\n\n**Coined by**: Aron Nimzowitsch\n\n**The Idea**: \"Stop their plan, then execute yours.\"\n\n## How to Use Prophylaxis\n\n### Step 1: Ask \"What is my opponent trying to do?\"\n\n**Look for**:\n- Pawn breaks they want to play\n- Piece improvements they're planning\n- Attacks they're preparing\n\n### Step 2: Prevent It\n\n**Methods**:\n- Control the key square\n- Block the plan with a piece\n- Create a counter-threat\n\n### Example\n\nOpponent wants to play ...e5 (pawn break):\n- **Prophylaxis**: Play Nf3 or Bd3 to control e5\n- **Result**: Their plan is stopped\n\n## Strategic Planning\n\n### The 3-Step Process\n\n1. **Evaluate** the position (4 factors)\n2. **Identify** imbalances and plans\n3. **Execute** your plan move by move\n\n### Common Plans\n\n**Based on Structure**:\n- Attack pawn weaknesses\n- Create pawn breaks\n- Improve piece placement\n\n**Based on King Position**:\n- Attack the King\n- Improve King safety\n- Trade pieces if under attack\n\n**Based on Material**:\n- If ahead: Trade pieces, go to endgame\n- If behind: Avoid trades, create complications\n\n## Practical Application\n\n**Before each move, ask**:\n1. What is my opponent's threat?\n2. Should I stop it (prophylaxis)?\n3. Or do I have a stronger plan?\n\n**Balance**: Sometimes your attack is faster than their plan!\n\n## Key Principles\n\n- **Think about opponent's plans**, not just your own\n- **Prophylaxis** is often the strongest move\n- **Planning** requires understanding imbalances\n- **Flexibility**: Be ready to change plans when the position changes",
+            "positions": [
+                {
+                    "fen": "r1bq1rk1/ppp1bppp/2np1n2/4p3/2B1P3/2NP1N2/PPP2PPP/R1BQ1RK1 w - - 0 7",
+                    "description": "Prophylaxis: Black wants to play ...d5. White can prevent it with Bg5 (pinning Nf6) or Re1 (supporting e4).",
+                    "orientation": "white"
+                }
+            ],
+            "drills": [
+                "Before each move in your next game, ask: 'What does my opponent want to do?'",
+                "Practice identifying opponent's plans in master games"
+            ],
+            "prevLesson": "04-strategy-04",
+            "estimatedMinutes": 18
+        }
+    ]
+}

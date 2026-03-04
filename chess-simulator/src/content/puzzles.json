@@ -1,0 +1,53 @@
+[
+    {
+        "id": "001",
+        "fen": "r1bqkbnr/pppp1ppp/2n5/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 3 3",
+        "sideToMove": "b",
+        "goal": "mate_in_1_prevention",
+        "solutionMoves": [
+            "g8h6",
+            "d8e7"
+        ],
+        "tags": [
+            "defense",
+            "opening"
+        ],
+        "difficulty": "Easy",
+        "hints": [
+            "Defend f7!"
+        ]
+    },
+    {
+        "id": "002",
+        "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w KQkq - 4 4",
+        "sideToMove": "w",
+        "goal": "mate_in_1",
+        "solutionMoves": [
+            "h5f7"
+        ],
+        "tags": [
+            "mate",
+            "opening"
+        ],
+        "difficulty": "Easy",
+        "hints": [
+            "Scholar's Mate pattern."
+        ]
+    },
+    {
+        "id": "003",
+        "fen": "rnbqkb1r/pp1ppppp/5n2/2p5/2P5/5N2/PP1PPPPP/RNBQKB1R w KQkq - 2 3",
+        "sideToMove": "w",
+        "goal": "gain_control",
+        "solutionMoves": [
+            "g2g3"
+        ],
+        "tags": [
+            "positional"
+        ],
+        "difficulty": "Medium",
+        "hints": [
+            "Fianchetto setup."
+        ]
+    }
+]

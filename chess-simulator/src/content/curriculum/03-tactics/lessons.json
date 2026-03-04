@@ -1,0 +1,110 @@
+{
+    "moduleId": "03-tactics",
+    "lessons": [
+        {
+            "id": "03-tactics-01",
+            "moduleId": "03-tactics",
+            "title": "Tactical Motifs: Forks, Pins, Skewers",
+            "content": "# Tactical Motifs: Forks, Pins, Skewers\n\nTactics are short-term sequences that win material or deliver checkmate. Mastering these patterns is essential for improving your chess.\n\n## 1. The Fork (Double Attack)\n\nOne piece attacks two enemy pieces at the same time. The opponent can only save one.\n\n**Key Points**:\n- **Best Forker**: The **Knight** (because of its unique L-shaped move)\n- **Target**: King and Queen (\"The Royal Fork\")\n- **Tip**: Always look for checks that also attack a loose piece\n\n**Example**: A Knight on d5 can fork a King on e7 and a Queen on b4 simultaneously.\n\n## 2. The Pin\n\nA piece is attacked and **cannot move** (or shouldn't move) because a more valuable piece is behind it.\n\n**Types of Pins**:\n- **Absolute Pin**: The King is behind - the piece literally cannot move legally\n- **Relative Pin**: A Queen or Rook is behind - the piece can move but you'd lose the valuable piece\n\n**The Phrase**: \"Pin and Win\" - Once a piece is pinned, you can often pile up attackers on it.\n\n## 3. The Skewer (Reverse Pin)\n\nThe **more valuable** piece is in front. It must move, exposing the piece behind it.\n\n**Example**: \n- Rook gives check to the King\n- King must move\n- Rook captures the Queen that was behind the King\n\n## Recognition Tips\n\n**Fork**: Look for pieces that can attack multiple targets in one move\n**Pin**: Look for pieces lined up on the same file, rank, or diagonal\n**Skewer**: Like a pin, but the valuable piece is in front\n\n## Common Patterns\n\n- Knight forks are most common in the center\n- Bishops and Rooks create pins on long diagonals and files\n- Queen skewers are devastating when the King is exposed",
+            "positions": [
+                {
+                    "fen": "4k3/8/8/3N4/8/1q6/8/4K3 w - - 0 1",
+                    "description": "Royal Fork: The Knight on d5 forks the King on e8 and Queen on b3",
+                    "orientation": "white"
+                },
+                {
+                    "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/4P3/3P1N2/PPP1BPPP/RNBQK2R w KQkq - 0 5",
+                    "description": "Pin: If White plays Bg5, the Bishop pins the Knight on f6 to the Queen on d8",
+                    "orientation": "white"
+                }
+            ],
+            "drills": [
+                "Go to Lichess → Learn → Practice → Basic Tactics",
+                "Solve 5 Fork puzzles, 5 Pin puzzles, 5 Skewer puzzles",
+                "In your next game, actively look for fork opportunities with your Knights"
+            ],
+            "nextLesson": "03-tactics-02",
+            "estimatedMinutes": 20
+        },
+        {
+            "id": "03-tactics-02",
+            "moduleId": "03-tactics",
+            "title": "Discovered Attacks and Double Check",
+            "content": "# Discovered Attacks and Double Check\n\n## Discovered Attack\n\nWhen you move one piece, it **uncovers** an attack from another piece behind it.\n\n**Why It's Powerful**:\n- The moving piece can attack something valuable\n- The uncovered piece also attacks something\n- Your opponent must deal with TWO threats\n\n**Classic Example**:\n- Bishop on c1, Rook on e1, enemy King on e8\n- Move the Bishop with check (e.g., Bc4+)\n- This discovers an attack from the Rook on the King\n- While the King moves, you can capture something with the Bishop\n\n## Discovered Check\n\nA discovered attack where the uncovered piece gives **check**.\n\n**Why It's Devastating**:\n- Your opponent MUST respond to the check\n- Your moving piece can capture anything with impunity\n- Often wins material by force\n\n## Double Check\n\nBoth the moving piece AND the uncovered piece give check simultaneously.\n\n**The Rule**: Against a double check, the King MUST move. You cannot block or capture.\n\n**Why It's Rare and Powerful**:\n- Forces the King to move\n- Often leads to checkmate\n- The most forcing move in chess\n\n## Practical Tips\n\n1. **Look for pieces on the same line** (file, rank, diagonal)\n2. **Check if moving one reveals an attack** from the other\n3. **Discovered checks are almost always worth considering**\n4. **Double checks often lead to immediate tactical wins**\n\n## Common Patterns\n\n- Rook and Bishop on the same diagonal\n- Queen and Rook on the same file\n- Bishop and Queen on the same diagonal",
+            "positions": [
+                {
+                    "fen": "4k3/8/8/8/2B5/8/8/4R2K w - - 0 1",
+                    "description": "Discovered Check: Moving the Bishop (e.g., Bd5+) discovers check from the Rook",
+                    "orientation": "white"
+                }
+            ],
+            "drills": [
+                "Solve 10 discovered attack puzzles on chess.com or lichess",
+                "In your games, look for pieces aligned on the same line"
+            ],
+            "prevLesson": "03-tactics-01",
+            "nextLesson": "03-tactics-03",
+            "estimatedMinutes": 18
+        },
+        {
+            "id": "03-tactics-03",
+            "moduleId": "03-tactics",
+            "title": "Deflection, Decoy, and Overloading",
+            "content": "# Deflection, Decoy, and Overloading\n\nThese are advanced tactical themes that force your opponent's pieces away from their defensive duties.\n\n## Deflection\n\nForcing an enemy piece to **leave** a critical square or defensive task.\n\n**Example**:\n- Enemy Rook defends the back rank\n- You sacrifice your Queen to deflect the Rook\n- Then deliver back rank mate with your Rook\n\n**Key Idea**: \"If only that defender wasn't there...\"\n\n## Decoy\n\nLuring an enemy piece **to** a bad square.\n\n**Example**:\n- You sacrifice a piece on a square\n- The enemy King captures it\n- Now the King is on a square where it can be checkmated\n\n**Key Idea**: \"If only their King was on that square...\"\n\n## Overloading\n\nA piece is defending **too many things** at once. Attack one, and the other falls.\n\n**Example**:\n- Enemy Queen defends both a Rook and a Bishop\n- You attack the Rook\n- If the Queen saves the Rook, you take the Bishop\n- If the Queen saves the Bishop, you take the Rook\n\n**Key Idea**: \"That piece can't be in two places at once!\"\n\n## Recognition\n\n**Deflection**: Look for overworked defenders\n**Decoy**: Look for weak squares near the enemy King\n**Overloading**: Count how many pieces one defender is protecting\n\n## Practical Application\n\n1. **Identify the defender** - What piece is protecting your target?\n2. **Can you remove it?** - Deflection or capture\n3. **Can you overload it?** - Attack multiple targets\n4. **Can you lure it away?** - Decoy sacrifice",
+            "positions": [
+                {
+                    "fen": "r2qk2r/ppp2ppp/2nb1n2/3pp1B1/2B1P1b1/3P1N2/PPP2PPP/RN1QK2R w KQkq - 0 7",
+                    "description": "Deflection: White's Rook on h1 eyes h7. If we can deflect the Knight from f6...",
+                    "orientation": "white"
+                }
+            ],
+            "drills": [
+                "Solve 5 deflection puzzles",
+                "Practice identifying overloaded pieces in your games"
+            ],
+            "prevLesson": "03-tactics-02",
+            "nextLesson": "03-tactics-04",
+            "estimatedMinutes": 15
+        },
+        {
+            "id": "03-tactics-04",
+            "moduleId": "03-tactics",
+            "title": "Interference and Removing the Defender",
+            "content": "# Interference and Removing the Defender\n\n## Removing the Defender\n\nThe most direct tactical theme: **eliminate the piece that's protecting your target**.\n\n**Methods**:\n1. **Capture it** - Trade pieces to remove the defender\n2. **Deflect it** - Force it to move away\n3. **Pin it** - Make it unable to defend\n\n**Example**:\n- Enemy Knight defends a Queen\n- You capture the Knight (even if you lose your piece)\n- Then capture the now-undefended Queen\n- Net gain: Queen for two minor pieces\n\n## Interference\n\nBlocking the connection between a defender and the piece it's protecting.\n\n**Example**:\n- Enemy Rook on a1 defends a piece on a8\n- You play a piece to a4 (blocking the a-file)\n- Now the Rook can't defend the piece on a8\n- You capture it\n\n**Key Idea**: \"Cut the communication line\"\n\n## Practical Tips\n\n1. **Always ask**: \"What's defending that piece?\"\n2. **If you can remove the defender**, calculate if it's worth it\n3. **Look for pieces on the same line** (potential interference)\n4. **Combinations often involve removing multiple defenders**\n\n## Common Patterns\n\n- Removing a defender with a sacrifice\n- Interfering with a Rook's defense along a file\n- Pinning a defender so it can't move\n\n## The Calculation\n\nWhen removing a defender:\n1. What do I give up to remove it?\n2. What do I win after removing it?\n3. Is the trade favorable?",
+            "positions": [
+                {
+                    "fen": "r1b1k2r/ppppqppp/2n2n2/4p3/2B1P3/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 0 5",
+                    "description": "The Knight on f6 defends h7. Removing it (Bxf6) would expose the King.",
+                    "orientation": "white"
+                }
+            ],
+            "drills": [
+                "In your next 5 games, before capturing anything, ask: 'What's defending it?'",
+                "Solve 5 'removing the defender' puzzles"
+            ],
+            "prevLesson": "03-tactics-03",
+            "nextLesson": "03-tactics-05",
+            "estimatedMinutes": 15
+        },
+        {
+            "id": "03-tactics-05",
+            "moduleId": "03-tactics",
+            "title": "Calculation and Candidate Moves",
+            "content": "# Calculation and Candidate Moves\n\n## What is Calculation?\n\nVisualizing moves in your head **without moving the pieces**.\n\n**The Process**: \"If I go there, they go there, then I go there...\"\n\n## Candidate Moves\n\nBefore you calculate deeply, **list your options**.\n\n**Don't just look at the first move you see!**\n\n**Kotov's Method**:\n1. Find 3-4 possible moves (\"Candidates\")\n2. Calculate each one to the end of the forcing sequence\n3. Choose the best one\n\n## The CCT Method (Checks, Captures, Threats)\n\nWhen looking for candidate moves, prioritize:\n\n1. **Checks**: Always look at checks first (they force a response)\n2. **Captures**: Look at every capture\n3. **Threats**: Moves that create a mate threat or attack valuable pieces\n\n**Why This Order?**\n- Checks are the most forcing\n- Captures change the material balance\n- Threats create problems for your opponent\n\n## Calculation Depth\n\n**Beginner**: Calculate 1-2 moves ahead\n**Intermediate**: Calculate 3-4 moves ahead\n**Advanced**: Calculate 5+ moves ahead in forcing lines\n\n**Forcing moves**: Checks, captures, threats that demand a response\n\n## The Blunder Check\n\nOnce you find a move, do a **Blunder Check**:\n\n\"If I play this, does my opponent have:\n- A mate in 1?\n- A check that wins material?\n- A counter-tactic?\"\n\n## Practical Tips\n\n1. **Sit on your hands** (literally) to prevent impulsive moves\n2. **Calculate forcing sequences first** (checks and captures)\n3. **Look for your opponent's threats** before making your move\n4. **Visualize the position after each move** in your head\n\n## Common Mistakes\n\n- Playing the first move you see\n- Not considering opponent's best response\n- Stopping calculation too early\n- Forgetting to check for counter-tactics",
+            "positions": [
+                {
+                    "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w KQkq - 4 4",
+                    "description": "Candidate Moves: White has Qxf7# (Scholar's Mate). Always check for Checks first!",
+                    "orientation": "white"
+                }
+            ],
+            "drills": [
+                "Pick a puzzle. Don't move until you see the solution FULLY in your head",
+                "In your next game, find 3 candidate moves before choosing one",
+                "Practice the CCT method: Checks, Captures, Threats"
+            ],
+            "prevLesson": "03-tactics-04",
+            "estimatedMinutes": 20
+        }
+    ]
+}

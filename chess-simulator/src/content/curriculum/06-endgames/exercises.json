@@ -1,0 +1,125 @@
+{
+    "moduleId": "06-endgames",
+    "exercises": [
+        {
+            "id": "06-endgames-ex-01",
+            "moduleId": "06-endgames",
+            "type": "multiple-choice",
+            "question": "In King and Pawn endgames, what is 'the opposition'?",
+            "options": [
+                "When Kings are on opposite sides of the board",
+                "When two Kings face each other with one square in between",
+                "When one King is more active",
+                "When pawns are facing each other"
+            ],
+            "correctAnswer": "When two Kings face each other with one square in between",
+            "explanation": "The opposition occurs when two Kings face each other with exactly one square between them. The side that does NOT have to move has the opposition and can force the opponent's King to retreat.",
+            "difficulty": 2
+        },
+        {
+            "id": "06-endgames-ex-02",
+            "moduleId": "06-endgames",
+            "type": "multiple-choice",
+            "question": "In the Lucena position, what is the winning technique called?",
+            "options": [
+                "The ladder",
+                "Building a bridge",
+                "The opposition",
+                "The square"
+            ],
+            "correctAnswer": "Building a bridge",
+            "explanation": "'Building a bridge' is the winning technique in the Lucena position. You use your Rook on the 4th rank to shield your King from checks, allowing the pawn to promote.",
+            "difficulty": 2
+        },
+        {
+            "id": "06-endgames-ex-03",
+            "moduleId": "06-endgames",
+            "type": "multiple-choice",
+            "question": "In Rook endgames, where should you place your Rook relative to a passed pawn?",
+            "options": [
+                "In front of the pawn",
+                "Behind the pawn",
+                "Next to the pawn",
+                "It doesn't matter"
+            ],
+            "correctAnswer": "Behind the pawn",
+            "explanation": "Rooks belong behind passed pawns! Whether it's your pawn (to support its advance) or the enemy's pawn (to attack it as it advances), the Rook is most effective from behind.",
+            "difficulty": 1
+        },
+        {
+            "id": "06-endgames-ex-04",
+            "moduleId": "06-endgames",
+            "type": "multiple-choice",
+            "question": "Why are opposite-colored Bishop endgames often drawn?",
+            "options": [
+                "Bishops are weak in endgames",
+                "The defending Bishop controls squares the attacking Bishop can't reach",
+                "Kings can't move",
+                "Pawns can't advance"
+            ],
+            "correctAnswer": "The defending Bishop controls squares the attacking Bishop can't reach",
+            "explanation": "In opposite-colored Bishop endgames, each Bishop controls different colored squares. The defender can often blockade pawns on their Bishop's color, making it very difficult to win even with a pawn advantage.",
+            "difficulty": 2
+        },
+        {
+            "id": "06-endgames-ex-05",
+            "moduleId": "06-endgames",
+            "type": "multiple-choice",
+            "question": "What is the most common drawing resource in Queen endgames?",
+            "options": [
+                "Stalemate",
+                "Perpetual check",
+                "Fortress",
+                "Insufficient material"
+            ],
+            "correctAnswer": "Perpetual check",
+            "explanation": "Perpetual check is the most common drawing resource in Queen endgames. The Queen's long-range power allows it to give continuous checks to an exposed King, even when down material.",
+            "difficulty": 1
+        },
+        {
+            "id": "06-endgames-ex-06",
+            "moduleId": "06-endgames",
+            "type": "multiple-choice",
+            "question": "In endgames, what should you do with your King?",
+            "options": [
+                "Keep it safe on the back rank",
+                "Activate it and centralize it",
+                "Castle it",
+                "Hide it behind pawns"
+            ],
+            "correctAnswer": "Activate it and centralize it",
+            "explanation": "In the endgame, the King is a fighting piece! Activate it, centralize it, and use it to support your pawns and attack enemy pawns. A passive King is a common endgame mistake.",
+            "difficulty": 1
+        },
+        {
+            "id": "06-endgames-ex-07",
+            "moduleId": "06-endgames",
+            "type": "multiple-choice",
+            "question": "What is the 'Principle of Two Weaknesses'?",
+            "options": [
+                "Having two weak pawns",
+                "Creating threats on both sides of the board to overwhelm the defender",
+                "Having two weak pieces",
+                "Making two mistakes in a row"
+            ],
+            "correctAnswer": "Creating threats on both sides of the board to overwhelm the defender",
+            "explanation": "The Principle of Two Weaknesses states that one weakness can be defended, but two weaknesses on opposite sides of the board cannot. Create threats on both flanks to overwhelm your opponent's defenses.",
+            "difficulty": 2
+        },
+        {
+            "id": "06-endgames-ex-08",
+            "moduleId": "06-endgames",
+            "type": "multiple-choice",
+            "question": "When is a Bishop better than a Knight in the endgame?",
+            "options": [
+                "In closed positions",
+                "In open positions with pawns on both sides",
+                "When there's an outpost",
+                "Never - Knights are always better"
+            ],
+            "correctAnswer": "In open positions with pawns on both sides",
+            "explanation": "Bishops are better in open positions with pawns on both sides of the board. The Bishop's long-range power allows it to attack on both flanks, while the Knight is slow and short-range.",
+            "difficulty": 2
+        }
+    ]
+}

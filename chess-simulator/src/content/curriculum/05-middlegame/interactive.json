@@ -1,0 +1,189 @@
+{
+    "moduleId": "05-middlegame",
+    "lessons": [
+        {
+            "id": "05-middlegame-i01",
+            "lessonId": "05-middlegame-01",
+            "moduleId": "05-middlegame",
+            "title": "The Greek Gift Sacrifice (Bxh7+)",
+            "description": "Execute the famous Greek Gift sacrifice to attack the castled King.",
+            "mode": "guided",
+            "initialFen": "r1bq1rk1/pppn1ppp/4pn2/3p2B1/1bBP4/2N1PN2/PPP2PPP/R2QK2R w KQ - 0 7",
+            "playerColor": "white",
+            "steps": [
+                {
+                    "instruction": "The conditions for the Greek Gift are met! Black King on g8, our Bc4 can reach h7, we have Queen and Knight ready. Sacrifice with Bxh7+!",
+                    "expectedMove": "Bxh7+",
+                    "feedback": {
+                        "correct": "BOOM! The Greek Gift sacrifice! Black must take with Kxh7.",
+                        "incorrect": "Play Bxh7+! The famous Greek Gift sacrifice - all conditions are met!"
+                    },
+                    "highlight": [
+                        "h7",
+                        "g8"
+                    ],
+                    "computerMove": "Kxh7"
+                },
+                {
+                    "instruction": "Black took the Bishop. Now jump Ng5+! Attack the exposed King with a discovered check!",
+                    "expectedMove": "Ng5+",
+                    "feedback": {
+                        "correct": "The Knight joins the attack with check! The King is exposed.",
+                        "incorrect": "Play Ng5+ - the Knight attacks with check, opening the Queen's path to h5."
+                    },
+                    "computerMove": "Kg8"
+                },
+                {
+                    "instruction": "The King retreats. Now bring in the Queen! Play Qh5 threatening Qh7# and Qxf7#!",
+                    "expectedMove": "Qh5",
+                    "feedback": {
+                        "correct": "Devastating! Qh5 threatens Qh7# and Qxf7#. Black can't defend both threats!",
+                        "incorrect": "Play Qh5 - the Queen joins the attack with multiple mate threats!"
+                    },
+                    "arrows": [
+                        {
+                            "from": "h5",
+                            "to": "h7"
+                        },
+                        {
+                            "from": "h5",
+                            "to": "f7"
+                        }
+                    ]
+                }
+            ],
+            "successMessage": "You've executed the Greek Gift sacrifice! Pattern: Bxh7+ Kxh7 Ng5+ Kg8 Qh5 with a winning attack!",
+            "hints": [
+                "Requirements: King on g8, Bishop reaches h7, Queen+Knight ready",
+                "After Bxh7+ Kxh7, the Knight must jump to g5 with check",
+                "The Queen comes to h5 threatening Qh7# and Qxf7#"
+            ],
+            "estimatedMinutes": 4,
+            "difficulty": 3
+        },
+        {
+            "id": "05-middlegame-i02",
+            "lessonId": "05-middlegame-02",
+            "moduleId": "05-middlegame",
+            "title": "The IQP d4-d5 Break",
+            "description": "Find the right moment to push d4-d5 in an Isolated Queen Pawn position.",
+            "mode": "puzzle",
+            "initialFen": "r2q1rk1/pp2bppp/2n1pn2/3p4/3P1B2/2NBPN2/PP3PPP/R2Q1RK1 w - - 0 10",
+            "playerColor": "white",
+            "steps": [
+                {
+                    "instruction": "You have an IQP on d4. Black's pieces are slightly uncoordinated. The e6 pawn is weak. Find the pawn break!",
+                    "expectedMove": "d5",
+                    "feedback": {
+                        "correct": "YES! d5! This pawn break opens lines. After exd5, your pieces become extremely active on the open files and diagonals. The IQP's power unleashed!",
+                        "incorrect": "The key IQP break is d4-d5! Push d5 to open the position while Black is uncoordinated."
+                    },
+                    "highlight": [
+                        "d4",
+                        "d5"
+                    ]
+                }
+            ],
+            "successMessage": "The d4-d5 break is the IQP's secret weapon. Time it when your pieces are active and the opponent is uncoordinated!",
+            "hints": [
+                "The key IQP break is d4-d5",
+                "Push when your pieces support the break",
+                "After d5, the position opens up for your active pieces"
+            ],
+            "estimatedMinutes": 2,
+            "difficulty": 3
+        },
+        {
+            "id": "05-middlegame-i03",
+            "lessonId": "05-middlegame-04",
+            "moduleId": "05-middlegame",
+            "title": "Execute the Minority Attack",
+            "description": "Learn how to execute the Minority Attack with b4-b5 to create weaknesses.",
+            "mode": "guided",
+            "initialFen": "r1bq1rk1/pp1nbppp/2p1pn2/3p4/2PP4/2NBPN2/PP3PPP/R1BQ1RK1 w - - 0 8",
+            "playerColor": "white",
+            "steps": [
+                {
+                    "instruction": "You have fewer queenside pawns (a2, b2) vs Black's (a7, b7, c6). Start the minority attack! Play a4 to prepare b4-b5.",
+                    "expectedMove": "a4",
+                    "feedback": {
+                        "correct": "Preparing b4-b5! The minority attack begins!",
+                        "incorrect": "Play a4 to prepare the b4-b5 advance."
+                    },
+                    "computerMove": "Re8"
+                },
+                {
+                    "instruction": "Now push b4! The second step of the minority attack.",
+                    "expectedMove": "b4",
+                    "feedback": {
+                        "correct": "b4! One more step - next comes b5 attacking c6!",
+                        "incorrect": "Play b4 - advance the pawn to prepare b5."
+                    },
+                    "computerMove": "Nf8"
+                },
+                {
+                    "instruction": "Now the decisive push! Play b5 to attack the c6 pawn and create permanent weaknesses!",
+                    "expectedMove": "b5",
+                    "feedback": {
+                        "correct": "b5! After bxc6 bxc6, Black has a permanently weak backward pawn on c6 and a weak c5 square!",
+                        "incorrect": "Push b5! Attack c6 to create a permanent weakness."
+                    },
+                    "arrows": [
+                        {
+                            "from": "b5",
+                            "to": "c6"
+                        }
+                    ]
+                }
+            ],
+            "successMessage": "You've executed the Minority Attack! a4-b4-b5 creates permanent weaknesses in the enemy camp.",
+            "hints": [
+                "The minority attack aims to create a backward pawn on c6",
+                "Prepare with a4, then b4, then b5",
+                "After bxc6, Black has a permanent weakness"
+            ],
+            "estimatedMinutes": 4,
+            "difficulty": 3
+        },
+        {
+            "id": "05-middlegame-i04",
+            "lessonId": "05-middlegame-05",
+            "moduleId": "05-middlegame",
+            "title": "Convert Material Advantage",
+            "description": "Practice converting a material advantage by simplifying to a winning endgame.",
+            "mode": "guided",
+            "initialFen": "r2q1rk1/pp3ppp/2p1pn2/8/3Pn3/2NB1N2/PP3PPP/R2Q1RK1 w - - 0 14",
+            "playerColor": "white",
+            "steps": [
+                {
+                    "instruction": "You are up a Bishop for nothing (extra piece). Black offers a Queen trade. Accept it! Trade Queens to simplify when ahead in material.",
+                    "expectedMoves": [
+                        "Nxe4",
+                        "Bxe4"
+                    ],
+                    "feedback": {
+                        "correct": "Smart! Capture the Knight to win more material. When you're ahead, trade pieces to simplify!",
+                        "incorrect": "Capture the Knight! When ahead in material, trade pieces to simplify. Try Nxe4 or Bxe4."
+                    },
+                    "computerMove": "Qxd4"
+                },
+                {
+                    "instruction": "Black took your d-pawn. Now trade Queens! Play Qxd4 to head into a winning endgame.",
+                    "expectedMove": "Qxd4",
+                    "feedback": {
+                        "correct": "Perfect conversion technique! Trade Queens when ahead in material. The endgame is easily winning.",
+                        "incorrect": "Play Qxd4 - trade Queens! In the endgame, your extra piece will be decisive."
+                    }
+                }
+            ],
+            "successMessage": "You've converted a material advantage! Rule: When ahead, trade pieces (not pawns) and head for the endgame.",
+            "hints": [
+                "When ahead in material: trade pieces!",
+                "Trading Queens removes opponent's attacking potential",
+                "In the endgame, your extra piece will easily win"
+            ],
+            "estimatedMinutes": 3,
+            "difficulty": 2
+        }
+    ]
+}

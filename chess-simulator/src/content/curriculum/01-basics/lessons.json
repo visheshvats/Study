@@ -1,0 +1,118 @@
+{
+    "moduleId": "01-basics",
+    "lessons": [
+        {
+            "id": "01-basics-01",
+            "moduleId": "01-basics",
+            "title": "Board Setup and Notation",
+            "content": "# Board Setup and Notation\n\n## The Board\nThe chessboard is an 8x8 grid of 64 squares, alternating light and dark colors.\n\n**Rule #1**: \"White on right\". The bottom-right square must be a light square.\n\n- **Files**: Vertical columns (a-h)\n- **Ranks**: Horizontal rows (1-8)\n\n## Setup\n- **A & H Files**: Rooks (R)\n- **B & G Files**: Knights (N) - \"Knights on the rim are dim\" (usually)\n- **C & F Files**: Bishops (B)\n- **D File**: Queen (Q) - \"Queen goes on her own color\" (White Queen on light square, Black Queen on dark square)\n- **E File**: King (K)\n\n## Algebraic Notation\nEvery square has a name (coordinate): File + Rank.\n\nExample: The bottom-left square is **a1**. The top-right is **h8**.\n\n### Describing Moves\n1. **Piece Letter** (K, Q, R, B, N). *Note: Pawns have no letter.*\n2. **Destination Square**\n3. **Examples**:\n   - **Nf3**: Knight moves to f3\n   - **e4**: Pawn moves to e4\n   - **Bxc4**: Bishop *captures* on c4 (`x` means capture)\n   - **O-O**: Kingside castle\n   - **O-O-O**: Queenside castle\n   - **+**: Check (e.g., Bb5+)\n   - **#**: Checkmate (e.g., Qh5#)\n\n## Key Ideas\n- Memorize \"White on right\"\n- Queen gets her color\n- Coordinate training is essential for reading books",
+            "positions": [
+                {
+                    "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+                    "description": "Starting position - memorize this setup!",
+                    "orientation": "white"
+                }
+            ],
+            "drills": [
+                "Point to random squares and name them (e.g., 'Where is c6?')",
+                "Set up the board from scratch in under 1 minute correctly"
+            ],
+            "nextLesson": "01-basics-02",
+            "estimatedMinutes": 15
+        },
+        {
+            "id": "01-basics-02",
+            "moduleId": "01-basics",
+            "title": "Piece Moves and Captures",
+            "content": "# Piece Moves and Captures\n\n## The Rook (R)\n- Moves **horizontally** or **vertically** any number of squares\n- Cannot jump over pieces\n- Powerful piece (Value: 5 points)\n\n## The Bishop (B)\n- Moves **diagonally** any number of squares\n- Stays on one color complex (Light-squared bishop vs Dark-squared bishop)\n- Value: 3 points\n\n## The Queen (Q)\n- Combined power of Rook + Bishop\n- Moves horizontal, vertical, diagonal\n- Most valuable piece (except King)\n- Value: 9 points\n\n## The Knight (N)\n- Moves in an **\"L\" shape**: 2 squares in one direction, then 1 square perpendicular\n- **Special Ability**: The ONLY piece that can **jump** over others\n- Value: 3 points\n\n## The Pawn (P)\n- Moves **forward only**\n- First move: Can move 1 or 2 squares\n- Later moves: Only 1 square\n- **Captures**: Diagonally forward one square (Moves straight, eats diagonal)\n- Value: 1 point\n- *Promotion*: Reaches the end? Becomes a Q, R, B, or N\n\n## The King (K)\n- Moves 1 square in any direction\n- Cannot move into \"check\" (danger)\n- Value: Infinite (Lost king = Lost game)\n- Combat strength: ~4 points in the endgame\n\n## Captures\n- You land on an opponent's piece and replace it\n- You cannot capture your own pieces\n\n## Key Ideas\n- Knights jump\n- Pawns are unique: Move straight, capture diagonal\n- Center control (e4, d4, e5, d5) is crucial for piece mobility\n\n## Common Mistakes\n- Moving a Knight to a square it can't reach (e.g., trying to go 3 squares)\n- Forgetting Pawns capture diagonally",
+            "positions": [
+                {
+                    "fen": "8/8/8/8/3N4/8/8/8 w - - 0 1",
+                    "description": "Knight on e4 - it can jump to 8 different squares!",
+                    "orientation": "white",
+                    "highlights": [
+                        "c3",
+                        "c5",
+                        "d2",
+                        "d6",
+                        "f2",
+                        "f6",
+                        "g3",
+                        "g5"
+                    ]
+                }
+            ],
+            "drills": [
+                "Place a Knight on e4. Find all 8 squares it can jump to",
+                "Place a Bishop on c1. See how many squares it controls. Move a pawn to d2. How many now? (Bad Piece!)"
+            ],
+            "prevLesson": "01-basics-01",
+            "nextLesson": "01-basics-03",
+            "estimatedMinutes": 20
+        },
+        {
+            "id": "01-basics-03",
+            "moduleId": "01-basics",
+            "title": "Check, Checkmate, Stalemate",
+            "content": "# Check, Checkmate, Stalemate\n\n## Check\nThe King is under attack (\"in check\").\n\n**You MUST get out of check immediately by:**\n1. Moving the King to safety\n2. Blocking the attack with another piece\n3. Capturing the attacking piece\n\n## Checkmate\nThe King is in check AND has no legal moves to escape.\n\n**Game Over. The side in checkmate loses.**\n\n## Stalemate\nThe King is NOT in check, but the player has no legal moves.\n\n**Game Over. It's a DRAW (tie).**\n\nThis is a common beginner mistake - accidentally stalemating instead of checkmating!\n\n## Key Ideas\n- Check ≠ Checkmate (Check is just a warning)\n- Stalemate = Draw (not a win!)\n- Always verify your opponent has a legal move before claiming victory",
+            "positions": [
+                {
+                    "fen": "7k/5Q2/6K1/8/8/8/8/8 w - - 0 1",
+                    "description": "Checkmate! Black King on h8 has no escape",
+                    "orientation": "white"
+                },
+                {
+                    "fen": "7k/8/6K1/5Q2/8/8/8/8 b - - 0 1",
+                    "description": "Stalemate! Black King is NOT in check but has no legal moves - it's a draw!",
+                    "orientation": "white"
+                }
+            ],
+            "drills": [
+                "Practice delivering checkmate with Queen + King vs lone King",
+                "Set up stalemate positions to recognize the pattern"
+            ],
+            "prevLesson": "01-basics-02",
+            "nextLesson": "01-basics-04",
+            "estimatedMinutes": 15
+        },
+        {
+            "id": "01-basics-04",
+            "moduleId": "01-basics",
+            "title": "Special Moves: Castling, En Passant, Promotion",
+            "content": "# Special Moves\n\n## Castling (O-O or O-O-O)\nA special King + Rook move that happens once per game.\n\n**Kingside Castle (O-O)**:\n- King moves 2 squares toward the h-file Rook\n- Rook jumps over to the other side of the King\n\n**Queenside Castle (O-O-O)**:\n- King moves 2 squares toward the a-file Rook\n- Rook jumps over to the other side of the King\n\n**Requirements**:\n1. King and Rook haven't moved yet\n2. No pieces between them\n3. King is not in check\n4. King doesn't pass through or land on a square under attack\n\n## En Passant\nA special pawn capture.\n\nIf an enemy pawn moves 2 squares forward from its starting position and lands beside your pawn, you can capture it \"in passing\" on your next move only.\n\n## Promotion\nWhen a pawn reaches the opposite end of the board (rank 8 for White, rank 1 for Black), it MUST be promoted to a Queen, Rook, Bishop, or Knight.\n\n**Almost always choose Queen!**\n\n## Key Ideas\n- Castle early for King safety\n- En passant is rare but important to know\n- Always promote to Queen (99% of the time)",
+            "positions": [
+                {
+                    "fen": "r3k2r/8/8/8/8/8/8/R3K2R w KQkq - 0 1",
+                    "description": "Both sides can castle kingside or queenside",
+                    "orientation": "white"
+                }
+            ],
+            "drills": [
+                "Practice castling in both directions",
+                "Learn the en passant rule with examples"
+            ],
+            "prevLesson": "01-basics-03",
+            "nextLesson": "01-basics-05",
+            "estimatedMinutes": 15
+        },
+        {
+            "id": "01-basics-05",
+            "moduleId": "01-basics",
+            "title": "Basic Tactics Introduction",
+            "content": "# Basic Tactics Introduction\n\nTactics are short-term sequences of moves that result in a tangible gain (winning a piece or checkmate). 99% of games under 1500 Elo are decided by tactics.\n\n## The Most Basic Tactic: \"Hanging Pieces\"\nA piece is \"hanging\" if it is unprotected and being attacked.\n\n**Rules**:\n- Always look at what your opponent's last move attacked\n- Before you move, check if your square is safe\n\n## Counting Attackers vs Defenders\nIf you want to capture something, count first.\n\n- **Attackers**: Pieces trying to eat the target\n- **Defenders**: Pieces protecting the target\n- **Rule**: You can only win \"material\" if Attackers > Defenders\n- *Exception*: If your Attacker is lower value than the Defender (e.g., Pawn attacks Queen), you can trade even if equal count\n\n## The Checkmate Patterns (Introduction)\n\n### Back Rank Mate\nThe King is trapped behind his own pawns. A Rook or Queen delivers checkmate on the back rank.\n\n### Kiss of Death\nThe Queen is right next to the King, supported by another piece.\n\n## Key Ideas\n- **Undefended Pieces Drop Off** (John Nunn)\n- Checks, Captures, Threats (CCT). Always look for these first\n\n## Common Mistakes\n- Not checking if your pieces are safe before moving\n- Hanging pieces in one move",
+            "positions": [
+                {
+                    "fen": "6k1/5ppp/8/8/8/8/8/5RK1 w - - 0 1",
+                    "description": "Back Rank Mate: White plays Ra8# - Black King is trapped!",
+                    "orientation": "white"
+                }
+            ],
+            "drills": [
+                "Set up random positions. Instantly point to every 'Hanging Piece' for both sides",
+                "Practice checking 'Is it safe?' before every move in a game against a computer"
+            ],
+            "prevLesson": "01-basics-04",
+            "estimatedMinutes": 20
+        }
+    ]
+}

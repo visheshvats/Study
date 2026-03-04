@@ -1,0 +1,184 @@
+{
+    "moduleId": "06-endgames",
+    "lessons": [
+        {
+            "id": "06-endgames-i01",
+            "lessonId": "06-endgames-01",
+            "moduleId": "06-endgames",
+            "title": "The Opposition",
+            "description": "Learn to use the opposition to win King and Pawn endgames.",
+            "mode": "guided",
+            "initialFen": "8/4k3/8/4P3/4K3/8/8/8 w - - 0 1",
+            "playerColor": "white",
+            "steps": [
+                {
+                    "instruction": "You have King and Pawn vs King. The key is OPPOSITION - Kings facing each other. First, advance with Kd5 to outflank!",
+                    "expectedMove": "Kd5",
+                    "feedback": {
+                        "correct": "Excellent! Your King advances to support the pawn and outflank Black.",
+                        "incorrect": "Try Kd5 - outflank the Black King to gain control."
+                    },
+                    "computerMove": "Kd7"
+                },
+                {
+                    "instruction": "Black mirrors you. Now push e6 to gain space!",
+                    "expectedMove": "e6",
+                    "feedback": {
+                        "correct": "The pawn advances! Black must react.",
+                        "incorrect": "Push e6 - advance the pawn while your King supports it."
+                    },
+                    "computerMove": "Ke8"
+                },
+                {
+                    "instruction": "Black retreats. Now play Ke5 to take the OPPOSITION!",
+                    "expectedMove": "Ke5",
+                    "feedback": {
+                        "correct": "YES! You have the opposition! Kings face each other and Black must give way!",
+                        "incorrect": "Play Ke5 - this gives you the opposition (Kings facing each other, opponent to move)."
+                    },
+                    "computerMove": "Kd8"
+                },
+                {
+                    "instruction": "Black had to retreat! Now Kd6 to maintain opposition and escort the pawn!",
+                    "expectedMove": "Kd6",
+                    "feedback": {
+                        "correct": "Perfect! Opposition maintained. The pawn will promote!",
+                        "incorrect": "Kd6 keeps the opposition and prepares e7."
+                    },
+                    "computerMove": "Ke8"
+                },
+                {
+                    "instruction": "Push the pawn! Play e7 to reach the 7th rank!",
+                    "expectedMove": "e7",
+                    "feedback": {
+                        "correct": "The pawn is on the 7th rank! Promotion is inevitable.",
+                        "incorrect": "Push e7 - one more step to queening!"
+                    },
+                    "computerMove": "Kf7"
+                },
+                {
+                    "instruction": "Black tries to block. Play Kd7 to protect the pawn and ensure promotion!",
+                    "expectedMove": "Kd7",
+                    "feedback": {
+                        "correct": "The King escorts the pawn. Promotion next move!",
+                        "incorrect": "Kd7 protects the pawn - it will promote!"
+                    }
+                }
+            ],
+            "successMessage": "Excellent! You've learned the key concept of Opposition in King and Pawn endings!",
+            "hints": [
+                "The opposition means Kings face each other with odd number of squares between",
+                "The side NOT to move has the opposition",
+                "Use 'shouldering' to push the enemy King away"
+            ],
+            "estimatedMinutes": 5,
+            "difficulty": 3
+        },
+        {
+            "id": "06-endgames-i02",
+            "lessonId": "06-endgames-02",
+            "moduleId": "06-endgames",
+            "title": "Lucena Position - Building the Bridge",
+            "description": "Master the famous Lucena winning technique.",
+            "mode": "guided",
+            "initialFen": "1K1k4/1P6/8/8/8/8/8/R7 w - - 0 1",
+            "playerColor": "white",
+            "steps": [
+                {
+                    "instruction": "This is the LUCENA position. Your Rook needs to 'build a bridge' to shield the King from checks. First, play Rg1!",
+                    "expectedMove": "Rg1",
+                    "feedback": {
+                        "correct": "The Rook goes to the g-file, preparing the bridge!",
+                        "incorrect": "Play Rg1 - we're setting up the famous 'bridge' technique."
+                    },
+                    "computerMove": "Ke7"
+                },
+                {
+                    "instruction": "Black's King moves aside. Play Kc7 to step away from the pawn.",
+                    "expectedMove": "Kc7",
+                    "feedback": {
+                        "correct": "Good! Making room for the pawn to promote.",
+                        "incorrect": "Try Kc7 - the King needs to step aside."
+                    },
+                    "computerMove": "Kf6"
+                },
+                {
+                    "instruction": "Now the key move! Play Rg4 - the bridge is being built on the 4th rank!",
+                    "expectedMove": "Rg4",
+                    "feedback": {
+                        "correct": "THIS is the bridge! The Rook on the 4th rank will block checks!",
+                        "incorrect": "Rg4 is the key move - placing the Rook on the 4th rank builds the bridge."
+                    },
+                    "arrows": [
+                        {
+                            "from": "g1",
+                            "to": "g4"
+                        }
+                    ]
+                }
+            ],
+            "successMessage": "You've learned the Lucena 'Building a Bridge' technique! This wins every Rook endgame with pawn on 7th!",
+            "hints": [
+                "The Rook goes to the 4th rank to block future checks",
+                "The bridge technique shields the King from Rook checks"
+            ],
+            "estimatedMinutes": 4,
+            "difficulty": 3
+        },
+        {
+            "id": "06-endgames-i03",
+            "lessonId": "06-endgames-01",
+            "moduleId": "06-endgames",
+            "title": "Square of the Pawn",
+            "description": "Learn if the King can catch the pawn!",
+            "mode": "puzzle",
+            "initialFen": "8/8/8/8/P7/8/6k1/K7 w - - 0 1",
+            "playerColor": "white",
+            "steps": [
+                {
+                    "instruction": "Can Black's King catch your pawn? Calculate the 'Square of the Pawn'. Is the King inside? Push a5!",
+                    "expectedMove": "a5",
+                    "feedback": {
+                        "correct": "The Square of the Pawn is a4-a8-e8-e4. Black's King on g2 is OUTSIDE! The pawn promotes!",
+                        "incorrect": "Push a5 - the Black King can't catch your pawn!"
+                    },
+                    "computerMove": "Kf3"
+                },
+                {
+                    "instruction": "Keep pushing! a6!",
+                    "expectedMove": "a6",
+                    "feedback": {
+                        "correct": "The pawn races ahead!",
+                        "incorrect": "Push a6 - keep going!"
+                    },
+                    "computerMove": "Ke4"
+                },
+                {
+                    "instruction": "Continue with a7!",
+                    "expectedMove": "a7",
+                    "feedback": {
+                        "correct": "Almost there!",
+                        "incorrect": "a7 - one more step!"
+                    },
+                    "computerMove": "Kd5"
+                },
+                {
+                    "instruction": "Promote to a Queen! a8=Q",
+                    "expectedMove": "a8=Q",
+                    "feedback": {
+                        "correct": "PROMOTION! You now have a Queen!",
+                        "incorrect": "a8=Q promotes the pawn to a Queen!"
+                    }
+                }
+            ],
+            "successMessage": "The 'Square of the Pawn' rule helps you instantly know if the King can catch a pawn!",
+            "hints": [
+                "Draw a diagonal from the pawn to the promotion square",
+                "If the King is inside that square, it catches the pawn",
+                "If outside, the pawn promotes!"
+            ],
+            "estimatedMinutes": 3,
+            "difficulty": 2
+        }
+    ]
+}

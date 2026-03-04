@@ -1,0 +1,83 @@
+{
+    "modules": [
+        {
+            "id": "01-basics",
+            "title": "Chess Basics",
+            "description": "Setup board, legal moves, checkmate in 1, basic notation.",
+            "difficulty": "beginner",
+            "lessons": [],
+            "exerciseCount": 11,
+            "estimatedHours": 3,
+            "icon": "🎯",
+            "order": 1
+        },
+        {
+            "id": "02-openings",
+            "title": "Opening Foundations",
+            "description": "Survive the first 10 moves, control center, king safety.",
+            "difficulty": "beginner",
+            "lessons": [],
+            "exerciseCount": 8,
+            "estimatedHours": 4,
+            "icon": "🏁",
+            "order": 2
+        },
+        {
+            "id": "03-tactics",
+            "title": "Tactical Mastery",
+            "description": "Spot 2-3 move tactical combinations (forks, pins, skewers).",
+            "difficulty": "intermediate",
+            "lessons": [],
+            "exerciseCount": 10,
+            "estimatedHours": 5,
+            "icon": "⚡",
+            "order": 3
+        },
+        {
+            "id": "04-strategy",
+            "title": "Strategic Planning",
+            "description": "Evaluate positions, formulate simple plans.",
+            "difficulty": "intermediate",
+            "lessons": [],
+            "exerciseCount": 12,
+            "estimatedHours": 5,
+            "icon": "🎲",
+            "order": 4
+        },
+        {
+            "id": "05-middlegame",
+            "title": "Middlegame Planning",
+            "description": "Handle specific structures (IQP), attack kings.",
+            "difficulty": "advanced",
+            "lessons": [],
+            "exerciseCount": 10,
+            "estimatedHours": 6,
+            "icon": "♔",
+            "order": 5
+        },
+        {
+            "id": "06-endgames",
+            "title": "Endgame Technique",
+            "description": "Convert winning endgames, draw theoretical draws.",
+            "difficulty": "advanced",
+            "lessons": [],
+            "exerciseCount": 8,
+            "estimatedHours": 6,
+            "icon": "👑",
+            "order": 6
+        },
+        {
+            "id": "07-advanced",
+            "title": "Advanced Topics",
+            "description": "Dynamic play, sacrifices, deep calculation.",
+            "difficulty": "advanced",
+            "lessons": [],
+            "exerciseCount": 10,
+            "estimatedHours": 7,
+            "icon": "🚀",
+            "order": 7
+        }
+    ],
+    "totalLessons": 35,
+    "totalExercises": 69
+}

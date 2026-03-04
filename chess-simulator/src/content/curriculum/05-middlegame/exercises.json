@@ -1,0 +1,155 @@
+{
+    "moduleId": "05-middlegame",
+    "exercises": [
+        {
+            "id": "05-middlegame-ex-01",
+            "moduleId": "05-middlegame",
+            "type": "multiple-choice",
+            "question": "You have an Isolated Queen Pawn on d4. Should you try to trade Queens?",
+            "options": [
+                "Yes - always trade Queens",
+                "No - keep Queens for attacking chances",
+                "It doesn't matter",
+                "Only if losing"
+            ],
+            "correctAnswer": "No - keep Queens for attacking chances",
+            "explanation": "With an IQP, you should AVOID trading Queens. Your advantage is active piece play and attacking chances. Trading Queens kills your attack and leads to an endgame where the IQP is just weak.",
+            "difficulty": 2
+        },
+        {
+            "id": "05-middlegame-ex-02",
+            "moduleId": "05-middlegame",
+            "type": "multiple-choice",
+            "question": "In a Minority Attack, what are you trying to create?",
+            "options": [
+                "A checkmate attack",
+                "A weak enemy pawn (backward pawn)",
+                "A passed pawn for yourself immediately",
+                "Material advantage"
+            ],
+            "correctAnswer": "A weak enemy pawn (backward pawn)",
+            "explanation": "The minority attack (e.g., b4-b5 vs c6-d5) aims to create a permanent weakness - typically a backward pawn on c6 and a weak square on c5. This is a long-term positional advantage.",
+            "difficulty": 2
+        },
+        {
+            "id": "05-middlegame-ex-03",
+            "moduleId": "05-middlegame",
+            "type": "multiple-choice",
+            "question": "You successfully launched a 'Greek Gift' (Bxh7+). Black's King is running to f8. Should you:",
+            "options": [
+                "Sit back and calculate for 20 minutes",
+                "Play the first check you see",
+                "Trade Queens immediately",
+                "Castle queenside"
+            ],
+            "correctAnswer": "Play the first check you see",
+            "explanation": "In the Greek Gift attack, you should play forcing moves (checks) quickly! The King is exposed and you need to maintain the initiative. Sitting and thinking gives your opponent time to consolidate.",
+            "difficulty": 2
+        },
+        {
+            "id": "05-middlegame-ex-04",
+            "moduleId": "05-middlegame",
+            "type": "multiple-choice",
+            "question": "You are up a Rook. Your opponent attacks your King. Should you:",
+            "options": [
+                "Try to mate them first",
+                "Trade Queens to stop the attack and go to endgame",
+                "Ignore the attack",
+                "Sacrifice your Rook"
+            ],
+            "correctAnswer": "Trade Queens to stop the attack and go to endgame",
+            "explanation": "When ahead in material, simplify! Trading Queens stops the attack and leads to an endgame where your extra Rook will easily win. Don't get greedy trying to mate - just convert your advantage safely.",
+            "difficulty": 2
+        },
+        {
+            "id": "05-middlegame-ex-05",
+            "moduleId": "05-middlegame",
+            "type": "multiple-choice",
+            "question": "Why is the pawn on c6 weak after a successful Minority Attack (b5xc6)?",
+            "options": [
+                "It's doubled",
+                "No other pawn can protect it (backward pawn)",
+                "It's isolated",
+                "It's too advanced"
+            ],
+            "correctAnswer": "No other pawn can protect it (backward pawn)",
+            "explanation": "After bxc6 bxc6, the c6 pawn is 'backward' - it cannot advance safely and no other pawn (the b-pawn is gone, the d-pawn is on d5) can protect it. It must be defended by pieces, making it a permanent weakness.",
+            "difficulty": 2
+        },
+        {
+            "id": "05-middlegame-ex-06",
+            "moduleId": "05-middlegame",
+            "type": "multiple-choice",
+            "question": "When should you attack the opponent's King?",
+            "options": [
+                "Always - attack is the best defense",
+                "When you have an advantage in the center or the center is closed",
+                "Only when you're losing",
+                "Never - it's too risky"
+            ],
+            "correctAnswer": "When you have an advantage in the center or the center is closed",
+            "explanation": "Attack when: (1) you control the center, or (2) the center is closed/stable. If the center is open and unstable, your opponent can counter-attack through the center while you attack the King.",
+            "difficulty": 2
+        },
+        {
+            "id": "05-middlegame-ex-07",
+            "moduleId": "05-middlegame",
+            "type": "multiple-choice",
+            "question": "What is the main advantage of having an Isolated Queen Pawn (IQP)?",
+            "options": [
+                "It's easy to defend",
+                "Active piece play and space",
+                "It creates a passed pawn",
+                "It's a strong endgame advantage"
+            ],
+            "correctAnswer": "Active piece play and space",
+            "explanation": "The IQP gives you more space, active pieces, and outposts (e5, c5). The disadvantage is it's weak in the endgame. So you must use the active pieces to attack before reaching the endgame!",
+            "difficulty": 2
+        },
+        {
+            "id": "05-middlegame-ex-08",
+            "moduleId": "05-middlegame",
+            "type": "multiple-choice",
+            "question": "What are 'hanging pawns'?",
+            "options": [
+                "Pawns that are about to be captured",
+                "Two side-by-side pawns (usually c4-d4) with no pawn support",
+                "Pawns on the 7th rank",
+                "Isolated pawns"
+            ],
+            "correctAnswer": "Two side-by-side pawns (usually c4-d4) with no pawn support",
+            "explanation": "Hanging pawns are two pawns side-by-side (typically c4 and d4) that have no pawn support from adjacent files. They control space but can become targets if not used actively.",
+            "difficulty": 1
+        },
+        {
+            "id": "05-middlegame-ex-09",
+            "moduleId": "05-middlegame",
+            "type": "multiple-choice",
+            "question": "When you have a material advantage, what should you generally do?",
+            "options": [
+                "Attack the King immediately",
+                "Trade pieces and simplify to endgame",
+                "Keep all pieces on the board",
+                "Play aggressively"
+            ],
+            "correctAnswer": "Trade pieces and simplify to endgame",
+            "explanation": "When ahead in material, trade pieces (not pawns) to simplify. With fewer pieces on the board, your material advantage becomes more significant and easier to convert in the endgame.",
+            "difficulty": 1
+        },
+        {
+            "id": "05-middlegame-ex-10",
+            "moduleId": "05-middlegame",
+            "type": "multiple-choice",
+            "question": "In the Greek Gift sacrifice (Bxh7+), what are the key requirements?",
+            "options": [
+                "Black King on g8, White has Queen and Knight ready, Black lacks defenders",
+                "Black King in the center",
+                "White has two Bishops",
+                "Black has castled queenside"
+            ],
+            "correctAnswer": "Black King on g8, White has Queen and Knight ready, Black lacks defenders",
+            "explanation": "The Greek Gift works when: (1) Black King is on g8 (castled), (2) White has Queen and Knight ready to attack, (3) Black lacks key defenders like Knight on f6. If these conditions are met, Bxh7+ often leads to a winning attack!",
+            "difficulty": 2
+        }
+    ]
+}

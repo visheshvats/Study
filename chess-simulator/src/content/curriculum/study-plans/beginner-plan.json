@@ -1,0 +1,656 @@
+{
+    "id": "beginner-4week",
+    "title": "Beginner to Intermediate - 4 Week Plan",
+    "description": "A structured 4-week study plan covering chess fundamentals, openings, and basic tactics. Perfect for beginners aiming to reach intermediate level.",
+    "weeks": [
+        {
+            "weekNumber": 1,
+            "title": "Chess Fundamentals",
+            "days": [
+                {
+                    "dayNumber": 1,
+                    "dayOfWeek": "Monday",
+                    "topic": "Board Setup & Notation",
+                    "activities": [
+                        {
+                            "type": "read",
+                            "description": "Study Board Setup and Notation lesson",
+                            "moduleId": "01-basics",
+                            "lessonId": "01-basics-01"
+                        },
+                        {
+                            "type": "practice",
+                            "description": "Complete notation exercises",
+                            "moduleId": "01-basics"
+                        },
+                        {
+                            "type": "solve",
+                            "description": "Interactive: Identify squares and coordinates",
+                            "moduleId": "01-basics"
+                        }
+                    ],
+                    "estimatedMinutes": 30
+                },
+                {
+                    "dayNumber": 2,
+                    "dayOfWeek": "Tuesday",
+                    "topic": "How Pieces Move",
+                    "activities": [
+                        {
+                            "type": "read",
+                            "description": "Study How Pieces Move lesson",
+                            "moduleId": "01-basics",
+                            "lessonId": "01-basics-02"
+                        },
+                        {
+                            "type": "practice",
+                            "description": "Practice moving each piece on the board",
+                            "moduleId": "01-basics"
+                        },
+                        {
+                            "type": "solve",
+                            "description": "Complete piece movement exercises",
+                            "moduleId": "01-basics"
+                        }
+                    ],
+                    "estimatedMinutes": 30
+                },
+                {
+                    "dayNumber": 3,
+                    "dayOfWeek": "Wednesday",
+                    "topic": "Check, Checkmate & Stalemate",
+                    "activities": [
+                        {
+                            "type": "read",
+                            "description": "Study Check, Checkmate and Stalemate lesson",
+                            "moduleId": "01-basics",
+                            "lessonId": "01-basics-03"
+                        },
+                        {
+                            "type": "solve",
+                            "description": "Interactive: Deliver Checkmate in 1",
+                            "moduleId": "01-basics"
+                        },
+                        {
+                            "type": "play",
+                            "description": "Play a casual game against computer (easy)",
+                            "moduleId": "01-basics"
+                        }
+                    ],
+                    "estimatedMinutes": 35
+                },
+                {
+                    "dayNumber": 4,
+                    "dayOfWeek": "Thursday",
+                    "topic": "Special Moves",
+                    "activities": [
+                        {
+                            "type": "read",
+                            "description": "Study Special Moves (castling, en passant, promotion)",
+                            "moduleId": "01-basics",
+                            "lessonId": "01-basics-04"
+                        },
+                        {
+                            "type": "solve",
+                            "description": "Interactive: Kingside Castling practice",
+                            "moduleId": "01-basics"
+                        },
+                        {
+                            "type": "practice",
+                            "description": "Complete special moves exercises",
+                            "moduleId": "01-basics"
+                        }
+                    ],
+                    "estimatedMinutes": 30
+                },
+                {
+                    "dayNumber": 5,
+                    "dayOfWeek": "Friday",
+                    "topic": "Basic Checkmates Practice",
+                    "activities": [
+                        {
+                            "type": "read",
+                            "description": "Study Basic Checkmate Patterns",
+                            "moduleId": "01-basics",
+                            "lessonId": "01-basics-05"
+                        },
+                        {
+                            "type": "solve",
+                            "description": "Interactive: Queen+King checkmate",
+                            "moduleId": "01-basics"
+                        },
+                        {
+                            "type": "play",
+                            "description": "Play a game focusing on delivering checkmate",
+                            "moduleId": "01-basics"
+                        }
+                    ],
+                    "estimatedMinutes": 35
+                },
+                {
+                    "dayNumber": 6,
+                    "dayOfWeek": "Saturday",
+                    "topic": "Review & Practice",
+                    "activities": [
+                        {
+                            "type": "review",
+                            "description": "Review all Week 1 lessons"
+                        },
+                        {
+                            "type": "solve",
+                            "description": "Complete remaining Module 01 exercises",
+                            "moduleId": "01-basics"
+                        },
+                        {
+                            "type": "play",
+                            "description": "Play 2-3 casual games applying fundamentals"
+                        }
+                    ],
+                    "estimatedMinutes": 45
+                },
+                {
+                    "dayNumber": 7,
+                    "dayOfWeek": "Sunday",
+                    "topic": "Rest & Light Play",
+                    "activities": [
+                        {
+                            "type": "play",
+                            "description": "Play fun casual games - no pressure, just enjoy!"
+                        },
+                        {
+                            "type": "review",
+                            "description": "Review mistakes from Saturday's games"
+                        }
+                    ],
+                    "estimatedMinutes": 20
+                }
+            ]
+        },
+        {
+            "weekNumber": 2,
+            "title": "Opening Foundations",
+            "days": [
+                {
+                    "dayNumber": 8,
+                    "dayOfWeek": "Monday",
+                    "topic": "Opening Principles",
+                    "activities": [
+                        {
+                            "type": "read",
+                            "description": "Study Opening Principles lesson",
+                            "moduleId": "02-openings",
+                            "lessonId": "02-openings-01"
+                        },
+                        {
+                            "type": "solve",
+                            "description": "Complete opening principles exercises",
+                            "moduleId": "02-openings"
+                        },
+                        {
+                            "type": "practice",
+                            "description": "Interactive: Best Developing Move",
+                            "moduleId": "02-openings"
+                        }
+                    ],
+                    "estimatedMinutes": 30
+                },
+                {
+                    "dayNumber": 9,
+                    "dayOfWeek": "Tuesday",
+                    "topic": "The Italian Game",
+                    "activities": [
+                        {
+                            "type": "read",
+                            "description": "Study Model Openings for White",
+                            "moduleId": "02-openings",
+                            "lessonId": "02-openings-04"
+                        },
+                        {
+                            "type": "solve",
+                            "description": "Interactive: Play the Italian Game",
+                            "moduleId": "02-openings"
+                        },
+                        {
+                            "type": "play",
+                            "description": "Play 2 games as White using the Italian Game"
+                        }
+                    ],
+                    "estimatedMinutes": 35
+                },
+                {
+                    "dayNumber": 10,
+                    "dayOfWeek": "Wednesday",
+                    "topic": "The London System",
+                    "activities": [
+                        {
+                            "type": "read",
+                            "description": "Review Model Openings - London System",
+                            "moduleId": "02-openings",
+                            "lessonId": "02-openings-04"
+                        },
+                        {
+                            "type": "solve",
+                            "description": "Interactive: Play the London System",
+                            "moduleId": "02-openings"
+                        },
+                        {
+                            "type": "play",
+                            "description": "Play 2 games as White using the London System"
+                        }
+                    ],
+                    "estimatedMinutes": 35
+                },
+                {
+                    "dayNumber": 11,
+                    "dayOfWeek": "Thursday",
+                    "topic": "Defense & Opening Traps",
+                    "activities": [
+                        {
+                            "type": "read",
+                            "description": "Study Opening Traps vs Sound Play",
+                            "moduleId": "02-openings",
+                            "lessonId": "02-openings-03"
+                        },
+                        {
+                            "type": "solve",
+                            "description": "Interactive: Defend Against Scholar's Mate",
+                            "moduleId": "02-openings"
+                        },
+                        {
+                            "type": "practice",
+                            "description": "Complete opening trap exercises",
+                            "moduleId": "02-openings"
+                        }
+                    ],
+                    "estimatedMinutes": 30
+                },
+                {
+                    "dayNumber": 12,
+                    "dayOfWeek": "Friday",
+                    "topic": "Building a Repertoire",
+                    "activities": [
+                        {
+                            "type": "read",
+                            "description": "Study Building a Repertoire",
+                            "moduleId": "02-openings",
+                            "lessonId": "02-openings-02"
+                        },
+                        {
+                            "type": "read",
+                            "description": "Study Model Openings for Black",
+                            "moduleId": "02-openings",
+                            "lessonId": "02-openings-05"
+                        },
+                        {
+                            "type": "play",
+                            "description": "Play 2 games as Black using recommended defenses"
+                        }
+                    ],
+                    "estimatedMinutes": 35
+                },
+                {
+                    "dayNumber": 13,
+                    "dayOfWeek": "Saturday",
+                    "topic": "Review & Practice",
+                    "activities": [
+                        {
+                            "type": "review",
+                            "description": "Review all opening exercises and play practice games"
+                        },
+                        {
+                            "type": "solve",
+                            "description": "Complete remaining Module 02 exercises",
+                            "moduleId": "02-openings"
+                        },
+                        {
+                            "type": "play",
+                            "description": "Play 3 games focusing on opening principles"
+                        }
+                    ],
+                    "estimatedMinutes": 45
+                },
+                {
+                    "dayNumber": 14,
+                    "dayOfWeek": "Sunday",
+                    "topic": "Rest & Light Play",
+                    "activities": [
+                        {
+                            "type": "play",
+                            "description": "Casual games - test your openings"
+                        },
+                        {
+                            "type": "review",
+                            "description": "Review opening mistakes from this week"
+                        }
+                    ],
+                    "estimatedMinutes": 20
+                }
+            ]
+        },
+        {
+            "weekNumber": 3,
+            "title": "Tactical Foundations",
+            "days": [
+                {
+                    "dayNumber": 15,
+                    "dayOfWeek": "Monday",
+                    "topic": "Forks & Basic Tactics",
+                    "activities": [
+                        {
+                            "type": "read",
+                            "description": "Study Forks, Pins, and Skewers",
+                            "moduleId": "03-tactics",
+                            "lessonId": "03-tactics-01"
+                        },
+                        {
+                            "type": "solve",
+                            "description": "Interactive: Knight Fork practice",
+                            "moduleId": "03-tactics"
+                        },
+                        {
+                            "type": "practice",
+                            "description": "Solve 10 fork puzzles",
+                            "moduleId": "03-tactics"
+                        }
+                    ],
+                    "estimatedMinutes": 35
+                },
+                {
+                    "dayNumber": 16,
+                    "dayOfWeek": "Tuesday",
+                    "topic": "Pins & Skewers",
+                    "activities": [
+                        {
+                            "type": "read",
+                            "description": "Review Pins and Skewers section",
+                            "moduleId": "03-tactics",
+                            "lessonId": "03-tactics-01"
+                        },
+                        {
+                            "type": "solve",
+                            "description": "Interactive: Pinning practice",
+                            "moduleId": "03-tactics"
+                        },
+                        {
+                            "type": "practice",
+                            "description": "Complete pin/skewer exercises",
+                            "moduleId": "03-tactics"
+                        }
+                    ],
+                    "estimatedMinutes": 30
+                },
+                {
+                    "dayNumber": 17,
+                    "dayOfWeek": "Wednesday",
+                    "topic": "Discovered Attacks & Double Checks",
+                    "activities": [
+                        {
+                            "type": "read",
+                            "description": "Study Discovered Attacks",
+                            "moduleId": "03-tactics",
+                            "lessonId": "03-tactics-02"
+                        },
+                        {
+                            "type": "solve",
+                            "description": "Interactive: Discovered Attack practice",
+                            "moduleId": "03-tactics"
+                        },
+                        {
+                            "type": "play",
+                            "description": "Play a game looking for tactical opportunities"
+                        }
+                    ],
+                    "estimatedMinutes": 35
+                },
+                {
+                    "dayNumber": 18,
+                    "dayOfWeek": "Thursday",
+                    "topic": "Back Rank & Advanced Tactics",
+                    "activities": [
+                        {
+                            "type": "read",
+                            "description": "Study Deflection, Decoy, and Overloading",
+                            "moduleId": "03-tactics",
+                            "lessonId": "03-tactics-03"
+                        },
+                        {
+                            "type": "solve",
+                            "description": "Interactive: Back Rank Mate",
+                            "moduleId": "03-tactics"
+                        },
+                        {
+                            "type": "practice",
+                            "description": "Complete back rank exercises",
+                            "moduleId": "03-tactics"
+                        }
+                    ],
+                    "estimatedMinutes": 30
+                },
+                {
+                    "dayNumber": 19,
+                    "dayOfWeek": "Friday",
+                    "topic": "Calculation & Candidate Moves",
+                    "activities": [
+                        {
+                            "type": "read",
+                            "description": "Study Calculation and Candidate Moves (CCT)",
+                            "moduleId": "03-tactics",
+                            "lessonId": "03-tactics-05"
+                        },
+                        {
+                            "type": "solve",
+                            "description": "Complete calculation exercises",
+                            "moduleId": "03-tactics"
+                        },
+                        {
+                            "type": "play",
+                            "description": "Play 2 games using the CCT method before each move"
+                        }
+                    ],
+                    "estimatedMinutes": 35
+                },
+                {
+                    "dayNumber": 20,
+                    "dayOfWeek": "Saturday",
+                    "topic": "Tactics Review",
+                    "activities": [
+                        {
+                            "type": "review",
+                            "description": "Review all Week 3 tactical concepts"
+                        },
+                        {
+                            "type": "solve",
+                            "description": "Complete all remaining Module 03 exercises",
+                            "moduleId": "03-tactics"
+                        },
+                        {
+                            "type": "play",
+                            "description": "Play 3 tactical games focusing on patterns"
+                        }
+                    ],
+                    "estimatedMinutes": 45
+                },
+                {
+                    "dayNumber": 21,
+                    "dayOfWeek": "Sunday",
+                    "topic": "Rest & Puzzles",
+                    "activities": [
+                        {
+                            "type": "solve",
+                            "description": "Solve puzzles for fun (no pressure)"
+                        },
+                        {
+                            "type": "review",
+                            "description": "Review the week's most interesting tactical games"
+                        }
+                    ],
+                    "estimatedMinutes": 20
+                }
+            ]
+        },
+        {
+            "weekNumber": 4,
+            "title": "Strategy & Integration",
+            "days": [
+                {
+                    "dayNumber": 22,
+                    "dayOfWeek": "Monday",
+                    "topic": "Position Evaluation",
+                    "activities": [
+                        {
+                            "type": "read",
+                            "description": "Study Position Evaluation",
+                            "moduleId": "04-strategy",
+                            "lessonId": "04-strategy-01"
+                        },
+                        {
+                            "type": "solve",
+                            "description": "Interactive: Evaluate the Position",
+                            "moduleId": "04-strategy"
+                        },
+                        {
+                            "type": "practice",
+                            "description": "Complete evaluation exercises",
+                            "moduleId": "04-strategy"
+                        }
+                    ],
+                    "estimatedMinutes": 35
+                },
+                {
+                    "dayNumber": 23,
+                    "dayOfWeek": "Tuesday",
+                    "topic": "Pawn Structures",
+                    "activities": [
+                        {
+                            "type": "read",
+                            "description": "Study Pawn Structures and Plans",
+                            "moduleId": "04-strategy",
+                            "lessonId": "04-strategy-02"
+                        },
+                        {
+                            "type": "solve",
+                            "description": "Interactive: Execute a Pawn Break",
+                            "moduleId": "04-strategy"
+                        },
+                        {
+                            "type": "play",
+                            "description": "Play 2 games identifying pawn structures"
+                        }
+                    ],
+                    "estimatedMinutes": 35
+                },
+                {
+                    "dayNumber": 24,
+                    "dayOfWeek": "Wednesday",
+                    "topic": "Good vs Bad Pieces",
+                    "activities": [
+                        {
+                            "type": "read",
+                            "description": "Study Good vs Bad Bishops, Knights, and Outposts",
+                            "moduleId": "04-strategy",
+                            "lessonId": "04-strategy-03"
+                        },
+                        {
+                            "type": "solve",
+                            "description": "Interactive: Find the Knight Outpost",
+                            "moduleId": "04-strategy"
+                        },
+                        {
+                            "type": "solve",
+                            "description": "Interactive: Exploit the Bad Bishop",
+                            "moduleId": "04-strategy"
+                        }
+                    ],
+                    "estimatedMinutes": 35
+                },
+                {
+                    "dayNumber": 25,
+                    "dayOfWeek": "Thursday",
+                    "topic": "Space & Piece Improvement",
+                    "activities": [
+                        {
+                            "type": "read",
+                            "description": "Study Space and Piece Improvement",
+                            "moduleId": "04-strategy",
+                            "lessonId": "04-strategy-04"
+                        },
+                        {
+                            "type": "practice",
+                            "description": "Complete space advantage exercises",
+                            "moduleId": "04-strategy"
+                        },
+                        {
+                            "type": "play",
+                            "description": "Play 2 games focusing on improving your worst piece"
+                        }
+                    ],
+                    "estimatedMinutes": 35
+                },
+                {
+                    "dayNumber": 26,
+                    "dayOfWeek": "Friday",
+                    "topic": "Prophylaxis & Planning",
+                    "activities": [
+                        {
+                            "type": "read",
+                            "description": "Study Prophylaxis and Planning",
+                            "moduleId": "04-strategy",
+                            "lessonId": "04-strategy-05"
+                        },
+                        {
+                            "type": "practice",
+                            "description": "Complete all remaining Module 04 exercises",
+                            "moduleId": "04-strategy"
+                        },
+                        {
+                            "type": "play",
+                            "description": "Play 2 games asking 'What does my opponent want?' every move"
+                        }
+                    ],
+                    "estimatedMinutes": 35
+                },
+                {
+                    "dayNumber": 27,
+                    "dayOfWeek": "Saturday",
+                    "topic": "Full Integration",
+                    "activities": [
+                        {
+                            "type": "review",
+                            "description": "Review highlights from all 4 modules"
+                        },
+                        {
+                            "type": "play",
+                            "description": "Play 3-4 serious games applying everything learned"
+                        },
+                        {
+                            "type": "review",
+                            "description": "Analyze your games for openings, tactics, and strategic mistakes"
+                        }
+                    ],
+                    "estimatedMinutes": 60
+                },
+                {
+                    "dayNumber": 28,
+                    "dayOfWeek": "Sunday",
+                    "topic": "Assessment & Next Steps",
+                    "activities": [
+                        {
+                            "type": "review",
+                            "description": "Take the Module 01-04 assessment to evaluate your progress"
+                        },
+                        {
+                            "type": "review",
+                            "description": "Identify weak areas and create a plan for Modules 05-07"
+                        },
+                        {
+                            "type": "play",
+                            "description": "Celebrate your progress with a fun game!"
+                        }
+                    ],
+                    "estimatedMinutes": 30
+                }
+            ]
+        }
+    ],
+    "totalDays": 28
+}

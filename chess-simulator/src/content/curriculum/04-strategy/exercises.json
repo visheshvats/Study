@@ -1,0 +1,184 @@
+{
+    "moduleId": "04-strategy",
+    "exercises": [
+        {
+            "id": "04-strategy-ex-01",
+            "moduleId": "04-strategy",
+            "type": "multiple-choice",
+            "question": "You have R+B vs R+N. Is material equal?",
+            "options": [
+                "Yes - both sides have 8 points of material",
+                "No - Bishop is better than Knight",
+                "No - Knight is better than Bishop",
+                "It depends on the position"
+            ],
+            "correctAnswer": "Yes - both sides have 8 points of material",
+            "explanation": "Material is equal: Rook (5) + Bishop (3) = 8 points, and Rook (5) + Knight (3) = 8 points. However, the position determines which minor piece is better.",
+            "difficulty": 1
+        },
+        {
+            "id": "04-strategy-ex-02",
+            "moduleId": "04-strategy",
+            "type": "multiple-choice",
+            "question": "Your Rook is on a7 (7th rank). Opponent's Rook is on a1 (passive). Who has the advantage?",
+            "options": [
+                "Material is equal, so it's equal",
+                "You have the advantage (better piece activity)",
+                "Opponent has the advantage",
+                "Neither - Rooks are equal value"
+            ],
+            "correctAnswer": "You have the advantage (better piece activity)",
+            "explanation": "A Rook on the 7th rank is much more active than a Rook on the 1st rank. It attacks pawns, restricts the King, and controls important squares. Activity matters!",
+            "difficulty": 2
+        },
+        {
+            "id": "04-strategy-ex-03",
+            "moduleId": "04-strategy",
+            "type": "multiple-choice",
+            "question": "You have 'Doubled Isolated Pawns'. Are these usually a strength or weakness?",
+            "options": [
+                "Strength - they control many squares",
+                "Weakness - they are hard to defend",
+                "Neutral - depends on the position",
+                "Strength - they can advance quickly"
+            ],
+            "correctAnswer": "Weakness - they are hard to defend",
+            "explanation": "Doubled isolated pawns combine two weaknesses: they can't defend each other (doubled) AND have no pawn support (isolated). This is usually a serious weakness.",
+            "difficulty": 2
+        },
+        {
+            "id": "04-strategy-ex-04",
+            "moduleId": "04-strategy",
+            "type": "multiple-choice",
+            "question": "If you have less space (cramped), should you trade pieces?",
+            "options": [
+                "Yes",
+                "No",
+                "Only trade Queens",
+                "Only trade pawns"
+            ],
+            "correctAnswer": "Yes",
+            "explanation": "When cramped, trading pieces relieves the pressure. With fewer pieces, it's easier to find squares for your remaining pieces. This is a fundamental strategic principle.",
+            "difficulty": 2
+        },
+        {
+            "id": "04-strategy-ex-05",
+            "moduleId": "04-strategy",
+            "type": "multiple-choice",
+            "question": "What is a 'Bad Bishop'?",
+            "options": [
+                "A Bishop that has been captured",
+                "A Bishop blocked by its own pawns",
+                "A Bishop on a bad square",
+                "A Bishop worth less than a Knight"
+            ],
+            "correctAnswer": "A Bishop blocked by its own pawns",
+            "explanation": "A 'Bad Bishop' is one that is blocked by its own pawns (usually on the same color as the Bishop). It has limited mobility and effectiveness.",
+            "difficulty": 1
+        },
+        {
+            "id": "04-strategy-ex-06",
+            "moduleId": "04-strategy",
+            "type": "multiple-choice",
+            "question": "What is 'Prophylaxis'?",
+            "options": [
+                "A type of pawn structure",
+                "Preventing your opponent's plans",
+                "A tactical motif",
+                "An opening system"
+            ],
+            "correctAnswer": "Preventing your opponent's plans",
+            "explanation": "Prophylaxis means preventing your opponent's plans before they can execute them. It's about thinking: 'What does my opponent want to do?' and stopping it.",
+            "difficulty": 2
+        },
+        {
+            "id": "04-strategy-ex-07",
+            "moduleId": "04-strategy",
+            "type": "multiple-choice",
+            "question": "You have a Pawn chain pointing to the Kingside (e4, d5, c3 vs e6, d6). Where should you attack?",
+            "options": [
+                "Queenside",
+                "Center",
+                "Kingside"
+            ],
+            "correctAnswer": "Kingside",
+            "explanation": "When your pawn chain points to one side of the board, you should attack in that direction. Your pawns support the attack and give you space on that side.",
+            "difficulty": 2
+        },
+        {
+            "id": "04-strategy-ex-08",
+            "moduleId": "04-strategy",
+            "type": "multiple-choice",
+            "question": "Your opponent has a strong Knight on e5. You have a passive Bishop on c1. What is a good strategic goal?",
+            "options": [
+                "Push pawns randomly",
+                "Try to trade your Bad Bishop for their Good Knight",
+                "Resign",
+                "Castle queenside"
+            ],
+            "correctAnswer": "Try to trade your Bad Bishop for their Good Knight",
+            "explanation": "Trading your worst piece (bad Bishop) for their best piece (strong Knight on outpost) is excellent strategy. This improves your position significantly.",
+            "difficulty": 2
+        },
+        {
+            "id": "04-strategy-ex-09",
+            "moduleId": "04-strategy",
+            "type": "multiple-choice",
+            "question": "What is an 'outpost' for a Knight?",
+            "options": [
+                "Any square in the center",
+                "A square that cannot be attacked by enemy pawns, protected by your pawn",
+                "The starting square for Knights",
+                "A square on the 7th rank"
+            ],
+            "correctAnswer": "A square that cannot be attacked by enemy pawns, protected by your pawn",
+            "explanation": "An outpost is a square (usually in the center or enemy territory) that cannot be attacked by enemy pawns and is protected by your pawn. Knights thrive on outposts!",
+            "difficulty": 2
+        },
+        {
+            "id": "04-strategy-ex-10",
+            "moduleId": "04-strategy",
+            "type": "multiple-choice",
+            "question": "In the evaluation hierarchy, which factor is most urgent?",
+            "options": [
+                "Material",
+                "King Safety",
+                "Pawn Structure",
+                "Piece Activity"
+            ],
+            "correctAnswer": "King Safety",
+            "explanation": "King Safety is the most urgent factor because checkmate ends the game immediately. Material, activity, and structure don't matter if you get checkmated!",
+            "difficulty": 1
+        },
+        {
+            "id": "04-strategy-ex-11",
+            "moduleId": "04-strategy",
+            "type": "multiple-choice",
+            "question": "What is a 'pawn break'?",
+            "options": [
+                "When a pawn gets captured",
+                "A pawn move that attacks an enemy pawn to open lines",
+                "When pawns are doubled",
+                "A pawn promotion"
+            ],
+            "correctAnswer": "A pawn move that attacks an enemy pawn to open lines",
+            "explanation": "A pawn break is a pawn advance that attacks an enemy pawn, creating tension and potentially opening lines. Examples: ...c5, ...f5, d4-d5. You need pawn breaks to create winning chances!",
+            "difficulty": 1
+        },
+        {
+            "id": "04-strategy-ex-12",
+            "moduleId": "04-strategy",
+            "type": "multiple-choice",
+            "question": "When you have a space advantage, should you trade pieces?",
+            "options": [
+                "Yes - always trade when ahead",
+                "No - keep pieces to use your space",
+                "Only trade Queens",
+                "It doesn't matter"
+            ],
+            "correctAnswer": "No - keep pieces to use your space",
+            "explanation": "When you have more space, keep pieces on the board! Your pieces have room to maneuver while your opponent is cramped. Trading pieces relieves their cramping.",
+            "difficulty": 2
+        }
+    ]
+}

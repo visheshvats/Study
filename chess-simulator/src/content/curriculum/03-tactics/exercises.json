@@ -1,0 +1,160 @@
+{
+    "moduleId": "03-tactics",
+    "exercises": [
+        {
+            "id": "03-tactics-ex-01",
+            "moduleId": "03-tactics",
+            "type": "multiple-choice",
+            "question": "What is the difference between a Pin and a Skewer?",
+            "options": [
+                "A pin attacks the King, a skewer attacks the Queen",
+                "In a pin, the valuable piece is behind; in a skewer, it's in front",
+                "A pin is with a Bishop, a skewer is with a Rook",
+                "They are the same tactic"
+            ],
+            "correctAnswer": "In a pin, the valuable piece is behind; in a skewer, it's in front",
+            "explanation": "A pin has the high-value piece behind a low-value piece (which cannot or should not move). A skewer has the high-value piece in front - it must move, exposing the piece behind.",
+            "difficulty": 2
+        },
+        {
+            "id": "03-tactics-ex-02",
+            "moduleId": "03-tactics",
+            "type": "multiple-choice",
+            "question": "Which piece is the best at 'Forking'?",
+            "options": [
+                "Queen",
+                "Knight",
+                "Bishop",
+                "Rook"
+            ],
+            "correctAnswer": "Knight",
+            "explanation": "The Knight is the best forking piece because of its unique L-shaped move pattern, which allows it to attack pieces that can't defend each other. The 'Royal Fork' (King and Queen) is a classic Knight tactic.",
+            "difficulty": 1
+        },
+        {
+            "id": "03-tactics-ex-03",
+            "moduleId": "03-tactics",
+            "type": "multiple-choice",
+            "question": "What does 'Removing the Defender' achieve?",
+            "options": [
+                "It checkmates the opponent",
+                "It leaves the target piece unprotected",
+                "It creates a fork",
+                "It promotes a pawn"
+            ],
+            "correctAnswer": "It leaves the target piece unprotected",
+            "explanation": "Removing the defender eliminates the piece protecting your target, allowing you to capture it. This is often done through a sacrifice or exchange.",
+            "difficulty": 2
+        },
+        {
+            "id": "03-tactics-ex-04",
+            "moduleId": "03-tactics",
+            "type": "position",
+            "question": "White Rook on a1, White Rook on h1, Black King on e8. White plays Rh8+. Is it checkmate?",
+            "fen": "4k3/8/8/8/8/8/8/R3K2R w - - 0 1",
+            "options": [
+                "Yes - Checkmate",
+                "No - Not Checkmate"
+            ],
+            "correctAnswer": "No - Not Checkmate",
+            "explanation": "After Rh8+, the Black King can escape to d7 or f7. For it to be checkmate, the King would need to be trapped (e.g., with pawns on f7, d7, or other pieces controlling those squares).",
+            "difficulty": 2,
+            "hints": [
+                "Can the King move to d7 or f7?"
+            ]
+        },
+        {
+            "id": "03-tactics-ex-05",
+            "moduleId": "03-tactics",
+            "type": "multiple-choice",
+            "question": "White Bishop on c1, Black Rook on h8. Can the Bishop ever capture the Rook?",
+            "options": [
+                "No - they are on different colored squares",
+                "Yes - if the diagonal is open",
+                "Only if the Bishop promotes",
+                "Only with a discovered attack"
+            ],
+            "correctAnswer": "Yes - if the diagonal is open",
+            "explanation": "c1 is a dark square and h8 is also a dark square. If the Bishop is on c1 (dark-squared), it can potentially reach h8 via the long diagonal (c1-h6) if the path is clear.",
+            "difficulty": 3,
+            "hints": [
+                "What color is c1? What color is h8?"
+            ]
+        },
+        {
+            "id": "03-tactics-ex-06",
+            "moduleId": "03-tactics",
+            "type": "position",
+            "question": "White Knight on f5, Black King on g8, Black Queen on d8. If White plays Ne7+, what is this tactic called?",
+            "fen": "3q2k1/8/8/5N2/8/8/8/4K3 w - - 0 1",
+            "options": [
+                "Pin",
+                "Skewer",
+                "Fork"
+            ],
+            "correctAnswer": "Fork",
+            "explanation": "Ne7+ is a Royal Fork - the Knight gives check to the King on g8 and simultaneously attacks the Queen on d8. The King must move, and then White captures the Queen.",
+            "difficulty": 2
+        },
+        {
+            "id": "03-tactics-ex-07",
+            "moduleId": "03-tactics",
+            "type": "multiple-choice",
+            "question": "White Queen on d1, White Bishop on g5, Black Knight on f6, Black Queen on d8. The Knight is pinned. What kind of pin is this?",
+            "options": [
+                "Absolute Pin (cannot move legally)",
+                "Relative Pin (can move but loses material)",
+                "Not a pin",
+                "A skewer"
+            ],
+            "correctAnswer": "Relative Pin (can move but loses material)",
+            "explanation": "This is a Relative Pin. The Knight on f6 can legally move, but doing so would expose the Queen on d8 to capture by the Bishop on g5. It's not an Absolute Pin because the King is not involved.",
+            "difficulty": 2
+        },
+        {
+            "id": "03-tactics-ex-08",
+            "moduleId": "03-tactics",
+            "type": "multiple-choice",
+            "question": "You see a move that wins a Rook. But it allows your opponent to checkmate you in 1 move. Should you play it?",
+            "options": [
+                "Yes - winning a Rook is worth it",
+                "No - safety first, avoid checkmate",
+                "Depends on the position",
+                "Yes - if you're losing anyway"
+            ],
+            "correctAnswer": "No - safety first, avoid checkmate",
+            "explanation": "Never allow checkmate, no matter how much material you can win! The golden rule: Safety First. Always do a 'Blunder Check' before playing your move.",
+            "difficulty": 1
+        },
+        {
+            "id": "03-tactics-ex-09",
+            "moduleId": "03-tactics",
+            "type": "multiple-choice",
+            "question": "What is the CCT method for finding candidate moves?",
+            "options": [
+                "Castle, Capture, Threaten",
+                "Checks, Captures, Threats",
+                "Center, Control, Tactics",
+                "Calculate, Check, Trade"
+            ],
+            "correctAnswer": "Checks, Captures, Threats",
+            "explanation": "CCT stands for Checks, Captures, Threats. This is the priority order for looking at candidate moves in tactical positions. Checks are most forcing, then captures, then threats.",
+            "difficulty": 1
+        },
+        {
+            "id": "03-tactics-ex-10",
+            "moduleId": "03-tactics",
+            "type": "multiple-choice",
+            "question": "Against a double check, what are your options?",
+            "options": [
+                "Block one of the checks",
+                "Capture one of the checking pieces",
+                "Move the King (only option)",
+                "Any of the above"
+            ],
+            "correctAnswer": "Move the King (only option)",
+            "explanation": "Against a double check, the King MUST move. You cannot block both checks or capture both checking pieces in one move. This makes double check one of the most forcing moves in chess.",
+            "difficulty": 2
+        }
+    ]
+}

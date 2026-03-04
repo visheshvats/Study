@@ -1,0 +1,185 @@
+{
+    "moduleId": "07-advanced",
+    "lessons": [
+        {
+            "id": "07-advanced-i01",
+            "lessonId": "07-advanced-01",
+            "moduleId": "07-advanced",
+            "title": "Find the Exchange Sacrifice",
+            "description": "Spot when sacrificing a Rook for a minor piece gives you a dominant position.",
+            "mode": "puzzle",
+            "initialFen": "r2qr1k1/pp2bppp/2n1pn2/3pN3/3P1B2/2PB4/PP3PPP/R2Q1RK1 w - - 0 12",
+            "playerColor": "white",
+            "steps": [
+                {
+                    "instruction": "Black's Knight on c6 is a key defender. Your Rook can reach c1. But there's a stronger idea: sacrifice material for positional dominance! Play Nxc6!",
+                    "expectedMove": "Nxc6",
+                    "feedback": {
+                        "correct": "You've removed the key defender! After bxc6, Black's pawn structure is ruined with a weak c6 pawn and holes everywhere.",
+                        "incorrect": "Play Nxc6 - this removes a key defender and ruins Black's pawn structure after bxc6."
+                    },
+                    "computerMove": "bxc6"
+                },
+                {
+                    "instruction": "Black recaptured. Now your Bishop on d3 dominates the light squares. What's the most aggressive continuation? Target the weakened kingside!",
+                    "expectedMoves": [
+                        "Qh5",
+                        "Qg4"
+                    ],
+                    "feedback": {
+                        "correct": "Powerful! The Queen joins the attack. With Black's structure ruined and your active pieces, you have a dominating position despite the exchange!",
+                        "incorrect": "Bring the Queen to the attack! Qh5 or Qg4 targets the weakened kingside."
+                    }
+                }
+            ],
+            "successMessage": "You spotted the exchange sacrifice! Sometimes ruining the structure is worth more than material.",
+            "hints": [
+                "Look for a way to ruin Black's pawn structure",
+                "Nxc6 removes a defender and creates weak pawns",
+                "After bxc6, Black has doubled c-pawns and weak squares"
+            ],
+            "estimatedMinutes": 3,
+            "difficulty": 3
+        },
+        {
+            "id": "07-advanced-i02",
+            "lessonId": "07-advanced-02",
+            "moduleId": "07-advanced",
+            "title": "Maintain Initiative with Tempo",
+            "description": "Practice maintaining the initiative by making threats with every move.",
+            "mode": "guided",
+            "initialFen": "r1b2rk1/pp1nqppp/4pn2/2ppN3/3P4/2PB4/PP2QPPP/R1B2RK1 w - - 0 10",
+            "playerColor": "white",
+            "steps": [
+                {
+                    "instruction": "You have a strong Knight on e5 and active pieces. Maintain initiative! Play Bf4 - develop the last piece with a threat on c7!",
+                    "expectedMove": "Bf4",
+                    "feedback": {
+                        "correct": "Tempo! You developed with a threat to c7. Black must respond, keeping you in control.",
+                        "incorrect": "Play Bf4 - develop your last piece while threatening c7."
+                    },
+                    "arrows": [
+                        {
+                            "from": "f4",
+                            "to": "c7"
+                        }
+                    ],
+                    "computerMove": "Nb6"
+                },
+                {
+                    "instruction": "Black defended. Now increase the pressure! Play Qh5 - threaten the kingside while maintaining initiative!",
+                    "expectedMove": "Qh5",
+                    "feedback": {
+                        "correct": "Another tempo move! Qh5 creates kingside threats. Black must keep defending while you keep attacking.",
+                        "incorrect": "Play Qh5 - keep making threats! The initiative means your opponent has to keep reacting."
+                    },
+                    "computerMove": "g6"
+                },
+                {
+                    "instruction": "Black weakened the kingside with ...g6. Now retreat the Queen to a new attacking square. Play Qh3 to keep pressure on e6!",
+                    "expectedMove": "Qh3",
+                    "feedback": {
+                        "correct": "The Queen regroups but maintains pressure. You've weakened g6, now target e6. The initiative is yours!",
+                        "incorrect": "Play Qh3 - regroup the Queen while targeting e6. Keep the initiative alive!"
+                    },
+                    "arrows": [
+                        {
+                            "from": "h3",
+                            "to": "e6"
+                        }
+                    ]
+                }
+            ],
+            "successMessage": "You maintained the initiative! Key: every move should contain a threat. Never give the opponent time to breathe.",
+            "hints": [
+                "Every move should contain a threat",
+                "Develop with tempo (threats on the same move)",
+                "Don't let the opponent consolidate"
+            ],
+            "estimatedMinutes": 4,
+            "difficulty": 3
+        },
+        {
+            "id": "07-advanced-i03",
+            "lessonId": "07-advanced-04",
+            "moduleId": "07-advanced",
+            "title": "Find the Saving Perpetual Check",
+            "description": "You're losing! Find the perpetual check to save the game.",
+            "mode": "puzzle",
+            "initialFen": "6k1/5ppp/8/8/1q6/8/5PPP/3Q2K1 w - - 0 1",
+            "playerColor": "white",
+            "steps": [
+                {
+                    "instruction": "You're down a whole Queen's worth of material (Black Q vs your Q). But Black's King looks exposed on g8. Can you find perpetual check? Start with Qd5+!",
+                    "expectedMoves": [
+                        "Qd5+"
+                    ],
+                    "feedback": {
+                        "correct": "Check! The Queen attacks from d5. After Kh8 or Kf8, you keep checking!",
+                        "incorrect": "Play Qd5+ - give check aiming for perpetual!"
+                    },
+                    "highlight": [
+                        "g8"
+                    ],
+                    "computerMove": "Kh8"
+                },
+                {
+                    "instruction": "King goes to h8. Now Qf5! Threaten Qf8# and prepare more checks!",
+                    "expectedMoves": [
+                        "Qd8+",
+                        "Qe5+"
+                    ],
+                    "feedback": {
+                        "correct": "Keep checking! The King can never escape the checks. This is a DRAW by perpetual check despite being down material!",
+                        "incorrect": "Keep giving checks! Try Qd8+ or Qe5+ - the King can't escape."
+                    }
+                }
+            ],
+            "successMessage": "You found the perpetual check! Even in losing positions, always look for drawing resources.",
+            "hints": [
+                "Perpetual check = giving non-stop checks",
+                "The Queen is amazing at this - it attacks from far away",
+                "Even down material, perpetual check saves the game"
+            ],
+            "estimatedMinutes": 3,
+            "difficulty": 3
+        },
+        {
+            "id": "07-advanced-i04",
+            "lessonId": "07-advanced-04",
+            "moduleId": "07-advanced",
+            "title": "Build a Fortress",
+            "description": "Set up an unbreakable defensive position to draw despite being down material.",
+            "mode": "guided",
+            "initialFen": "8/8/4k3/3p4/3Pp3/4P3/3B1K2/1r6 w - - 0 1",
+            "playerColor": "white",
+            "steps": [
+                {
+                    "instruction": "You're down a Rook for a Bishop! But the position is locked. Play Be1 to protect the d4 pawn and set up a fortress!",
+                    "expectedMove": "Be1",
+                    "feedback": {
+                        "correct": "The Bishop defends everything! The d4-e3 chain is unbreakable. Black's Rook can't break through because all entry points are covered.",
+                        "incorrect": "Play Be1 - this creates a fortress by defending d4 and controlling the dark squares."
+                    },
+                    "computerMove": "Rb2+"
+                },
+                {
+                    "instruction": "Black checks, but your King is safe. Play Kf3 - the King stays near the pawns!",
+                    "expectedMove": "Kf3",
+                    "feedback": {
+                        "correct": "FORTRESS! The position is a draw. Black's Rook cannot break through the d4-e3-Be1 structure. This is an unbreakable defensive setup!",
+                        "incorrect": "Play Kf3 - keep the King near the fortress structure."
+                    }
+                }
+            ],
+            "successMessage": "You built a fortress! Even down material, some positions are simply unbreakable. A great defensive resource!",
+            "hints": [
+                "A fortress is an unbreakable defensive position",
+                "The d4-e3 pawn chain can't be attacked",
+                "The Bishop defends everything from e1"
+            ],
+            "estimatedMinutes": 3,
+            "difficulty": 4
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+# IDEs
+.idea/
+.vscode/
+
+# Build outputs
+out/
+target/
+dist/
+build/
+
+# Zips
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local

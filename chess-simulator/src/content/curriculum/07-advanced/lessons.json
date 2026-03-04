@@ -1,0 +1,103 @@
+{
+    "moduleId": "07-advanced",
+    "lessons": [
+        {
+            "id": "07-advanced-01",
+            "moduleId": "07-advanced",
+            "title": "Positional Sacrifices",
+            "content": "# Positional Sacrifices\n\n**Definition**: Sacrificing material without a forced mate or immediate recovery.\n\n**Goal**: To improve your position or ruin the opponent's structure.\n\n## The Exchange Sacrifice (Rook for Knight/Bishop)\n\n**Classic Practitioner**: Tigran Petrosian\n\n**Why Sacrifice the Exchange?**\n\n### 1. To Destroy a Blockade\n\n**Scenario**: Enemy Knight on d5 is perfectly placed, blockading your position.\n\n**Solution**: Rxd5! Trading Rook for Knight removes the blockade.\n\n### 2. To Ruin Pawn Structure\n\n**Scenario**: Enemy has solid pawn structure.\n\n**Solution**: Sacrifice exchange to create doubled pawns or isolated pawns.\n\n### 3. To Dominate One Color Complex\n\n**Scenario**: You have a Bishop, they have a Knight.\n\n**Solution**: Trade Rook for Knight, dominate the Bishop's color.\n\n## The Pawn Sacrifice\n\n**Why Sacrifice a Pawn?**\n\n### 1. To Open Lines\n\n**Example**: Sacrifice d4 pawn to open the d-file for your Rook.\n\n### 2. To Gain Tempo (Initiative)\n\n**Example**: Sacrifice to force opponent into passive defense.\n\n### 3. To Create an Outpost\n\n**Example**: Sacrifice to control e5 square for your Knight.\n\n## Evaluating Positional Sacrifices\n\n**Ask yourself**:\n1. What concrete compensation do I get?\n2. Is my position improved significantly?\n3. Is opponent's structure ruined?\n4. Can I create long-term pressure?\n\n**Don't sacrifice if**:\n- You have no clear compensation\n- Opponent can simplify easily\n- Your King is unsafe\n\n## Famous Examples\n\n**Study these games**:\n- Petrosian vs Reshevsky (Exchange sacrifice master class)\n- Topalov vs Kramnik (Multiple exchange sacrifices)\n- Tal vs Smyslov (Pawn sacrifices for initiative)\n\n## Practical Application\n\n**When to consider positional sacrifices**:\n- You have a long-term advantage (Bishop pair, better structure)\n- Material is less important than position\n- You can create lasting pressure\n- Opponent's pieces are uncoordinated",
+            "positions": [
+                {
+                    "fen": "r4rk1/pp2bppp/2n1pn2/3p4/2PP4/2NB1N2/PP3PPP/R1BQ1RK1 w - - 0 9",
+                    "description": "Exchange Sacrifice: White might play Rxc6!? bxc6 to ruin Black's pawn structure and dominate the light squares.",
+                    "orientation": "white"
+                }
+            ],
+            "drills": [
+                "Study the game Topalov vs Kramnik (many exchange sacrifices)",
+                "Study Petrosian vs Reshevsky for exchange sacrifice technique"
+            ],
+            "nextLesson": "07-advanced-02",
+            "estimatedMinutes": 20
+        },
+        {
+            "id": "07-advanced-02",
+            "moduleId": "07-advanced",
+            "title": "Initiative, Tempo, and Dynamics",
+            "content": "# Initiative, Tempo, and Dynamics\n\n## The Initiative\n\n**Definition**: The ability to make threats and force your opponent to respond.\n\n**Why It Matters**: The side with the initiative controls the game's direction.\n\n### Gaining the Initiative\n\n**Methods**:\n1. **Create threats** (attacks on pieces, King, pawns)\n2. **Develop faster** (more active pieces)\n3. **Control the center** (more space = more options)\n4. **Sacrifice material** (for activity)\n\n### Maintaining the Initiative\n\n**Keep making threats**:\n- Don't give opponent time to consolidate\n- Create new threats before old ones are resolved\n- Force opponent into passive defense\n\n## Tempo\n\n**Definition**: A unit of time in chess (one move).\n\n**Gaining Tempo**:\n- Attacking enemy pieces (they must move)\n- Developing with threats\n- Forcing opponent to waste moves\n\n**Losing Tempo**:\n- Moving the same piece twice\n- Making unnecessary moves\n- Defending passively\n\n### The Value of Tempo\n\n**In the opening**: Development tempo is crucial\n**In the middlegame**: Tempo creates tactical opportunities\n**In the endgame**: Every tempo can be decisive\n\n## Dynamic vs Static Factors\n\n### Static Factors (Permanent)\n- Pawn structure\n- Weak squares\n- Bishop pair\n- Material\n\n### Dynamic Factors (Temporary)\n- Initiative\n- King safety\n- Piece activity\n- Threats\n\n### The Balance\n\n**Dynamic compensation** can outweigh static disadvantages.\n\n**Example**: Down a pawn but with active pieces and initiative = good position!\n\n## Practical Application\n\n### When You Have the Initiative:\n1. **Keep attacking** (don't let up)\n2. **Create multiple threats**\n3. **Don't trade pieces** (reduces your activity)\n4. **Calculate forcing sequences**\n\n### When You've Lost the Initiative:\n1. **Consolidate** your position\n2. **Trade pieces** (reduce opponent's activity)\n3. **Fix weaknesses**\n4. **Look for counter-chances**\n\n## Famous Quote\n\n**Mikhail Tal**: \"You must take your opponent into a deep dark forest where 2+2=5, and the path leading out is only wide enough for one.\"\n\n**Meaning**: Use initiative and dynamics to create complications where your opponent is more likely to make mistakes.",
+            "positions": [
+                {
+                    "fen": "r1bq1rk1/pp3ppp/2n1pn2/2ppP3/3P4/2PB1N2/PP3PPP/R1BQK2R w KQ - 0 8",
+                    "description": "Initiative: White has central tension and pieces aimed at the kingside. The initiative justifies aggressive play.",
+                    "orientation": "white"
+                }
+            ],
+            "drills": [
+                "Study Mikhail Tal's games for initiative and dynamics",
+                "Practice maintaining initiative in your games"
+            ],
+            "prevLesson": "07-advanced-01",
+            "nextLesson": "07-advanced-03",
+            "estimatedMinutes": 18
+        },
+        {
+            "id": "07-advanced-03",
+            "moduleId": "07-advanced",
+            "title": "Complex Calculation and Tree Pruning",
+            "content": "# Complex Calculation and Tree Pruning\n\n## The Calculation Tree\n\n**Concept**: Every move creates branches of possible continuations.\n\n**The Problem**: Too many branches to calculate them all!\n\n**The Solution**: Tree pruning (cutting unnecessary branches).\n\n## Tree Pruning Techniques\n\n### 1. Eliminate Obviously Bad Moves\n\n**Don't calculate**:\n- Moves that hang pieces\n- Moves that allow checkmate\n- Moves that violate basic principles\n\n**Save time** for promising moves.\n\n### 2. Focus on Forcing Moves\n\n**Priority order**:\n1. Checks\n2. Captures\n3. Threats\n\n**Why?** Forcing moves limit opponent's options.\n\n### 3. Calculate Opponent's Best Defense\n\n**Don't assume** opponent will blunder.\n\n**Calculate** their strongest response.\n\n### 4. Use Pattern Recognition\n\n**If you've seen** a similar position before, use that knowledge.\n\n**Don't recalculate** known patterns.\n\n## Deep Calculation Techniques\n\n### Visualization\n\n**Practice seeing** positions in your mind without moving pieces.\n\n**Method**:\n1. Close your eyes\n2. Visualize the position\n3. Make moves mentally\n4. Check if you were right\n\n### Chunking\n\n**Group moves** into logical sequences.\n\n**Example**: Instead of calculating 10 individual moves, think of it as 3 sequences.\n\n### Backward Calculation\n\n**Start from** the desired outcome (checkmate, winning material).\n\n**Work backward** to find the path.\n\n## Practical Calculation Process\n\n### Step 1: Identify Candidate Moves (3-4 moves)\n\n**Use CCT**: Checks, Captures, Threats\n\n### Step 2: Calculate Each Candidate\n\n**For each move**:\n1. Opponent's best response\n2. Your continuation\n3. Evaluate the resulting position\n\n### Step 3: Compare and Choose\n\n**Pick the move** with the best outcome.\n\n### Step 4: Blunder Check\n\n**Before playing**, ask:\n- Does opponent have a check?\n- Does opponent have a capture?\n- Does opponent have a counter-threat?\n\n## Common Calculation Mistakes\n\n1. **Calculating too deep** in quiet positions\n2. **Not calculating deep enough** in tactical positions\n3. **Assuming opponent will make mistakes**\n4. **Forgetting intermediate moves**\n5. **Not checking for counter-tactics**\n\n## Training Methods\n\n**Blindfold chess**: Play without seeing the board\n**Tactical puzzles**: Solve without moving pieces\n**Annotate games**: Write down variations\n**Study master games**: See how they calculate",
+            "positions": [
+                {
+                    "fen": "r2q1rk1/pp2bppp/2n1pn2/3pN3/3P1B2/2PB4/PP3PPP/R2Q1RK1 w - - 0 10",
+                    "description": "Candidate Moves: White has Nxc6, Nxf7, Bxh7+, Qh5. Use CCT (Checks, Captures, Threats) to evaluate!",
+                    "orientation": "white"
+                }
+            ],
+            "drills": [
+                "Solve 10 tactical puzzles without moving pieces (pure visualization)",
+                "Practice blindfold chess (even just a few moves)"
+            ],
+            "prevLesson": "07-advanced-02",
+            "nextLesson": "07-advanced-04",
+            "estimatedMinutes": 20
+        },
+        {
+            "id": "07-advanced-04",
+            "moduleId": "07-advanced",
+            "title": "Defensive Technique and Resourcefulness",
+            "content": "# Defensive Technique and Resourcefulness\n\n## The Art of Defense\n\n**Defense is harder than attack** because:\n- You're reacting to opponent's threats\n- You have less freedom\n- One mistake can be fatal\n\n**But**: Good defense can turn the tables!\n\n## Defensive Principles\n\n### 1. Stay Calm\n\n**Don't panic** when under attack.\n\n**Take your time** to find the best defense.\n\n### 2. Look for Counter-Chances\n\n**Best defense** is often a counter-attack.\n\n**Ask**: \"What is my opponent's weakness?\"\n\n### 3. Trade Attacking Pieces\n\n**Reduce the attack** by trading off attackers.\n\n**Especially**: Trade Queens when under attack.\n\n### 4. Create Escape Squares\n\n**Give your King** breathing room (luft).\n\n**Prevent**: Back rank mates and smothered mates.\n\n## Defensive Resources\n\n### Perpetual Check\n\n**Even when losing**, look for perpetual check.\n\n**Requirements**:\n- Exposed enemy King\n- Your pieces can give checks\n\n### Stalemate Tricks\n\n**When losing badly**, look for stalemate.\n\n**Method**: Sacrifice all your pieces!\n\n### Fortress\n\n**Definition**: An unbreakable defensive setup.\n\n**Example**: Opposite-colored Bishops with pawns blockaded.\n\n### Counterplay\n\n**Create your own threats** while defending.\n\n**Force opponent** to defend instead of attack.\n\n## Practical Defensive Techniques\n\n### When Under Attack:\n\n1. **Assess the threat** (is it real?)\n2. **Look for counter-threats** (can you attack back?)\n3. **Trade pieces** (reduce the attack)\n4. **Improve worst piece** (bring defenders)\n5. **Create escape squares** (prevent tactics)\n\n### When Down Material:\n\n1. **Create complications** (don't simplify)\n2. **Attack the King** (your best chance)\n3. **Look for perpetual** check\n4. **Seek fortress** positions\n5. **Make it difficult** (don't resign easily!)\n\n## Famous Defensive Games\n\n**Study**:\n- Petrosian's defensive masterpieces\n- Karpov's defensive technique\n- Carlsen's defensive resources\n\n## The Psychology of Defense\n\n**Attackers get impatient** → They make mistakes\n\n**Defenders who stay calm** → Often find resources\n\n**Your job**: Make it as difficult as possible!",
+            "positions": [
+                {
+                    "fen": "r1b2rk1/ppq2pp1/2n1p2p/3pP3/3Pn3/2NB4/PP3PPP/R1BQ1RK1 b - - 0 12",
+                    "description": "Defense: Black is under pressure but can defend with ...f5 (blocking the diagonal) or ...Bd7 (developing).",
+                    "orientation": "black"
+                }
+            ],
+            "drills": [
+                "Practice defending worse positions against computer",
+                "Study Petrosian and Karpov's defensive games"
+            ],
+            "prevLesson": "07-advanced-03",
+            "nextLesson": "07-advanced-05",
+            "estimatedMinutes": 18
+        },
+        {
+            "id": "07-advanced-05",
+            "moduleId": "07-advanced",
+            "title": "Preparation and Psychology",
+            "content": "# Preparation and Psychology\n\n## Pre-Game Preparation\n\n### Opening Preparation\n\n**Study your repertoire**:\n- Know your main lines\n- Understand the plans\n- Prepare surprises for opponents\n\n**Don't over-prepare**:\n- Memorizing 25 moves is useless\n- Understanding plans is better\n\n### Physical Preparation\n\n**Chess is exhausting**:\n- Get good sleep\n- Eat properly\n- Stay hydrated\n- Exercise regularly\n\n**Long games** require stamina!\n\n### Mental Preparation\n\n**Mindset**:\n- Confidence (but not arrogance)\n- Focus on the process\n- Accept that you'll make mistakes\n- Learn from every game\n\n## During the Game\n\n### Time Management\n\n**Don't spend** all your time in the opening.\n\n**Save time** for critical moments.\n\n**Use opponent's time** to think ahead.\n\n### Handling Pressure\n\n**When in trouble**:\n- Take a deep breath\n- Reassess the position\n- Look for resources\n- Don't give up\n\n**When winning**:\n- Stay focused\n- Don't relax too much\n- Simplify carefully\n- Avoid unnecessary risks\n\n## Psychological Factors\n\n### Confidence\n\n**Believe in yourself**, but respect your opponent.\n\n**Past results** don't determine this game.\n\n### Tilt (Emotional Reaction)\n\n**After a blunder**:\n- Don't panic\n- Reset mentally\n- Focus on the current position\n- Fight back\n\n**Avoid revenge chess** (playing too aggressively after a loss).\n\n### Reading Your Opponent\n\n**Body language** can reveal:\n- Confidence or uncertainty\n- Time pressure\n- Surprise at your move\n\n**Use this information** wisely.\n\n## Post-Game Analysis\n\n### Analyze Every Game\n\n**Win or lose**, analyze:\n- Where did I go wrong?\n- What did I do well?\n- What should I study?\n\n**Use computer** but think first!\n\n### Learn from Mistakes\n\n**Mistakes are opportunities**:\n- Identify the type of mistake\n- Understand why you made it\n- Practice to avoid it\n\n**Don't repeat** the same mistakes!\n\n## Long-Term Improvement\n\n**Study plan**:\n- Tactics (daily)\n- Endgames (weekly)\n- Openings (as needed)\n- Master games (regularly)\n\n**Play regularly** but not excessively.\n\n**Take breaks** to avoid burnout.\n\n## The Growth Mindset\n\n**Fixed mindset**: \"I'm not good at chess.\"\n\n**Growth mindset**: \"I'm not good at chess YET.\"\n\n**Embrace challenges**, learn from failures, persist through setbacks.\n\n**Chess improvement** is a marathon, not a sprint!",
+            "positions": [
+                {
+                    "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+                    "description": "Preparation: 1.e4 — the most popular first move. Understand the PLANS behind your opening, not just memorize moves.",
+                    "orientation": "white"
+                }
+            ],
+            "drills": [
+                "Create a study plan for the next month",
+                "Analyze your last 5 games and identify patterns in your mistakes"
+            ],
+            "prevLesson": "07-advanced-04",
+            "estimatedMinutes": 18
+        }
+    ]
+}

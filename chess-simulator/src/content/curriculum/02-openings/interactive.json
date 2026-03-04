@@ -1,0 +1,204 @@
+{
+    "moduleId": "02-openings",
+    "lessons": [
+        {
+            "id": "02-openings-i01",
+            "lessonId": "02-openings-04",
+            "moduleId": "02-openings",
+            "title": "Play the Italian Game",
+            "description": "Learn the Italian Game opening moves and understand the plans behind each move.",
+            "mode": "guided",
+            "initialFen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+            "playerColor": "white",
+            "steps": [
+                {
+                    "instruction": "Start with 1.e4 - control the center and open lines for your Bishop and Queen!",
+                    "expectedMove": "e4",
+                    "feedback": {
+                        "correct": "Great! 1.e4 controls d5 and f5, and opens the diagonal for the Bishop.",
+                        "incorrect": "Play e4 - the most popular opening move, controlling the center."
+                    },
+                    "computerMove": "e5"
+                },
+                {
+                    "instruction": "Black mirrors you with ...e5. Now develop with 2.Nf3 - attack Black's e5 pawn while developing!",
+                    "expectedMove": "Nf3",
+                    "feedback": {
+                        "correct": "Perfect! The Knight develops to a great square, attacking e5 and controlling d4.",
+                        "incorrect": "Play Nf3 - develop with a threat! The Knight attacks the e5 pawn."
+                    },
+                    "computerMove": "Nc6"
+                },
+                {
+                    "instruction": "Black defends with ...Nc6. Now play 3.Bc4 - the Italian Game! Target the weak f7 square.",
+                    "expectedMove": "Bc4",
+                    "feedback": {
+                        "correct": "The Italian Game! Your Bishop aims at f7, the weakest point near Black's King.",
+                        "incorrect": "Play Bc4 to enter the Italian Game. The Bishop targets f7!"
+                    },
+                    "arrows": [
+                        {
+                            "from": "c4",
+                            "to": "f7"
+                        }
+                    ],
+                    "computerMove": "Bc5"
+                },
+                {
+                    "instruction": "Black develops symmetrically. Now castle with O-O to keep your King safe!",
+                    "expectedMove": "O-O",
+                    "feedback": {
+                        "correct": "Excellent! King safety first. Your King is safe and the Rook is connected.",
+                        "incorrect": "Castle kingside (O-O) - get your King to safety early!"
+                    },
+                    "computerMove": "Nf6"
+                },
+                {
+                    "instruction": "Now play d3 - support your e4 pawn and prepare to develop your Bishop.",
+                    "expectedMove": "d3",
+                    "feedback": {
+                        "correct": "Solid! d3 supports e4, opens the diagonal for Bc1, and keeps a strong center.",
+                        "incorrect": "Play d3 - a solid move that supports your center and opens development."
+                    }
+                }
+            ],
+            "successMessage": "You've learned the Italian Game! Key ideas: control center, develop pieces, target f7, castle early.",
+            "hints": [
+                "The Italian Game starts with 1.e4 e5 2.Nf3 Nc6 3.Bc4",
+                "Always aim the Bishop at f7 - it's Black's weakest point",
+                "Castle early to protect your King"
+            ],
+            "estimatedMinutes": 5,
+            "difficulty": 1
+        },
+        {
+            "id": "02-openings-i02",
+            "lessonId": "02-openings-04",
+            "moduleId": "02-openings",
+            "title": "Play the London System",
+            "description": "Learn the London System - a solid opening system for White that works against almost anything.",
+            "mode": "guided",
+            "initialFen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+            "playerColor": "white",
+            "steps": [
+                {
+                    "instruction": "Start with 1.d4 - control the center with your d-pawn!",
+                    "expectedMove": "d4",
+                    "feedback": {
+                        "correct": "Good! 1.d4 is the foundation of the London System.",
+                        "incorrect": "Play d4 - the London System always starts with this move."
+                    },
+                    "computerMove": "d5"
+                },
+                {
+                    "instruction": "Now the key London move: 2.Bf4! Develop the Bishop BEFORE playing e3.",
+                    "expectedMove": "Bf4",
+                    "feedback": {
+                        "correct": "The signature London move! The Bishop is developed before e3 blocks it in.",
+                        "incorrect": "Play Bf4 - this is THE London System move. Develop the Bishop before e3!"
+                    },
+                    "computerMove": "Nf6"
+                },
+                {
+                    "instruction": "Now play 3.e3 - support d4 and prepare to develop the kingside Bishop.",
+                    "expectedMove": "e3",
+                    "feedback": {
+                        "correct": "Solid! e3 supports d4 and prepares Bd3 and kingside castling.",
+                        "incorrect": "Play e3 - now that the Bishop is out, e3 is safe."
+                    },
+                    "computerMove": "c5"
+                },
+                {
+                    "instruction": "Develop the Bishop with Bd3 - a natural square pointing at the Black kingside.",
+                    "expectedMove": "Bd3",
+                    "feedback": {
+                        "correct": "The London setup is taking shape! Bd3 eyes the kingside.",
+                        "incorrect": "Play Bd3 - complete the London formation."
+                    },
+                    "computerMove": "Nc6"
+                },
+                {
+                    "instruction": "Support the center with c3 - anchor your d4 pawn!",
+                    "expectedMove": "c3",
+                    "feedback": {
+                        "correct": "The London pyramid is complete: d4, e3, c3 with Bf4 and Bd3. A rock-solid setup!",
+                        "incorrect": "Play c3 - this supports d4 and completes the London formation."
+                    }
+                }
+            ],
+            "successMessage": "You've learned the London System! Setup: d4, Bf4, e3, Bd3, c3, then castle and play for the center.",
+            "hints": [
+                "Always play Bf4 BEFORE e3",
+                "The London pyramid is d4-e3-c3",
+                "This system works against almost any Black defense"
+            ],
+            "estimatedMinutes": 5,
+            "difficulty": 1
+        },
+        {
+            "id": "02-openings-i03",
+            "lessonId": "02-openings-03",
+            "moduleId": "02-openings",
+            "title": "Defend Against Scholar's Mate",
+            "description": "Learn to spot and punish the Scholar's Mate attempt (Qh5/Bc4 attack on f7).",
+            "mode": "puzzle",
+            "initialFen": "rnbqkbnr/pppp1ppp/8/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 3 3",
+            "playerColor": "black",
+            "steps": [
+                {
+                    "instruction": "White is threatening Qxf7#! How do you defend f7 while developing a piece?",
+                    "expectedMoves": [
+                        "Qe7",
+                        "Nh6"
+                    ],
+                    "feedback": {
+                        "correct": "Well defended! You've blocked the mate threat while developing.",
+                        "incorrect": "Look for a move that defends f7. Qe7 blocks the diagonal, or Nh6 guards f7."
+                    },
+                    "highlight": [
+                        "f7"
+                    ]
+                }
+            ],
+            "successMessage": "You know how to defend against Scholar's Mate! Remember: never panic, just develop and defend.",
+            "hints": [
+                "White wants to play Qxf7# - you must defend f7",
+                "Qe7 blocks the diagonal while developing the Queen",
+                "After defending, White's Queen is misplaced early"
+            ],
+            "estimatedMinutes": 2,
+            "difficulty": 1
+        },
+        {
+            "id": "02-openings-i04",
+            "lessonId": "02-openings-01",
+            "moduleId": "02-openings",
+            "title": "Best Developing Move",
+            "description": "Choose the best developing move following opening principles.",
+            "mode": "puzzle",
+            "initialFen": "r1bqkbnr/pppppppp/2n5/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 1 2",
+            "playerColor": "white",
+            "steps": [
+                {
+                    "instruction": "You played 1.e4, Black played 1...Nc6. What's the best developing move? Develop a piece with a purpose!",
+                    "expectedMoves": [
+                        "Nf3",
+                        "d4"
+                    ],
+                    "feedback": {
+                        "correct": "Excellent choice! Either Nf3 (developing toward the center) or d4 (claiming more center space) are principled moves.",
+                        "incorrect": "Follow opening principles: develop pieces toward the center. Nf3 or d4 are best."
+                    }
+                }
+            ],
+            "successMessage": "Great opening instincts! Always develop with purpose: control center, develop pieces, prepare castling.",
+            "hints": [
+                "Opening principles: develop pieces toward the center",
+                "Knights before Bishops usually",
+                "Nf3 develops and attacks e5"
+            ],
+            "estimatedMinutes": 2,
+            "difficulty": 1
+        }
+    ]
+}

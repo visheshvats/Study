@@ -1,0 +1,184 @@
+{
+    "moduleId": "03-tactics",
+    "lessons": [
+        {
+            "id": "03-tactics-i01",
+            "lessonId": "03-tactics-01",
+            "moduleId": "03-tactics",
+            "title": "Knight Fork Practice",
+            "description": "Find the Knight fork that wins material!",
+            "mode": "puzzle",
+            "initialFen": "r1bqkb1r/pppp1ppp/2n2n2/4N3/2B1P3/8/PPPP1PPP/RNBQK2R w KQkq - 0 1",
+            "playerColor": "white",
+            "steps": [
+                {
+                    "instruction": "Your Knight on e5 is beautifully placed. Find the fork that attacks the Queen AND f7!",
+                    "expectedMove": "Nxf7",
+                    "feedback": {
+                        "correct": "Brilliant! Nxf7 forks the Queen on d8 and the Rook on h8! This is the 'Royal Fork'!",
+                        "incorrect": "Look at what Nxf7 would attack - the Queen on d8 and the Rook on h8!"
+                    },
+                    "highlight": [
+                        "e5",
+                        "f7"
+                    ],
+                    "arrows": [
+                        {
+                            "from": "e5",
+                            "to": "f7"
+                        }
+                    ]
+                }
+            ],
+            "successMessage": "The Knight fork is one of the most powerful tactics!",
+            "hints": [
+                "Knights attack in an L-shape",
+                "Look at what the Knight could attack from f7"
+            ],
+            "estimatedMinutes": 2,
+            "difficulty": 2
+        },
+        {
+            "id": "03-tactics-i02",
+            "lessonId": "03-tactics-01",
+            "moduleId": "03-tactics",
+            "title": "Pin the Knight",
+            "description": "Use a pin to win material.",
+            "mode": "puzzle",
+            "initialFen": "rnbqk2r/pppp1ppp/5n2/2b1p3/2B1P3/3P1N2/PPP2PPP/RNBQK2R w KQkq - 0 5",
+            "playerColor": "white",
+            "steps": [
+                {
+                    "instruction": "Black's Knight on f6 is protecting something important. Can you pin it?",
+                    "expectedMove": "Bg5",
+                    "feedback": {
+                        "correct": "Excellent! The Knight is now pinned to the Queen. It can't move without losing the Queen!",
+                        "incorrect": "Try Bg5 - this pins the Knight to the Queen behind it."
+                    },
+                    "highlight": [
+                        "f6",
+                        "d8"
+                    ],
+                    "arrows": [
+                        {
+                            "from": "c1",
+                            "to": "g5"
+                        }
+                    ]
+                }
+            ],
+            "successMessage": "Pins are devastating! The piece can't move without bigger losses.",
+            "hints": [
+                "A pin attacks a piece that can't move",
+                "Look for a Bishop move to g5"
+            ],
+            "estimatedMinutes": 2,
+            "difficulty": 2
+        },
+        {
+            "id": "03-tactics-i03",
+            "lessonId": "03-tactics-01",
+            "moduleId": "03-tactics",
+            "title": "Back Rank Checkmate",
+            "description": "Exploit the weak back rank!",
+            "mode": "puzzle",
+            "initialFen": "6k1/5ppp/8/8/8/8/5PPP/R3R1K1 w - - 0 1",
+            "playerColor": "white",
+            "steps": [
+                {
+                    "instruction": "Black's King is trapped behind its pawns. Find the checkmate!",
+                    "expectedMoves": [
+                        "Re8#",
+                        "Ra8#"
+                    ],
+                    "feedback": {
+                        "correct": "CHECKMATE! The Rook delivers mate on the back rank. The pawns trap their own King!",
+                        "incorrect": "Move a Rook to the 8th rank - the King can't escape because of its own pawns!"
+                    },
+                    "highlight": [
+                        "g8"
+                    ]
+                }
+            ],
+            "successMessage": "Back rank mates are beautiful! Always watch for them.",
+            "hints": [
+                "The King can't escape through its own pawns",
+                "Put a Rook on the 8th rank"
+            ],
+            "estimatedMinutes": 1,
+            "difficulty": 1
+        },
+        {
+            "id": "03-tactics-i04",
+            "lessonId": "03-tactics-02",
+            "moduleId": "03-tactics",
+            "title": "Discovered Attack",
+            "description": "Use a discovered attack to win the Queen!",
+            "mode": "puzzle",
+            "initialFen": "r1bqkb1r/pppp1ppp/2n2n2/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w KQkq - 0 1",
+            "playerColor": "white",
+            "steps": [
+                {
+                    "instruction": "Your Bishop on c4 is blocking your Queen's attack on f7. Move the Bishop to DISCOVER an attack!",
+                    "expectedMoves": [
+                        "Bxf7+"
+                    ],
+                    "feedback": {
+                        "correct": "Brilliant! Bxf7+ is check, AND the Queen was already attacking f7. Now you win material!",
+                        "incorrect": "Try Bxf7+ - it's check AND it uncovers the Queen's attack on f7. Devastating!"
+                    },
+                    "arrows": [
+                        {
+                            "from": "c4",
+                            "to": "f7"
+                        },
+                        {
+                            "from": "h5",
+                            "to": "f7"
+                        }
+                    ]
+                }
+            ],
+            "successMessage": "Discovered attacks are like getting two moves in one!",
+            "hints": [
+                "The Queen wants to attack f7",
+                "Moving the Bishop will 'discover' the Queen's attack"
+            ],
+            "estimatedMinutes": 2,
+            "difficulty": 2
+        },
+        {
+            "id": "03-tactics-i05",
+            "lessonId": "03-tactics-01",
+            "moduleId": "03-tactics",
+            "title": "Skewer the King",
+            "description": "Use a skewer to win the Queen!",
+            "mode": "puzzle",
+            "initialFen": "q7/8/8/k7/8/8/8/R3K3 w - - 0 1",
+            "playerColor": "white",
+            "steps": [
+                {
+                    "instruction": "The Black King and Queen are aligned on the a-file. Find the skewer!",
+                    "expectedMove": "Ra5+",
+                    "feedback": {
+                        "correct": "Skewer! The Rook attacks the King on a5. When the King moves, you capture the Queen on a8!",
+                        "incorrect": "Try Ra5+ - the Rook skewers the King and Queen along the a-file!"
+                    },
+                    "arrows": [
+                        {
+                            "from": "a1",
+                            "to": "a5"
+                        }
+                    ]
+                }
+            ],
+            "successMessage": "Skewers are like reverse pins - the more valuable piece is in front and must move!",
+            "hints": [
+                "A skewer attacks a piece, and when it moves, you capture what's behind",
+                "Attack the King along the a-file"
+            ],
+            "estimatedMinutes": 2,
+            "difficulty": 2
+        }
+    ]
+}
