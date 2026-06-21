@@ -1,0 +1,10 @@
+# Phase 5 — Orchestrators (Multi-Agent) dependencies
+#
+# OFFLINE NOTE: with USE_MOCK = True (the default in both scripts) the demos run
+# with NO API key and do not actually need langchain-anthropic — the fake models
+# stand in for ChatAnthropic. You still need langchain-core for the message types
+# (SystemMessage / HumanMessage). Install langchain-anthropic when you flip
+# USE_MOCK = False to call the real claude-sonnet-4-6 model.
+
+langchain-core>=0.3.0
+langchain-anthropic>=0.3.0

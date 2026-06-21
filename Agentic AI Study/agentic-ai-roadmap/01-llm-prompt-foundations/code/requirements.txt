@@ -1,0 +1,10 @@
+# Phase 1 - LLM & Prompt Foundations
+# -----------------------------------
+# All files run OFFLINE with USE_MOCK = True and need NONE of these installed.
+# Install these only when you flip USE_MOCK = False to call the real API,
+# or to actually serve the FastAPI streaming endpoint.
+
+anthropic>=0.40.0        # Anthropic Python SDK (real client + streaming + tools)
+python-dotenv>=1.0.0     # loads code/.env -> ANTHROPIC_API_KEY (like application.properties)
+fastapi>=0.110.0         # SSE streaming endpoint (04_fastapi_streaming.py)
+uvicorn>=0.29.0          # ASGI server to run FastAPI: uvicorn 04_fastapi_streaming:app --reload

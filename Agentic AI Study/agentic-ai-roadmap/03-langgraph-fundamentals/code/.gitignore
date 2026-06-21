@@ -1,0 +1,8 @@
+# Python build artifacts (regenerated automatically; never commit them).
+# Java analogy: this is your target/ or build/ directory - generated output.
+__pycache__/
+*.pyc
+*.pyo
+
+# Local secrets - copy .env.example to .env and keep .env out of version control.
+.env

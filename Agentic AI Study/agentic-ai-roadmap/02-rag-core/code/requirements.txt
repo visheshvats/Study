@@ -1,0 +1,20 @@
+# Phase 2 — RAG Core
+# Dependencies needed to run every example in this phase.
+# Install with:  pip install -r requirements.txt
+#
+# Java analogy: this file is your pom.xml / build.gradle dependency block.
+# Pinning (==) keeps builds reproducible the same way a Maven lockfile / BOM does.
+#
+# NOTE: every script in this folder runs OFFLINE by default (USE_MOCK = True),
+# so you do NOT need most of these installed just to see the concepts work.
+# Install them when you are ready to swap in real loaders / embeddings / LLMs.
+
+langchain==0.3.14            # Core orchestration: chains, LCEL, splitters — the "Spring" of LLM apps
+langchain-community==0.3.14  # Community loaders & vector stores (PyPDFLoader, Chroma, FAISS wrappers)
+langchain-anthropic==0.3.1   # ChatAnthropic LLM binding (Claude)
+langchain-openai==0.3.0      # OpenAIEmbeddings binding (text-embedding-3-small)
+chromadb==0.5.23             # Local persistent vector DB — like an embedded H2 for vectors
+faiss-cpu==1.9.0             # Facebook AI Similarity Search — fast in-memory ANN index
+pypdf==5.1.0                 # PDF parsing backend used by PyPDFLoader
+numpy==2.2.1                 # Vector math (dot product, norms) for cosine similarity
+python-dotenv==1.0.1         # Loads .env into env vars — like Spring's application.properties

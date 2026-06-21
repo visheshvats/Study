@@ -1,0 +1,13 @@
+# Phase 6 — Evaluator & Optimizer dependencies
+#
+# The demos run fully OFFLINE with USE_MOCK = True and need only langchain-core
+# and pydantic. Install langchain-anthropic only when you flip USE_MOCK = False
+# to call the real model (ChatAnthropic(model="claude-sonnet-4-6")).
+#
+# Install:  pip install -r requirements.txt
+
+langchain-core>=0.3.0
+pydantic>=2.7.0
+
+# Required only for real (non-mock) LLM calls:
+langchain-anthropic>=0.3.0

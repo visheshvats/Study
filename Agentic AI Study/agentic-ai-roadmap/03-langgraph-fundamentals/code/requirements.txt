@@ -1,0 +1,14 @@
+# Phase 3 — LangGraph Fundamentals
+# Install with:  pip install -r requirements.txt
+#
+# Java analogy: this is your pom.xml / build.gradle dependency block.
+# Pinning (==) keeps builds reproducible like a lockfile.
+#
+# NOTE: every example ships with USE_MOCK = True, so you can run all four
+# scripts with ONLY langgraph + langchain-core installed and NO API key.
+# langchain-anthropic is only needed when you flip USE_MOCK = False.
+
+langgraph==0.2.60            # the state-machine / graph runtime (StateGraph, MemorySaver, prebuilt)
+langchain-core==0.3.28       # message types (HumanMessage, AIMessage, ToolMessage) + @tool decorator
+langchain-anthropic==0.3.1   # ChatAnthropic wrapper — only used when USE_MOCK = False
+python-dotenv==1.0.1         # loads .env into env vars — like Spring's application.properties
