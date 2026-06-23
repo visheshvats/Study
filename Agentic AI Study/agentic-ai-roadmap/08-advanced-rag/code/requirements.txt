@@ -1,0 +1,26 @@
+# Phase 8 — Advanced RAG dependencies
+# ---------------------------------------------------------------------------
+# The offline demos (USE_MOCK = True) only need `langchain-core`. The rest are
+# required once you flip USE_MOCK = False to call real LLMs / web search.
+#
+# Install:  pip install -r requirements.txt
+# Versions are pinned with >= so you get compatible recent releases; pin to
+# exact versions in a real project for reproducible builds.
+
+# Core message/document/tool primitives (Document, AIMessage, @tool) — needed offline.
+langchain-core>=0.3.0
+
+# LangGraph: prebuilt create_react_agent used in 03_agentic_rag.py (real mode).
+langgraph>=0.2.0
+
+# Anthropic chat model: ChatAnthropic(model="claude-sonnet-4-6") in real mode.
+langchain-anthropic>=0.2.0
+
+# Community integrations: TavilySearchResults and other retriever/tool adapters.
+langchain-community>=0.3.0
+
+# ---------------------------------------------------------------------------
+# Optional (uncomment as needed when wiring real services):
+# tavily-python>=0.5.0          # real web-search fallback (TAVILY_API_KEY)
+# langchain-chroma>=0.1.0       # real vector retriever (Phase 2 store)
+# sqlalchemy>=2.0.0             # real query_database tool

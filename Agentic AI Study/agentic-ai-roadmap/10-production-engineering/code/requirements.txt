@@ -1,0 +1,14 @@
+# Phase 10 — Production Engineering dependencies
+#
+# Install:  pip install -r requirements.txt
+#
+# NOTE: All three demos (01, 02, 03) run OFFLINE with no API key.
+#   - 01_rate_limiting_backoff.py  -> stdlib only (asyncio); no install needed
+#   - 02_embedding_cache.py        -> stdlib only (hashlib); no install needed
+#   - 03_guardrails.py             -> needs fastapi (TestClient smoke test)
+#
+# `anthropic` is listed for when you flip USE_MOCK=False to call the real API.
+
+fastapi>=0.110          # web framework + Pydantic v2 + Starlette TestClient
+uvicorn[standard]>=0.29 # ASGI server for running the live /chat/safe endpoint
+anthropic>=0.39         # real LLM client (only used when USE_MOCK=False)

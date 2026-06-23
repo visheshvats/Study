@@ -1,0 +1,19 @@
+# Phase 11 — Scaling & Architecture
+# Pinned to compatible major versions. `pip install -r requirements.txt`.
+
+# --- Web layer (the stateless app node / orchestrator service) ---
+fastapi>=0.110,<1.0
+uvicorn[standard]>=0.27,<1.0      # ASGI server: uvicorn 03_celery_task_queue:build_app
+
+# --- 11.1 Redis session state ---
+redis>=5.0,<6.0                   # redis-py client; FakeRedis is used only offline
+
+# --- 11.3 Background task queue ---
+celery>=5.3,<6.0                  # distributed task queue; needs a broker in prod
+
+# --- 11.2 Durable LangGraph checkpointing ---
+langgraph>=0.2,<1.0              # ships MemorySaver (dev) + graph runtime
+langgraph-checkpoint-postgres>=2.0,<3.0   # PostgresSaver for production persistence
+
+# Optional, for a real LLM in the orchestrator (not required to run the offline demos):
+# anthropic>=0.40,<1.0
