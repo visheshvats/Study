@@ -7,3 +7,4 @@ langchain-anthropic
 langchain-openai
 langgraph
 chromadb
+numpy

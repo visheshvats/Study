@@ -8,3 +8,4 @@ langchain-anthropic
 langchain-openai
 chromadb
 pypdf
+numpy

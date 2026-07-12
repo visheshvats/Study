@@ -21,7 +21,7 @@ the orchestration jump: from "answer one query" to "run a small research pipelin
 5. **API (`code/app.py`).** Expose `POST /research`; run the agent, then the synthesis; return answer + source list.
 6. **Stretch.** Add a router (Phase 4 §4.2) that sends factual vs. opinion questions down different pipelines.
 
-## Files to fill in (`code/`)
+## Files (`code/`) — complete reference implementation
 | File | Your job |
 |------|----------|
 | `tools.py` | `@tool`-decorated `search_docs` + `search_web`. |
@@ -33,3 +33,18 @@ the orchestration jump: from "answer one query" to "run a small research pipelin
 ## Done when
 `POST /research {"question": ...}` returns a synthesized, source-attributed answer that demonstrably
 used more than one tool.
+
+
+---
+
+## ✅ Status: fully implemented (runs offline, no API key)
+
+The `code/` folder is a **complete, runnable reference implementation** — not just stubs. Every
+module has an offline **mock path** (`USE_MOCK = True`) plus a clearly-commented **real-key path**.
+
+- **Offline scaffolding:** `code/mock_kit.py` provides deterministic embeddings / vector store / LLM
+  stand-ins so nothing external is required.
+- **Run the offline self-test:** `cd code && python app.py` → a comparative query that uses BOTH doc + web tools, parallel analysis, and a cited synthesis
+- **Run as a service:** `pip install -r code/requirements.txt`, then `uvicorn app:app --reload`.
+- **Go live:** copy `.env.example` → `.env`, add your keys, set `USE_MOCK = False` in each module, and
+  swap the mock classes for the real LangChain / Anthropic / Chroma classes named in the TODO comments.

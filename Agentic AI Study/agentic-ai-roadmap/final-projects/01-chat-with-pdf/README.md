@@ -21,7 +21,7 @@ a Spring Boot service that ingests a document into a search index and answers qu
 6. **Guard the empty case.** If retrieval returns nothing relevant, short-circuit with the "no information" response.
 7. **Stretch.** Add streaming (`/chat/stream`, Phase 1 §1.3) and conversational memory (Phase 2 §2.6).
 
-## Files to fill in (`code/`)
+## Files (`code/`) — complete reference implementation
 | File | Your job |
 |------|----------|
 | `ingest.py` | Load → split → embed → persist a PDF into Chroma. |
@@ -33,3 +33,18 @@ a Spring Boot service that ingests a document into a search index and answers qu
 ## Done when
 You can `POST /ingest` a real PDF, ask a question its content answers (cited), and ask an unrelated
 question and get the "I don't have that information" fallback.
+
+
+---
+
+## ✅ Status: fully implemented (runs offline, no API key)
+
+The `code/` folder is a **complete, runnable reference implementation** — not just stubs. Every
+module has an offline **mock path** (`USE_MOCK = True`) plus a clearly-commented **real-key path**.
+
+- **Offline scaffolding:** `code/mock_kit.py` provides deterministic embeddings / vector store / LLM
+  stand-ins so nothing external is required.
+- **Run the offline self-test:** `cd code && python app.py` → ingest -> grounded answer w/ citation -> refuses an out-of-scope question -> 400 on empty input
+- **Run as a service:** `pip install -r code/requirements.txt`, then `uvicorn app:app --reload`.
+- **Go live:** copy `.env.example` → `.env`, add your keys, set `USE_MOCK = False` in each module, and
+  swap the mock classes for the real LangChain / Anthropic / Chroma classes named in the TODO comments.

@@ -25,7 +25,7 @@ reliability pattern in the roadmap, composed.
 6. **Observability.** Turn on LangSmith env vars and add a `@logged_node`-style wrapper (Phase 9).
 7. **Stretch.** Express the whole loop as a LangGraph with conditional edges instead of imperative code.
 
-## Files to fill in (`code/`)
+## Files (`code/`) — complete reference implementation
 | File | Your job |
 |------|----------|
 | `rag.py` | Adaptive gate + corrective retrieval with grading/fallback. |
@@ -37,3 +37,18 @@ reliability pattern in the roadmap, composed.
 ## Done when
 A query that the corpus can't answer triggers the web fallback; a deliberately weak first answer is
 caught by the judge and improved on retry; and a prompt-injection input is rejected at the guardrail.
+
+
+---
+
+## ✅ Status: fully implemented (runs offline, no API key)
+
+The `code/` folder is a **complete, runnable reference implementation** — not just stubs. Every
+module has an offline **mock path** (`USE_MOCK = True`) plus a clearly-commented **real-key path**.
+
+- **Offline scaffolding:** `code/mock_kit.py` provides deterministic embeddings / vector store / LLM
+  stand-ins so nothing external is required.
+- **Run the offline self-test:** `cd code && python app.py` → injection blocked (400), score climbing across retries, web fallback, and PII redaction
+- **Run as a service:** `pip install -r code/requirements.txt`, then `uvicorn app:app --reload`.
+- **Go live:** copy `.env.example` → `.env`, add your keys, set `USE_MOCK = False` in each module, and
+  swap the mock classes for the real LangChain / Anthropic / Chroma classes named in the TODO comments.
